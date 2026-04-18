@@ -22,17 +22,18 @@
 <body>
   <div id="app">
     <!-- Top bar -->
+    
     <header class="topbar">
-      <div class="brand">MiniMLS V1</div>
+     <div class="topbar-controls">
+  <select id="baseLayerSelect" title="Base Layer">
+    <option value="osm">OSM</option>
+    <option value="esri">Esri</option>
+  </select>
 
-      <div class="topbar-controls">
-        <select id="baseLayerSelect" title="Base Layer">
-          <option value="osm">OSM</option>
-          <option value="esri">Esri</option>
-        </select>
-
-        <button id="reloadBtn" type="button">Reload</button>
-      </div>
+  <button id="locateBtn" type="button">Locate</button>
+  <button id="toggleFiltersBtn" type="button">Filters</button>
+  <button id="reloadBtn" type="button">Reload</button>
+</div>
     </header>
 
     <!-- Map -->

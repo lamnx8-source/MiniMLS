@@ -8,6 +8,7 @@
     "roadWidth": 8,
     "poi": 3,
     "area": 120,
+    "timeDays": 15,
     "folderUrl": "https://drive.google.com/",
     "mapsUrl": "https://www.google.com/maps?q=10.8234,106.9123"
   },
@@ -20,6 +21,7 @@
     "roadWidth": 6,
     "poi": 2,
     "area": 95,
+    "timeDays": 40,
     "folderUrl": "https://drive.google.com/",
     "mapsUrl": "https://www.google.com/maps?q=10.827,106.918"
   },
@@ -32,6 +34,7 @@
     "roadWidth": 10,
     "poi": 4,
     "area": 140,
+    "timeDays": 7,
     "folderUrl": "https://drive.google.com/",
     "mapsUrl": "https://www.google.com/maps?q=10.819,106.907"
   }

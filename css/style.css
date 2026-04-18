@@ -1,0 +1,113 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.topbar {
+  height: 56px;
+  min-height: 56px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  background: #ffffff;
+  border-bottom: 1px solid #ddd;
+  z-index: 1000;
+}
+
+.brand {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.topbar-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.topbar select,
+.topbar button {
+  height: 36px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+  font-size: 14px;
+}
+
+#map {
+  flex: 1;
+  width: 100%;
+}
+
+/* Popup */
+.popup-title {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.popup-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 6px 10px;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.popup-label {
+  color: #666;
+}
+
+.popup-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.popup-btn {
+  display: inline-block;
+  padding: 7px 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  color: #111;
+  font-size: 13px;
+  background: #f8f8f8;
+}
+
+.popup-btn:hover {
+  background: #efefef;
+}
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+  .topbar {
+    padding: 8px;
+  }
+
+  .brand {
+    font-size: 15px;
+  }
+
+  .topbar-controls {
+    gap: 6px;
+  }
+
+  .topbar select,
+  .topbar button {
+    font-size: 13px;
+    padding: 0 8px;
+  }
+}

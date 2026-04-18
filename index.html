@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+  />
+  <title>MiniMLS WebMap V1</title>
+
+  <!-- Leaflet CSS -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    crossorigin=""
+  />
+
+  <!-- App CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="app">
+    <!-- Top bar -->
+    <header class="topbar">
+      <div class="brand">MiniMLS V1</div>
+
+      <div class="topbar-controls">
+        <select id="baseLayerSelect" title="Base Layer">
+          <option value="osm">OSM</option>
+          <option value="esri">Esri</option>
+        </select>
+
+        <button id="reloadBtn" type="button">Reload</button>
+      </div>
+    </header>
+
+    <!-- Map -->
+    <main id="map"></main>
+  </div>
+
+  <!-- Leaflet JS -->
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    crossorigin=""
+  ></script>
+
+  <!-- App modules -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

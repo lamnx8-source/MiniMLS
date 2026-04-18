@@ -1,0 +1,38 @@
+[
+  {
+    "id": "2604AA001",
+    "name": "Lot 2604AA001",
+    "lat": 10.8234,
+    "lng": 106.9123,
+    "unitPrice": 18.5,
+    "roadWidth": 8,
+    "poi": 3,
+    "area": 120,
+    "folderUrl": "https://drive.google.com/",
+    "mapsUrl": "https://www.google.com/maps?q=10.8234,106.9123"
+  },
+  {
+    "id": "2604AA002",
+    "name": "Lot 2604AA002",
+    "lat": 10.827,
+    "lng": 106.918,
+    "unitPrice": 21.2,
+    "roadWidth": 6,
+    "poi": 2,
+    "area": 95,
+    "folderUrl": "https://drive.google.com/",
+    "mapsUrl": "https://www.google.com/maps?q=10.827,106.918"
+  },
+  {
+    "id": "2604AA003",
+    "name": "Lot 2604AA003",
+    "lat": 10.819,
+    "lng": 106.907,
+    "unitPrice": 16.8,
+    "roadWidth": 10,
+    "poi": 4,
+    "area": 140,
+    "folderUrl": "https://drive.google.com/",
+    "mapsUrl": "https://www.google.com/maps?q=10.819,106.907"
+  }
+]

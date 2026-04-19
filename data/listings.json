@@ -1,41 +1,2331 @@
 [
   {
-    "id": "2604AA001",
-    "name": "Lot 2604AA001",
-    "lat": 10.8234,
-    "lng": 106.9123,
-    "unitPrice": 18.5,
-    "roadWidth": 8,
-    "poi": 3,
-    "area": 120,
-    "timeDays": 15,
-    "folderUrl": "https://drive.google.com/",
-    "mapsUrl": "https://www.google.com/maps?q=10.8234,106.9123"
+    "id": "2411DD002",
+    "Notes": "31/338 Long M?, 273,5m2 TC 167,7, LN -> ONT 2800, 10,23tr/m2 Hi?n, Ðu?ng nhua vào UB Xã Long M?, Lên th? 4tr/m2 - thêm 420tr ti?n lên s? thành 11,7tr/m2",
+    "lat": 10.445724,
+    "lng": 107.272748,
+    "Flag": "New"
   },
   {
-    "id": "2604AA002",
-    "name": "Lot 2604AA002",
-    "lat": 10.827,
-    "lng": 106.918,
-    "unitPrice": 21.2,
-    "roadWidth": 6,
-    "poi": 2,
-    "area": 95,
-    "timeDays": 40,
-    "folderUrl": "https://drive.google.com/",
-    "mapsUrl": "https://www.google.com/maps?q=10.827,106.918"
+    "id": "2411DD003",
+    "Notes": "3/3077 TT Dat Do,2564m2, 240m2TC, LN -> ODT 5500, 2,2tr/m2 , Hi?n 0985738070, 29/11/2024 M?t Ti?n Lê Van M?t, Nh?a 6m, Legal 2",
+    "lat": 10.512361,
+    "lng": 107.26175,
+    "Flag": "New"
   },
   {
-    "id": "2604AA003",
-    "name": "Lot 2604AA003",
-    "lat": 10.819,
-    "lng": 106.907,
-    "unitPrice": 16.8,
-    "roadWidth": 10,
-    "poi": 4,
-    "area": 140,
-    "timeDays": 7,
-    "folderUrl": "https://drive.google.com/",
-    "mapsUrl": "https://www.google.com/maps?q=10.819,106.907"
+    "id": "2412XM001",
+    "Notes": "94/86 Hòa H?i, 1493,6m2 (30x50), TC 200m2, TC,CLN -> ONT, 3000, 2tr/m2, Thiên Long, 0974764576, 1/12/2024, MT du?ng d?t d? cách UBND xã 800m, Legal 2",
+    "lat": 10.600528,
+    "lng": 107.443222,
+    "Flag": "New"
+  },
+  {
+    "id": "2412XM002",
+    "Notes": "130/187 Phu?c Thu?n, 198m2(10x20), TC100m2, TC??->ONT, 6200, 31tr/m2, Tru?ng, 0707887794, 1/12/2024, MT Ðu?ng ODA cách Ngã tu H? Tràm 400m, Legal 1",
+    "lat": 10.474083,
+    "lng": 107.43555,
+    "Flag": "New"
+  },
+  {
+    "id": "2412XM003",
+    "Notes": "15/526 Phu?c Tân, 235m2 (6x40), TC80m2, TC-CLN->ONT, 1000, 4,25tr/m2 Ðu?ng h?m d?t 3m, Thanh, 1/12/2024 700m ra du?ng 328
+14/12/2024 Update: 880tr",
+    "lat": 10.54475,
+    "lng": 107.387444,
+    "Flag": "New"
+  },
+  {
+    "id": "2412XM004",
+    "Notes": "36/4 (18/242 Cu) Bung Ri?ng 3916m2 (4263m2 theo s?) (77x50), TC 300m2, TC,CLN-> ONT 3599, 890K/m2, Long, 0974764576, Ðu?ng d?t r?ng 4m, còn 10m ra du?ng nhua, 1,5km ra QL55",
+    "lat": 10.561972,
+    "lng": 107.486611,
+    "Flag": "Flag"
+  },
+  {
+    "id": "2412XM005",
+    "Notes": "36/118 (cu 22/485) Bung Ri?ng 1007m2 (15x70) CNLN -> ONT
+36/123 (cu 22/503) Bung Ri?ng 526.5m2 (8x60, méo tóp d?u) 100m2TC, CNLN, TC -> ONT
+T?ng 1533.5m2, 100TC, 4200, 2,7tr/m2, 02/12/2024, L?c 0786790868, M?t ti?n du?ng nh?a 6m ra UBND xã Bung Ri?ng, QL55 750m",
+    "lat": 10.559333,
+    "lng": 107.484361,
+    "Flag": "New"
+  },
+  {
+    "id": "2412XM006",
+    "Notes": "36/330 Bung Ri?ng , 415,4m2(10x42), 100TC, TC-CHN->ONT, 1800, 4,3TR/m2, L?c 0786790868, M?t ti?n du?ng nh?a n?i b? 4m ra QL55 700m",
+    "lat": 10.557972,
+    "lng": 107.483639,
+    "Flag": "New"
+  },
+  {
+    "id": "2412XM007",
+    "Notes": "36/313 Bung Ri?ng, 368.6m2(10x36), 80TC, TC,CHN->ONT 1600 (Cò nói ng?p, g?p), 4,3tr/m2 L?c 0786790868, M?t ti?n du?ng nh?a n?i b? 4m vuông góc tr?c ra QL55 1000m",
+    "lat": 10.558639,
+    "lng": 107.48175,
+    "Flag": "New"
+  },
+  {
+    "id": "2412XM008",
+    "Notes": "47/264 Bung Ri?ng 268,5m2 (7x37) FullTC, TC->ONT, 1700, 6,3tr/m2 L?c, 0786790868, M?t ti?n du?ng nh?a n?i b? 5m vuông góc tr?c ra QL55 400m, , ?p 2 khu bàn c?",
+    "lat": 10.554028,
+    "lng": 107.487917,
+    "Flag": "New"
+  },
+  {
+    "id": "2412XM009",
+    "Notes": "51/153 Bung Ri?ng 238.7m2, 100TC, TC-CLN->ONT 1500, 6,2tr/m2 L?c, 0786790868, M?t ti?n du?ng nh?a n?i b? 5m vuông góc tr?c ra QL55 250m, , ?p 2 khu bàn c? phía r?ng (Nam)",
+    "lat": 10.550833,
+    "lng": 107.486306,
+    "Flag": "New"
+  },
+  {
+    "id": "2412XM010",
+    "Notes": "45/124 Bông Trang 1073m2(20x50), 150TC, TC,??->ONT, 9000, 8,69tr/m2, 5/12/2024, Cu?ng 0941761515, MT QL55 cách UBND Bông Trang 1,3km, bên hông có du?ng h?m nh? 3m",
+    "lat": 10.552556,
+    "lng": 107.467,
+    "Flag": "New"
+  },
+  {
+    "id": "2412XM011",
+    "Notes": "36/177-178 Phu?c Tân 2846m2, LN->ONT 7000, 2,5tr/m2, 6/12/2024, Phong tennis RM, Hai s?, 2 m?t ti?n 4m và 3m, Cách trung tâm H? Bà Tô 1,5km, To?i Ðo v? Xuyên M?c nói Mua th? cu, phân lô du?c.",
+    "lat": 10.532972,
+    "lng": 107.386778,
+    "Flag": "New"
+  },
+  {
+    "id": "2412XM014",
+    "Notes": "3/138 Phu?c Tân, 2361m2(40x51), 300TC,CLN->ONT, 5200, 2,2tr/m2, 13/12/2024, Phong tennis RM, Khu trung tâm Phu?c Tân, du?ng vào 4m ngo?n nghèo, cách du?ng 328 300, lô d?t ?o",
+    "lat": 10.567556,
+    "lng": 107.385278,
+    "Flag": "New"
+  },
+  {
+    "id": "2412XM015",
+    "Notes": "49/110 Bông Trang 230m2(7,5x30, dã tách th?a), 100TC,CLN->ONT, 1200, 5,2tr/m2, 14/12/2024, L?c, 0786790868, h?m 4m, song song QL55, cách QL55 40m, khu bàn c? Bông Trang",
+    "lat": 10.551278,
+    "lng": 107.449,
+    "Flag": "New"
+  },
+  {
+    "id": "2412XM016",
+    "Notes": "34/14 Bông Trang 1027m2(16x60, dã tách s?), 100TC,CLN->ONT, 3600, 3,5tr/m2, Nhân, 0387777878, 2MT du?ng 9m và 4m, k? Resort Bumkin, Cách du?ng Ðá B?c 170m",
+    "lat": 10.553056,
+    "lng": 107.440417,
+    "Flag": "New"
+  },
+  {
+    "id": "2412XM017",
+    "Notes": "130/15 Phu?c Thu?n, 2520m2 (34x80)( CHN->ONT 36000, 14,2Tr/m2, 0948672979, 2MT du?ng ODA 8m và h?m sau 3, khu v?c làm ks, resort du?c",
+    "lat": 10.475611,
+    "lng": 107.432444,
+    "Flag": "New"
+  },
+  {
+    "id": "2412XM018",
+    "Notes": "110/29 Phu?c Thu?n, 854m2 (21->17x46, tóp h?u) ONT,CLN->ONT,GT(40%), 2950, 3,45tr/m2, 18/12/2024, L?c, 0786790868, mT h?m 5m, ra 328 200m, di ngã tu H? Tràm 4km",
+    "lat": 10.497667,
+    "lng": 107.4065,
+    "Flag": "New"
+  },
+  {
+    "id": "2412XM019",
+    "Notes": "114/99 Phu?c Thu?n, 826m2 (Gi?ng Hình tam giác, d?u 8,6m, h?u 29m, sâu 40m), 200TC, CHN->ONT, 4500, 5,4t/m2, 18/12/2024, Tu?n 0909330070, Ðu?ng nhánh 7m song song 328, ra 328 1km, ra ngã tu HT 4km",
+    "lat": 10.49075,
+    "lng": 107.411306,
+    "Flag": "New"
+  },
+  {
+    "id": "2412XM020",
+    "Notes": "115/50 Phu?c Thu?n, 1783m2 (26x70) CLN-?ONT, GT (21%), 10000, 5,4tr/m2, 18/12/2024, Phong, 0909197709, MT 328 12m, 4km ra NT H? Tràm.",
+    "lat": 10.491444,
+    "lng": 107.415861,
+    "Flag": "New"
+  },
+  {
+    "id": "2412CD001",
+    "Notes": "72/301 Qu?ng Thành, 3000m2, 35x78, TC200, CLN-> ONT, 3900, 1,3tr/m2, 20/12/2024, Quân, 0974167272, Ðu?ng d?t 3m, ra du?ng nh?a kho?ng 200m, g?n h? Gia Oét",
+    "lat": 10.697917,
+    "lng": 107.295778,
+    "Flag": "New"
+  },
+  {
+    "id": "2412XM022",
+    "Notes": "44/133 Bông Trang 1045m2 (21x50), TC100, CHNln->ONT, 2650, 2,65tr/m2, 25/12/2024, L?c, 0786790868, Ðu?ng nh?a r?ng 3m, ra Qu?c l? 55 400m, Ð?i di?n và k? bên có nhà",
+    "lat": 10.554139,
+    "lng": 107.463583,
+    "Flag": "New"
+  },
+  {
+    "id": "2412XM023",
+    "Notes": "52/11 Bông Trang 3307m2 ( 70x60, hình tam giác), TC300, CLN -> ONT, GT (10%), 3900, 1,2tr/m2, 25/12/2024, L?c, 0786790868, di qua góc lô khác m?i ra h?m r?ng 3m ra QL55 60m",
+    "lat": 10.552333,
+    "lng": 107.462306,
+    "Flag": "New"
+  },
+  {
+    "id": "2412DD002",
+    "Notes": "59/28 Phu?c H?i, 531m2, 15x36, 100TC, CLN -> ONT, 2800, 5,2tr/m2, 30/12/2024, Cu?ng Loan 0988493584, MT du?ng nh?a 6m, ra Nguy?n H?u C?nh 100m",
+    "lat": 10.452417,
+    "lng": 107.267222,
+    "Flag": "New"
+  },
+  {
+    "id": "2501DD001",
+    "Notes": "166/147 Ð?t Ð?, 102m2, 6x16,  85TC, CLN -> ODT, 1600, 16tr/m2, 12/01/2025, Hi?n, 0985738070, M?t ti?n du?ng T? Van Sáu 18m",
+    "lat": 10.484139,
+    "lng": 107.26463,
+    "Flag": "New"
+  },
+  {
+    "id": "2501DD002",
+    "Notes": "121/103 Phu?c H?i, 240m2, 10x24, ODT -> ODT, GT (15%), 11500, 52tr/m2, 12/01/2025, Minh Tu?n, 0909330070, M?t ti?n du?ng ven bi?n Võ Th? Sáu 8m",
+    "lat": 10.415472,
+    "lng": 107.284639,
+    "Flag": "New"
+  },
+  {
+    "id": "2501PM001",
+    "Notes": "36/872 H?c D?ch, 600m2(20x30), 70TC, CLN ->ODT, 6000, 10tr/m2, 21/01/2025, Thu H?c D?ch (a Phuong), MT du?ng M? Xuân Ngãi Giao (nhánh cu 8m)",
+    "lat": 10.654861,
+    "lng": 107.134556,
+    "Flag": "New"
+  },
+  {
+    "id": "2502XM001",
+    "Notes": "51/366 Bông Trang 280m2 (10x28), 100TC, CLN -> ONT, 1350, 4,8tr/m2, 22/2/2025, Ngh? Bình Châu, MT du?ng nh?a 5m g?n QL55 (Lúc d?u báo 1,35 t?)",
+    "lat": 10.552333,
+    "lng": 107.457583,
+    "Flag": "New"
+  },
+  {
+    "id": "2502XM003",
+    "Notes": "31/351,352,353,354,355 5000, 37x130, 5 th?a, CLN->ONT, 1,3tr/m2, Jan 2025, Viet ch? d?t, 0908563737, MT du?ng nh?a 4m, khu kh? nang không chuy?n th? dc",
+    "lat": 10.565306,
+    "lng": 107.479083,
+    "Flag": "New"
+  },
+  {
+    "id": "2502NT001",
+    "Notes": "56/531 Vinh Thanh, 245m2, 100TC,CLN->ONT, 2500, 10tr/m2, 28/2/2025, Thu?n Nhon Trach, Mt h?m song song Hùng Vuong 5m, g?n c?ng sau gio x? Nghia Hi?p",
+    "lat": 10.677472,
+    "lng": 106.874056,
+    "Flag": "New"
+  },
+  {
+    "id": "2503CM001",
+    "Notes": "26/165, 26/159 Long Giao, 1500m2, 30x50, 2 th?a, CLN-> ONT, 13600, 9tr/m2, 10/3/2025, Hung Th?nh Phát, MT QL56 12m, cách ch? C?m M? 3km",
+    "lat": 10.797139,
+    "lng": 107.220917,
+    "Flag": "New"
+  },
+  {
+    "id": "2504LT001",
+    "Notes": "76/81 Phu?c Thái, 1027m2, 23x47, 300T,CLN-> ONT, 14000, 14tr/m2 4/2025, Thu?n Nhon Tr?ch, MT du?ng Nguy?n Van Phi 5m (L? gi?i m? r?ng 19m), ra QL 51 250m, cách vòng xoay BT-LT 2km, Trên d?t có nhà ?, 3 Kios, 29 phòng tr?.",
+    "lat": 10.686389,
+    "lng": 107.019306,
+    "Flag": "New"
+  },
+  {
+    "id": "2504CD001",
+    "Notes": "91/225, 91/243, 91/40 Ðá B?c, 9230m2, 600TC, CLN, NTS -> ONT, CLN, NTS, 7800, 845km/m2, MT Ðu?ng nh?a 5m, cách h? Ðá Bàng kho?ng 800m",
+    "lat": 10.559528,
+    "lng": 107.23975,
+    "Flag": "New"
+  },
+  {
+    "id": "2504NT001",
+    "Notes": "64/195 Phu?c An, 398m2, 8,9x44, 140TC, CLN->ONT,GT, 5500, 13,8tr/m2, 04/2025, Thu?n Vinh Thanh, MT Hùng Vuong 8m, g?n d?i di?n TDC Phu?c An, giàm còn 5100",
+    "lat": 10.666778,
+    "lng": 106.95991,
+    "Flag": "New"
+  },
+  {
+    "id": "2504NT002",
+    "Notes": "40/193 Vinh Thanh (Tách hai th?a, bán th?a l?n), 319m2, 7,5x42, 191TC, CLN -> ONT, GT, 7600, 23,8tr/m2, 04/2025, Thu?n Vinh Thanh, MT Hùng Vuong + h?m sau, khu v?c dông c?a Vinh Thanh",
+    "lat": 10.68,
+    "lng": 106.85361,
+    "Flag": "New"
+  },
+  {
+    "id": "2504NT003",
+    "Notes": "75/289 Phu?c An, 2002m2, 34x50, n? h?u 41, 200TC, CLN -> ONT, 13000, 6,5t/m2, Thu?n Vinh Thanh, 04/2025, MT du?ng vào khu BT Phu?c An r?ng 6m, cách Hùng Vuong 80m",
+    "lat": 10.672917,
+    "lng": 106.894333,
+    "Flag": "New"
+  },
+  {
+    "id": "2504CD002",
+    "Notes": "55/40 Nghia Thành 1900m2, 37x50, 500TC,CLN-> ONT, CLN (50%), 7000, 3,6tr/m2, 04/2025, Ph?m M?nh Hùng, Ðu?ng d?t r?ng 4m, khu bàn c? Nghia Thành, lên nút giao cao t?c BH-VT 8km",
+    "lat": 10.584083,
+    "lng": 107.197444,
+    "Flag": "New"
+  },
+  {
+    "id": "2504LD001",
+    "Notes": "27/23 An Ngãi, 5353m2, 56x103, tóp h?u 44, 320TC,CLN ->ONT, 22500, 4,2tr/m2, 04/2025, Ph?m M?nh Hùng, Ðu?ng nh? r?ng 6m, cách QL 55 350m, Cách UBND Huy?n Long Ð?t 600m, xem cài gi?a khu dân cu r?t dông. Ðu?ng khá d?p và lô d?t r?t d?p ()9/04/2026)",
+    "lat": 10.47475,
+    "lng": 107.221806,
+    "Flag": "Flag"
+  },
+  {
+    "id": "2504PM001",
+    "Notes": "29/76, 29/83, H?c D?ch, 6984+538=7522m2, 110x70, 300TC,CLN->ONT, 28000, 3,7tr/m2, 04/2025, Ph?m M?nh Hùng, 2MT h?m r?ng 4m, cách M? Xuân Ngãi Giao (cu) 80m",
+    "lat": 10.662,
+    "lng": 107.138611,
+    "Flag": "New"
+  },
+  {
+    "id": "2504BR001",
+    "Notes": "67/85 Hòa Long, 2046m2, 22x90, 350TC,CLN->ODT, 10025, 4,9tr/m2, 04/2025, Ph?m M?nh Hùng, 0917250439, h?m 4m, 500m ra nút giao QL56 - Cao t?c BHVT
+G?n nút giao cao t?c BHVT, giá OK, trong dân cu, du?i hoi bé",
+    "lat": 10.529833,
+    "lng": 107.1915,
+    "Flag": "Flag"
+  },
+  {
+    "id": "2504PM002",
+    "Notes": "140/47 Phu?c Hòa, 1007m2, 20x50, 300TC,CLN->ONT, 8500, 8,5tr/m2, 04/2025, Ph?m M?nh Hùng, 0917250439, Khu bàn c?, du?ng 4m c?a Phu?c Hòa, dân cu dông xung quanh",
+    "lat": 10.532806,
+    "lng": 107.087472,
+    "Flag": "New"
+  },
+  {
+    "id": "2504PM003",
+    "Notes": "44/268 Phú M?, 256m2, 13x20, FullTC->ODT, 7800, 30tr/m2, 04/2025, Ph?m M?nh Hùng, 0917250439, MT du?ng Truong Ð?nh 6m, trung tâm Phú M?",
+    "lat": 10.593417,
+    "lng": 107.057806,
+    "Flag": "New"
+  },
+  {
+    "id": "2504BR002",
+    "Notes": "10/86 Hòa Long, 1508m2, 10x 74, n? h?u 2 c?p 35, 100TC,CLN-> ONT, 11000, 7,3tr/m2, 04/2025, Ph?m M?nh Hùng, 0917250439, MT Huong l? 2 r?ng 10m, cách ngã tu Hòa Long 100m, lên nút giao cao t?c BHVT 2km, Khu dông dân canh tru?ng h?c, UBND xã, sân th? thao. Nhu?c di?m: Mt hep 10m, chi?u dài do?n h?p 30m",
+    "lat": 10.522556,
+    "lng": 107.206667,
+    "Flag": "New"
+  },
+  {
+    "id": "2504PM004",
+    "Notes": "27/263, 27/264, Tân Hòa 828+536= 1364m2, 12x60, n? h?u, 2 th?a, 200TC,CLN-> ONT, 7000, 5,1tr/m1, 04/2025, Ph?m M?nh Hùng, 0917250439, h?m 4m, cách du?ng 991B dang thi công 80m, lên nút giao cao BHVT Tóc Tiên 9km",
+    "lat": 10.522056,
+    "lng": 107.095139,
+    "Flag": "New"
+  },
+  {
+    "id": "2504BR003",
+    "Notes": "3/8 Hòa Long, 2987m2, 67.5x42, 300TC,LUA->ONT, 15500, 5,2tr/m2, 04/2025, Ph?m M?nh Hùng, 0917250439, Mt du?ng nh?a s? 85 r?ng 8m, cách huong l? 2 60m, khu dông dân.
++ Lô này có tách th?a du?c không? t?i soa các d?u n?u chua làm?
+Mua d?t 15000
+Lên th?: 6 lô x 100 x1,5 = 900
+Chi Phí khác: 600
+T?ng v?n : 16500
+Doanh thu 300tr/m (2100 lô 7x42) x 67,5 = 20250
+L?i nhu?n 20250 - 16500 = 3750
+(Tính ngày 09/04/2026)
++ S? cu 2002 ghi 2987m2, t?i sao h? so do d?c th?a k? 2024 còn 2721m2?
++ Vi?c th?a k? dã th?c hi?n xong chua?",
+    "lat": 10.53375,
+    "lng": 107.211611,
+    "Flag": "Flag"
+  },
+  {
+    "id": "2504XM001",
+    "Notes": "121/46 Phu?c Thu?n, 1397m2, 20x63 (hoi méo) 600TC, CHN->ONT,GT(16%), 23000, 16,4tr/m2, 04/2025, Ph?m M?nh Hùng, 0917250439, Mt du?ng 998, 12m, Cách nhà th? H? Tràm 500m v? hu?ng Phu?c B?u",
+    "lat": 10.662,
+    "lng": 107.138611,
+    "Flag": "New"
+  },
+  {
+    "id": "2504BR004",
+    "Notes": "13/167 Hòa Long, 188m2, 6,7x34, hoi méo, 80TC,CLN->ONT, 5000, 26tr/m2,Ph?m M?nh Hùng, 0917250439, Mt HL2, 12m, cách ngã t? du?ng 52 130m, g?n ch? Hòa Long, Khu v?c kinh doanh s?m u?t",
+    "lat": 10.520042,
+    "lng": 107.206249,
+    "Flag": "New"
+  },
+  {
+    "id": "2504XM002",
+    "Notes": "52/148, Xuyên M?c, 240m2 (11x21, 2MT), 80TC,CLN->ONT, 1500, 6,25tr/m2, 04/2025, Tr?nh Quang L?c Xuyên M?c, 2MT Ðu?ng 4m và 4m, g?n giáo x? Vân Côi, 300 ra du?ng Ðá B?c",
+    "lat": 10.572722,
+    "lng": 107.4145,
+    "Flag": "New"
+  },
+  {
+    "id": "2504XM003",
+    "Notes": "22/191, Xuyên M?c, 318m2, 9,6x32, 40TC,CLN->ONT, 4400, 13,8tr/m2, 04/2025, Tr?nh Quang L?c Xuyên M?c, MT 329 20m, Cách ch? dêm Xuyên M?c 1Km",
+    "lat": 10.553139,
+    "lng": 107.419167,
+    "Flag": "New"
+  },
+  {
+    "id": "2504XM004",
+    "Notes": "106/137 Bình Châu, 3080m2, 43mMT , 300TC->ONT(2351 m2), GT , RUNG, 23000, 7,4tr/m2, 04/2025, Tr?nh Quang L?c Xuyên M?c, Mt du?ng nh?a 6m, ra du?ng ven bi?n 500, g?n Tropicana NovaLand",
+    "lat": 10.540056,
+    "lng": 107.5345,
+    "Flag": "New"
+  },
+  {
+    "id": "2504LD002",
+    "Notes": "159/69 Long H?i, 433m2, 12x35, 100TC,LUA->ODT, 16000, 37tr/m2, 04/2025, Tr?n Th? Hi?n, 0985738070, Mt Võ Th? Sáu Long H?i 12m,  Cách vòng xoay Nguy?n Chí Thanh 100m",
+    "lat": 10.3865,
+    "lng": 107.238861,
+    "Flag": "New"
+  },
+  {
+    "id": "2504LD003",
+    "Notes": "145/217 Long h?i, 983m2, Mt 12, n? h?u 30 hình ch? T, 257TC,CLN->ODT, 32000, 32tr/m2, 04/2025, Tr?n Th? Hi?n, 0985738070, Mt Hai Bà Trung 14m, d?i di?n khu ngh? du?ng BaSon, xu?ng bi?n 400m",
+    "lat": 10.390194,
+    "lng": 107.233139,
+    "Flag": "New"
+  },
+  {
+    "id": "2504DD001",
+    "Notes": "57/1593 Ð?t Ð?, 707m2, 12x59, 70TC, CHN->ODT, GT(16%), 3000, 4,2tr/m2, 04/2025, Tr?n Th? Hi?n, 0985738070, MT du?ng Nguy?n Hu? 6m, cách ngã tu Lê Du?n 300m, có th? dính quy ho?ch du?ng hông",
+    "lat": 10.479222,
+    "lng": 107.280944,
+    "Flag": "New"
+  },
+  {
+    "id": "2504BR005",
+    "Notes": "14/114 Long Phu?c, 1437m2, (19-25x65), 80TC,CLN->ONT, 5200, 3,6tr/m2, 04/2025, Nguy?n H?u Hoàng, 0941077279, MT Huong l? 2, 12M, g?n khu Lan Anh 7",
+    "lat": 10.556444,
+    "lng": 107.218778,
+    "Flag": "New"
+  },
+  {
+    "id": "2504BR006",
+    "Notes": "33/2081 Long phu?c, 1000m2, (18-16x58), CLN->ONT, không bi?t lên TC dc không, khu dân cu hi?n h?u, 2900, 2,9tr/m2, 04/2025, Nguy?n H?u Hoàng, 0941077279, MT h?m 4m, ra HL8 500m
+Ðu?ng khá ok, giá này r?t t?t, flag (09/04/2026)",
+    "lat": 10.51551,
+    "lng": 107.22547,
+    "Flag": "Flag"
+  },
+  {
+    "id": "2504BR007",
+    "Notes": "57/39 Hòa Long, 300m2, 13x23, ONT->ONT, 2650, 8,8tr/m2, 04/2025, Phuong Bích Liên, MT du?ng n?i b? 10m, d? án Barimex Hòa Long",
+    "lat": 10.509833,
+    "lng": 107.206361,
+    "Flag": "New"
+  },
+  {
+    "id": "2204DD001",
+    "Notes": "12/663 Long Tân, 192,9m2, 5,4x36 (Chéo), TC100,CHN->ONT, 1616, 8,3tr/m2, 04/2022, Phong-Phuong, MT765 7m, MT sau 5m (Lô s? 14)",
+    "lat": 10.558667,
+    "lng": 107.273806,
+    "Flag": "New"
+  },
+  {
+    "id": "2505LD001",
+    "Notes": "27/694 Phu?c Tinh, 106m2, 6x18, ONT->ONT, 2100, 19,8tr/m2, 05/2025, ch? nhà 0918329959, Ph?m H?u Du, 0933230243,  Ðu?ng n?i khu dân cu Phu?c Tinh Ven bi?n, 8m, cách bi?n 200m",
+    "lat": 10.406778,
+    "lng": 107.19775,
+    "Flag": "New"
+  },
+  {
+    "id": "2505DD001",
+    "Notes": "18/52 Long M?, 1004m2, 25x40, 400Tc,CHN->ONT, 4000, 4tr/m2, 05/2025, Tr?n Th? Hi?n, 0985738070, du?ng d?t 4m, cách DT44B 800m, xung quanh không có/ ít dân",
+    "lat": 10.449278,
+    "lng": 107.260361,
+    "Flag": "New"
+  },
+  {
+    "id": "2505DD002",
+    "Notes": "44/83 Long M?, 1503m2, 21x80, tóp h?u 15, 200TC, CLN ->ONT, 6000, 4tr/m2, 05/2025, Tr?n Th? Hi?n, 0985738070, Ðu?ng 6m, cách UBND xã Long M? 250m",
+    "lat": 10.434778,
+    "lng": 107.273611,
+    "Flag": "New"
+  },
+  {
+    "id": "2505BR001",
+    "Notes": "16/1044 Long Toàn, 90m2, 5x18, TC->ODT, 6100, 67tr/m2, 05/2025, Tr?n Th? Hi?n, 0985738070, Mt du?ng Ph?m Hùng 20m, d?i di?n công viên Bà R?a. ",
+    "lat": 10.500306,
+    "lng": 107.192222,
+    "Flag": "New"
+  },
+  {
+    "id": "2505NT001",
+    "Notes": "77/14 Phu?c An, 296m2, 10x30, 50TC,CLN->ONT, 2250, 7,6tr/m2, 05/2025, Thu?n Vinh Thanh, h?m bê tông 3m, 2/ Hùng Vuong",
+    "lat": 10.674,
+    "lng": 106.906111,
+    "Flag": "New"
+  },
+  {
+    "id": "2505NT002",
+    "Notes": "77/173, Phu?c An, 1100m2, 39x28, 70TC,CLN->ONT, 4600, 4,2tr/m2, 05/2025, Thu?n Vinh Thanh, h?m d?t 3m, 3/ Hùng Vuong",
+    "lat": 10.672889,
+    "lng": 106.905667,
+    "Flag": "New"
+  },
+  {
+    "id": "2505NT003",
+    "Notes": "40/69 Phu?c Khánh, 217m2, 7x30, Full TC->ONT, 3700, 17tr/m2, 05/2025, Thu?n Vinh Thanh, h?m 6m, 1/ Phan Van Ðáng",
+    "lat": 10.675056,
+    "lng": 106.796278,
+    "Flag": "New"
+  },
+  {
+    "id": "2505NT004",
+    "Notes": "37/116 Long Tân, 378m2, 11x35, 186TC,CLN->ONT, 3500, 9,25tr/m2,  05/2025, Thu?n Vinh Thanh, h?m Xi mang 3m, ngo?n nghèo t? Nguy?n H?u C?nh vào",
+    "lat": 10.748833,
+    "lng": 106.876083,
+    "Flag": "New"
+  },
+  {
+    "id": "2505NT005",
+    "Notes": "32/89 Phú H?i, 724m2, 15x48, 499TC,CLN->ONT, 5700, 7,8tr/m2, 05/2025, Thu?n Vinh Thanh, h?m bê tông 4m ngo?n ghèo di vào t? Lý Thái T?",
+    "lat": 10.739472,
+    "lng": 106.902194,
+    "Flag": "New"
+  },
+  {
+    "id": "2505NT006",
+    "Notes": "10/47,48, Vinh Thanh, 960m2, 25x39, 632TC,CLN->ONT, 11520, 12tr/m2, 05/2025, Thu?n Vinh Thanh, h?m bê tông 4m cách Hùng Vuong 120m, du?ng vào nghia trang B?c th?n (Cách) 50m",
+    "lat": 10.694444,
+    "lng": 106.830444,
+    "Flag": "New"
+  },
+  {
+    "id": "2505DD003",
+    "Notes": "57/1392 Ð?t Ð?, 510m2, 15x37, 60TC,LUA->ONT, 2600, 5tr/m2, Minh Tuy?t cò Bà R?a, 0329970171 05/2025, MT Tr?n Huy Li?u, 6m.",
+    "lat": 10.474694,
+    "lng": 107.278806,
+    "Flag": "New"
+  },
+  {
+    "id": "2505PM001",
+    "Notes": "54/388 H?c D?ch, 1235m2, 15x88, 118TC,CLN->ODT, 4100, 3,3tr/m2, 05/2025, Alexander Ð?ng, Ðu?ng 5m, lên nút giao cao t?c BH-VT và MX-NG kho?ng 2,5km",
+    "lat": 10.631917,
+    "lng": 107.098389,
+    "Flag": "New"
+  },
+  {
+    "id": "2505CD001",
+    "Notes": "101/11 Ðá B?c, 2435m2, 32x72, 80TC,CLN->ONT,CLN+GT (28%), 3500, 1,4tr/m2, 05/2025, Alexander Ð?ng, Ðu?ng 5m, song song du?ng Bình Giã, Ðá B?c",
+    "lat": 10.620056,
+    "lng": 107.259278,
+    "Flag": "New"
+  },
+  {
+    "id": "2505DD004",
+    "Notes": "18/53 Long M?, 1027m2, 26x40, 400Tc,CHN->ONT, 3800, 3,7tr/m2, 05/2025, Minh Tuy?t, du?ng d?t 4m, cách DT44B 800m, xung quanh không có/ ít dân",
+    "lat": 10.449083,
+    "lng": 107.2605,
+    "Flag": "New"
+  },
+  {
+    "id": "2505DD005",
+    "Notes": "146/62,88, Phu?c H?i 316,5+18,4=344,9m2, 10x34, 50TC->ONT, 3100, 9tr/m2, 05/2025, Tr?n Th? Hi?n, 0985738070, Ðu?ng 6m, Xu?ng bi?n L?c An 700m
+",
+    "lat": 10.454389,
+    "lng": 107.323306,
+    "Flag": "New"
+  },
+  {
+    "id": "2505PM002",
+    "Notes": "34/229,1327,1224 Châu Pha, 321+595+534=1450m2, 47x47, t? giác không d?u cóTC,CLN->ONT, 5500, 3,8tr/m2, Ngh? Xuyên M?c, 05/2025, 2 m?t ti?n du?ng nh?a 6m, ra du?ng Châu Pha Bà R?a 800m, n?m gi?a 2 nút giao cao t?c kho?ng cách 8-10km lên cao t?c",
+    "lat": 10.561806,
+    "lng": 107.161556,
+    "Flag": "New"
+  },
+  {
+    "id": "2505NT007",
+    "Notes": "1/254,255, Vinh Thanh, 421m2, 10x41, LN->ONT, 4300, 10tr/m2, Thu?n Vinh Thanh, 05/2025, M?t du?ng ven sông Ông Kèo 6m, c?nh nhà ch? Suong Nhon Tr?ch ",
+    "lat": 10.698056,
+    "lng": 106.816917,
+    "Flag": "New"
+  },
+  {
+    "id": "2505DD006",
+    "Notes": "51/1232, Phu?c Long Th?, 500m2, TC100,CHN->ONT, 4000 (Ðã tr? ph?n nhà ra), 8tr/m2, Phong Phuong, 133, 05/2025, M?t du?ng nh? 5m n?i t? DT44A (3,3km) qua QL55 (1,8km)",
+    "lat": 10.484972,
+    "lng": 107.295583,
+    "Flag": "New"
+  },
+  {
+    "id": "2505LD002",
+    "Notes": "155/218, 161m2, 8x20, 155/219, 139m2, 6,5x21, t?ng 300m2, 135TC,CLN->ODT, 11000, 36tr/m2, 05/2025, Tr?n Th? Hi?n, 0985738070, MT Nguy?n Chí Thanh 40m, cách ngã tu Nguy?n T?t Thành 60m, xu?ng bi?n 500m",
+    "lat": 10.388111,
+    "lng": 107.240417,
+    "Flag": "New"
+  },
+  {
+    "id": "2505LD003",
+    "Notes": "19/463, An Ngãi, 10x24, 234m2, 50TC,CLN->ONT, 4500, 19,2tr/m2,Tr?n Th? Hi?n, 0985738070, MT Nguy?n H?u C?nh (44B) 25m, cách ngã tu QL55 100m",
+    "lat": 10.480556,
+    "lng": 107.225778,
+    "Flag": "New"
+  },
+  {
+    "id": "2505BR003",
+    "Notes": "24/899 Hòa Long, 13x105, n? h?u 15, 1493m2, 600TC,CHN->ONT, 7000, 4,6tr/m2, Ph?m M?nh Hùng, 05/2025 0917250439, Mt du?ng s? 28 n?i QL56 và HL2, r?ng 20m, cách QL56 200m, cách nút giao cao t?c Hòa Long 3km",
+    "lat": 10.550222,
+    "lng": 107.210667,
+    "Flag": "New"
+  },
+  {
+    "id": "2505DD007",
+    "Notes": "135/153 Phu?c H?i, 10x21, 211m2, FullTC->ONT, 3500, 16,5tr/m2, Minh Tuy?t, 0329970171, 05/2025, M?t ti?n du?ng tr?c chính L?c An r?ng 16m, xu?ng bi?n 500m",
+    "lat": 10.457806,
+    "lng": 107.333444,
+    "Flag": "New"
+  },
+  {
+    "id": "2506DD001",
+    "Notes": "87/19 Ð?t d?, Hình thang n? h?u, 1166m2, 300TC,CLN->ODT, 7000, 6tr/m2,  Ph?m M?nh Hùng, 0917250439, 06/2025, 3 MT du?ng, M?t chính du?ng Phu?c Th? r?ng 5m, Khu khá dông dân cu 40%",
+    "lat": 10.48831,
+    "lng": 107.27628,
+    "Flag": "New"
+  },
+  {
+    "id": "2506PM001",
+    "Notes": "44/588 H?c D?ch, 15x70 n? h?u 30, 1241m2, 122TC,CLN->ODT, 12000, 9,6tr/m2, Alexander Ð?ng, 0908741668, 06/2025, M?t ti?n Võ Van Ki?t r?ng 12m, cách nút giao lên cao t?c BH-VT 6km, dân cu 15%",
+    "lat": 10.648444,
+    "lng": 107.133694,
+    "Flag": "New"
+  },
+  {
+    "id": "2506DD003",
+    "Notes": "49/135, Phu?c H?i, 11x35, 400m2, 114TC,CLN->ONT, 2850, 7,1tr/m2, Minh Tuy?t, 0329970171, 06/2025, Mt du?ng nh?a 6m, Xu?ng bi?n 6km",
+    "lat": 10.43502,
+    "lng": 107.26675,
+    "Flag": "New"
+  },
+  {
+    "id": "2506DD004",
+    "Notes": "30/138, Phu?c H?i, 17x40, 677m2, 80TC,CLN->ODT, 6800, 10tr/m2, Hi?n Khánh Ngân Land, 06/2025, Mt du?ng 6m, cách du?ng 44B 100m",
+    "lat": 10.4455,
+    "lng": 107.272389,
+    "Flag": "New"
+  },
+  {
+    "id": "2506BR001",
+    "Notes": "68/31, Hòa Long, 40x100, 2 m?t ti?n, 4435m2, 140TC,CLN ->ONT, 27000, 6tr/m2, Ph?m M?nh Hùng, 06/2025, Hai MT du?ng 8m và 7m, lên nút giao cao t?c Hòa Long 800m, n?m ngoài khu v?c quy ho?ch nút giao cao t?c, 10.533639, 107.195889
+Ð?t hai M?t ti?n, th? r?t t?t d? phân lô, tuy nhiên giá này không còn ngon d? phân lô",
+    "lat": 10.533639,
+    "lng": 107.195889,
+    "Flag": "Flag"
+  },
+  {
+    "id": "2507NT001",
+    "Notes": "79/46, Phu?c An, 32x32, 1065m2, 50TC,CLN->ONT, 4100, 3,8tr/m1, Ðúc Nhon Tr?ch, 07/2025, H?m du?ng Bê tông 3m, cách du?ng Hùng Vuong 250m, 10.669194, 106.914972, Khu v?c xen cài nhà kho?ng 5-10%
+",
+    "lat": 10.669194,
+    "lng": 106.914972,
+    "Flag": "New"
+  },
+  {
+    "id": "2507NT002",
+    "Notes": "31/57, Hi?p Phu?c, 7,9x19, 151m2, Full TC, 2200, 20tr/m2. Thu?n Nhon Tr?ch, 07/2025, Ðu?ng 8m cách Hu?nh Van Ngh?, Cho Ðem Hi?p Phu?c 200m, Khu v?c bàn c? dông kín dân ",
+    "lat": 10.741583,
+    "lng": 106.941778,
+    "Flag": "New"
+  },
+  {
+    "id": "2507BR001",
+    "Notes": "11/1587, Hòa Long, 10x22, n? h?u 14, 267m2, 100TC,CLN ->ONT, 3300, 12,3tr/m2 Bình Mai X93, 07/2025, Ðu?ng n?i b? 6m, ra du?ng 52 100m",
+    "lat": 10.52314,
+    "lng": 107.21241,
+    "Flag": "New"
+  },
+  {
+    "id": "2508XM001",
+    "Notes": "158/535 Hòa Hi?p, 1593m2, 300TC,CLN->ONT, 47003tr/m2, Tr?nh Quang L?c, 08/2025, 2 MT du?ng nh?a 7m và 4m, Khu ít dân, cách ch? Hòa Hi?p 4km",
+    "lat": 10.687333,
+    "lng": 107.474028,
+    "Flag": "New"
+  },
+  {
+    "id": "2508XM002",
+    "Notes": "35/299 Bông Trang, 2000m2, TC100,CLN->ONT, hình tam gíac dáy nh?n, 4700, 2,3tr/m2, Tr?nh Quang L?c, 08/2025, 2MT du?ng 7m và 4m, Cách du?ng Ðá B?c 300m, khu thua dân 5%
+",
+    "lat": 10.553278,
+    "lng": 107.441889,
+    "Flag": "New"
+  },
+  {
+    "id": "2508XM003",
+    "Notes": "147/31 Hòa H?i, 1724m2, 48x35, CLN->ONT (Lên T? cu du?c), 3120, 1,8tr/m2, Tr?nh Quang L?c, 08/2025, 2MT du?ng 6m, khu bàn c? Xã Hào H?i, Cách du?ng 329 700m
+",
+    "lat": 10.60574,
+    "lng": 107.43304,
+    "Flag": "New"
+  },
+  {
+    "id": "2508NT001",
+    "Notes": "23/55 Hi?p Phu?c, 536,8m2, 15x35, 200TC,CLN->ODT, 6000, 11tr/m2, Thu?n Nhon Tr?ch, 08/2025, Hèm 4, 1/ Hùng Vuong, cách Hùng Vuong 300m, cách ngã t? Hùng Vuong-25B 1000m,  khu dân cu r?t dông kín",
+    "lat": 10.732278,
+    "lng": 106.948139,
+    "Flag": "New"
+  },
+  {
+    "id": "2509LD001",
+    "Notes": "10/205 Tam An, 3512m2, 75x45m, 200TC,CHN->ONT, 12000, 3,4tr/m2, Ph?m M?nh Hùng, 9/2025, cu?i khu bàn c? xã Tam An, du?ng nh?a tim vàng r?ng 6m, lên nút giao Vung V?n 6km.
+",
+    "lat": 10.460694,
+    "lng": 107.234528,
+    "Flag": "New"
+  },
+  {
+    "id": "2509XM001",
+    "Notes": "15/39, 15/449 Hòa Bình, 1063+3252=4315m2, 126m MT du?ng nh?a 5m, CLN->ONT, 5500, 1,2tr/m2, Nghi BR, 09/2025, MT nhu 6m, 40 ra 991, 600 ra giao 328 & 991",
+    "lat": 10.639667,
+    "lng": 107.381694,
+    "Flag": "New"
+  },
+  {
+    "id": "2509CD001",
+    "Notes": "45/40 Láng L?n, 2000m2, 34x50, n? h?u 43, 400TC, CLN->ONT, 7300, 3,6tr/m2, 0913778925, 09/2025. MT Kim Long- Láng l?n, 6m, Cca1h du?ng Bình giã 2,7km",
+    "lat": 10.675,
+    "lng": 107.17875,
+    "Flag": "New"
+  },
+  {
+    "id": "2510BR001",
+    "Notes": "11/1509 Hòa Long, 996m2, 15x66 vuông, 100TC,CLN->ODT,GT(17%), 4500, 4,5tr/m2, Hùng Bà R?a, 10/2025, MT du?ng nh?a 6m, ra du?ng 52 250m, lên nút giao cao t?c 2,7km
+Xây tu?ng rào b?ng g?ch Block r?t d?p bao xung quanh lô d?t (09/04/2026)",
+    "lat": 10.52434,
+    "lng": 107.21228,
+    "Flag": "New"
+  },
+  {
+    "id": "2510DD001",
+    "Notes": "2510DD001, 173/116, Ð?t Ð?, 259 m2, 12x20, n? h?u 13.8m, 120TC,CLN->ONT, 1800, 6.94 Tr/m2, 2510, Ngh?-Xuyên M?c, 0869 700 449, 2 MT du?ng nh?a, Th? tr?n Ð?t Ð?, Ra du?ng 44A 1,5km",
+    "lat": 10.47975,
+    "lng": 107.26053,
+    "Flag": "New"
+  },
+  {
+    "id": "2510XM001",
+    "Notes": "2510XM001, 50/279, Bông Trang, 1142 m2, (20-14X65), 100TC,CLN->ONT, 2490, 2.18 Tr/m2, 2510, Ngh?-Xuyên M?c, 0869 700 449, 2MT Tru?c, sau cu?i khu bàn c? B?ng Trang, Ra QL55 350m",
+    "lat": 10.54934,
+    "lng": 107.45245,
+    "Flag": "New"
+  },
+  {
+    "id": "2510XM002",
+    "Notes": "2510XM002, 108/131, Phu?c Thu?n, 930.8 m2, 25x40, hoi méo, 60TC,CLN->ONT, 9500, 10.20 Tr/m2, 2510, Ti?n-Xuyên M?c, 0934 024 613, Ðu?ng 6m, cách du?ng 998 250m, cách ngã tu H? Tràm 5km, Ðu?ng vào trên app không rõ",
+    "lat": 10.49866,
+    "lng": 107.40512,
+    "Flag": "New"
+  },
+  {
+    "id": "2510DD002",
+    "Notes": "2510DD002, 30/245, 30/246, Phu?c H?i, 828 m2, 15x48, n? b?ng, 100TC,Lua->ONT, 7900, 9.54 Tr/m2, 2510, Tuy?t-Xuyên M?c, 0329 970 171, MT du?ng 44A, Võ Th? Sáu, Cách trung tâm hành chính Long Ð?t 900m, d?i di?n xéo Khánh Ngân land. 11/2025 M?nh Long Ð?t 7700
+Giá khá m?m (50%) cho m? ti?n du?ng l?n, có dân, G?n Khánh Ngân Land. Tuy nhiên v? pháp lý có th? có vu?ng m?c gì dó",
+    "lat": 10.46323,
+    "lng": 107.27667,
+    "Flag": "Flag"
+  },
+  {
+    "id": "2510NT002",
+    "Notes": "2510NT002, 100/201, Phu?c An, 1507 m2, 33x46, tóp h?u 30, CLN->ONT, 8200, 5.44 Tr/m2, Thu?n-Nhon Tr?ch, 0907 353 383, Nh?a 4m, cách Hùng Vuong 60m v? hu?ng cao t?c",
+    "lat": 10.65707,
+    "lng": 106.95265,
+    "Flag": "New"
+  },
+  {
+    "id": "2510NT003",
+    "Notes": "2510NT003, 39/182, Phu?c Khánh, 168 m2, 7x24, 150TC,CLN->ONT, 2150, 12.8 Tr/m2, Thu?n-Nhon Tr?ch, 0907 353 383, H?m nh?a 5m khu Phu?c Khánh cu, dân dông",
+    "lat": 10.67387,
+    "lng": 106.79439,
+    "Flag": "New"
+  },
+  {
+    "id": "2510DD003",
+    "Notes": "2510DD003, 155/237, Phu?c H?i, 150 m2, 7.5x20, 150TC->ONT, 5950, 39.67 Tr/m2, Duong rong 6m, 798100260, M?t ti?n quay ra phía sau khu bàn c? Phu?c H?i",
+    "lat": 10.42154,
+    "lng": 107.28649,
+    "Flag": "New"
+  },
+  {
+    "id": "2510DD004",
+    "Notes": "2510DD004, 168/112, Ð?t Ð?, 565 m2, 12x46, hai c?nh bên không d?u, 100TC,CHN->ONT, 4150, 7.35 Tr/m2, M?nh-Long Ð?t, 0969 577 667, MT Ðu?ng d?p r?ng 20m, Khu hoi v?ng dân., 1,2km ra QL55",
+    "lat": 10.48017,
+    "lng": 107.25757,
+    "Flag": "New"
+  },
+  {
+    "id": "2510DD006",
+    "Notes": "2510DD006, 56/509,507, Ð?t Ð?, 483 m2, 36x17, hoi méo, hai th?a, 200TC,CHN->ONT, 6300, 13.04 Tr/m2, M?nh-Long Ð?t, 0969 577 667, M?t ti?n du?ng Lê Du?n 16m, ra ngã Ba Võ Th? sáu 250m. Xung quanh ít dân, du?ng l?n -> QH??. Có thu m?c thông tin",
+    "lat": 10.47394,
+    "lng": 107.27495,
+    "Flag": "New"
+  },
+  {
+    "id": "2510DD007",
+    "Notes": "2510DD007, 84/34, Phu?c H?i, 175 m2, 6x30, nh?n dáy, 60TC,CLN->ONT, 4700, 26.86 Tr/m2, UNK, UNK, MT du?ng ven bi?n 42m, cách ngã tu du?ng 44A 1,2km",
+    "lat": 10.42802,
+    "lng": 107.28399,
+    "Flag": "New"
+  },
+  {
+    "id": "2510DD008",
+    "Notes": "2510DD008, 124/11, Ð?t Ð?, 3000 m2, 64x(57,40), hình thang, 200TC,CHN->ONT, 11000, 3.67 Tr/m2, Hùng-Bà R?a, 0917 250 439, MT Ðu?ng nhánh DT52, ra DT52 200m, ra Ðu?ng tránh QL55 400m, ra QL55 1,6km
+Lô này phân lô du?c, giá hoi m?m, có th? có l?i",
+    "lat": 10.5011,
+    "lng": 107.27053,
+    "Flag": "Flag"
+  },
+  {
+    "id": "2510DD009",
+    "Notes": "2510DD009, 57/1338,1339, Ð?t Ð?, 1065 m2, 2 th?a li?n k? 35x28, 120TC,CLN->ONT, 4600, 4.32 Tr/m2, Duong rong 5m, M?nh-Long Ð?t, 0969 577 667, MT h?m, ra Lê Du?n 400m",
+    "lat": 10.47798,
+    "lng": 107.28068,
+    "Flag": "New"
+  },
+  {
+    "id": "2510PM002",
+    "Notes": "2510PM002, 22/392, Châu Pha, 822 m2, 20x44, hon nh?n dáy, 50TC,CHN->ONT, CHN (27%), 5700, 6.93 Tr/m2, Duong rong 5m, 0904385136, H?m ra du?ng Châu Pha BR 600m, lên nút giao cao t?c 4km",
+    "lat": 10.57957,
+    "lng": 107.14818,
+    "Flag": "New"
+  },
+  {
+    "id": "2510PM003",
+    "Notes": "2510PM003, 67/54, Châu Pha, 907 m2, 20x45 khá vuông, ?TC,CLN->ONT, 9800, 10.8 Tr/m2, Duong rong 8m, 0933791950, Khu bàn c? 2MT, du?ng 8m và 4m. d?c du?ng BR- Châu Pha ra Ðu?ng BR- Chau Pha 350m, lên nút giao cao t?c 5km",
+    "lat": 10.57362,
+    "lng": 107.15585,
+    "Flag": "New"
+  },
+  {
+    "id": "2511PM001",
+    "Notes": "2511PM001, 87/21, Tân Hòa, 929 m2, 10x92, 100TC,CLN->ONT, 12000, 12.92 Tr/m2, Duong rong 10m, Nhâm-Phú M?, 0903 149 027, MT Du?ng H?i Bài Châu Pha 400m ra QL51. Ðang có kios, phòng tr?, lên nút giao cao t?c 8,5km",
+    "lat": 10.51955,
+    "lng": 107.08899,
+    "Flag": "New"
+  },
+  {
+    "id": "2511PM002",
+    "Notes": "2511PM002, 47/27, H?c D?ch, 285 m2, 6x47, 60TC,CLN->ONT, 4700, 16.49 Tr/m2, Duong rong 12m, Nhâm-Phú M?, 0903 149 027, M?t Ti?n du?ng M? Xuân - Ngãi Giao, Cách nút giao BH-VT 1,7km",
+    "lat": 10.64246,
+    "lng": 107.09981,
+    "Flag": "New"
+  },
+  {
+    "id": "2511PM003",
+    "Notes": "2511PM003, 82/63, Phu?c Hòa, 134 m2, 6x26, TC,CLN->ONT, 1500, 11.19 Tr/m2, Duong rong 22m, UNK, UNK, MT du?ng S, cách h?i Bài - Châu Pha 4km, giá 1.xxx",
+    "lat": 10.55117,
+    "lng": 107.07463,
+    "Flag": "New"
+  },
+  {
+    "id": "2511LT001",
+    "Notes": "2511LT001, 29/32, Tân Hi?p, 519 m2, Vuông 20x26, 220TC,CLN->ONT, 6100, 11.75 Tr/m2, Duong rong 5m, 0986343498, 2 m?t ti?n du?ng 5m trong bàn c? Tân Hi?p, ra du?ng Tân Hi?p 300m, ra QL51 3,6km, chính ch? bán",
+    "lat": 10.69127,
+    "lng": 107.05568,
+    "Flag": "New"
+  },
+  {
+    "id": "2511LT002",
+    "Notes": "2511LT002, 148/315, Phu?c Thái, 2034 m2, Vuông 42x50, 300TC,CLN->ONT,GT(25%), 16270, 8 Tr/m2, Duong rong 5m, Hùng-Tân Hi?p, 0988 960 805, 2 m?t ti?n du?ng 5m trong bàn c? Tân Hi?p, ra du?ng Tân Hi?p 300m, ra QL51 3 km, B?n d? d?a chính Phu?c Thái nhung GGMaps là Tân Hi?p?",
+    "lat": 10.68812,
+    "lng": 107.04878,
+    "Flag": "New"
+  },
+  {
+    "id": "2511LT004",
+    "Notes": "2511LT004, 28/51, Tân Hi?p, 5336 m2, 60x82, 100TC,CLN->ONT, 20276, 3.8 Tr/m2, Duong rong 6m, Hùng-Tân Hi?p, 0988 960 805, Ðu?ng 6m, ra du?ng Tân Hi?p 250m, ra QL51 4km, M?t c?nh giáp su?i",
+    "lat": 10.69703,
+    "lng": 107.05792,
+    "Flag": "New"
+  },
+  {
+    "id": "2511LT003",
+    "Notes": "2511LT003, 37/209, Tân Hi?p, 1043 m2, 20x53, 300TC,CLN->ONT, 6550, 6.28 Tr/m2, Duong rong 4m, Hùng-Tân Hi?p, 0988 960 805, m?t ti?n du?ng 4m trong bàn c? Tân Hi?p (Khu V?ng), ra du?ng Tân Hi?p 600m, ra QL51 2,6 km",
+    "lat": 10.68378,
+    "lng": 107.0446,
+    "Flag": "New"
+  },
+  {
+    "id": "2511LT005",
+    "Notes": "2511LT005, 39/23, Tân Hi?p, 1331 m2, 20x60 n? h?u 24, 300TC,CLN->ONT, 9000, 6.76 Tr/m2, Duong rong 6m, Hùng-Tân Hi?p, 0988 960 805, m?t ti?n du?ng 6m trong bàn c? Tân Hi?p (Khá trung tâm), ra du?ng Tân Hi?p 300m, ra QL51 1,6 km",
+    "lat": 10.68334,
+    "lng": 107.03753,
+    "Flag": "New"
+  },
+  {
+    "id": "2511PM004",
+    "Notes": "2511PM004, 18/1081, H?c D?ch, 144 m2, 5x30, hoi xéo, 60TC,CLN->ONT,GT(25%), 1800, 12.5 Tr/m2, Duong rong 6m, 0937473512, Mt du?ng 5m, ra vòng xoay ngã 5 H?c D?ch 70m",
+    "lat": 10.63662,
+    "lng": 107.11684,
+    "Flag": "New"
+  },
+  {
+    "id": "2511DD001",
+    "Notes": "2511DD001, 148/214, Phu?c H?i, 415 m2, 21x(17,21), Hoi hình thang, 300TC,CHN->ONT,GT(14%), 5400, 13.01 Tr/m2, Duong rong 8m, M?nh-Long Ð?t, 0969 577 667, 2 M?t ti?n 8m và 7m thu?c Khu bàn c? L?c An, ra bãi t?m L?c An 1,5km",
+    "lat": 10.45492,
+    "lng": 107.32841,
+    "Flag": "New"
+  },
+  {
+    "id": "2511DD002",
+    "Notes": "2511DD002, 41/84, Phu?c H?i, 522 m2, 15x34, 120TC,CLN->ONT, 3500, 6.7 Tr/m2, Duong rong 7m, M?nh-Long Ð?t, 0969 577 667, Ra du?ng 44A 3,5km, ra bãi t?m Phu?c H?i 7km",
+    "lat": 10.4399,
+    "lng": 107.26052,
+    "Flag": "New"
+  },
+  {
+    "id": "2511DD003",
+    "Notes": "2511DD003, 67/136, Ð?t Ð?, 160 m2, 5x32, 60TC,CLN->ONT, 1300, 8.12 Tr/m2, Duong rong 7m, Tuy?t-Phu?c H?i, 0329 970 171, Mt Luong Th? Vinh 7m, ra DT52 400m",
+    "lat": 10.49628,
+    "lng": 107.27082,
+    "Flag": "New"
+  },
+  {
+    "id": "2511DD004",
+    "Notes": "2511DD004, 65/106, Phu?c H?i, 155 m2, 7x22, TC->TC, 1800, 11.61 Tr/m2, Duong rong 18m, Tuy?t-Phu?c H?i, 0329 970 171, Ðu?ng n?i B? r?ng 18m thu?c khu Tái d?nh Cu Kim Liên - Phu?c H?i",
+    "lat": 10.45107,
+    "lng": 107.29235,
+    "Flag": "New"
+  },
+  {
+    "id": "2511PM005",
+    "Notes": "2511PM005, 35/324, M? Xuân, 418 m2, 20x20, 300TC,CLN->ONT,GT(33%), 8000, 19.14 Tr/m2, Duong rong 9m, 0365845601, Ðu?ng 9m m?i làm và 3m giáp Phú M?",
+    "lat": 10.60924,
+    "lng": 107.06321,
+    "Flag": "New"
+  },
+  {
+    "id": "2511BR001",
+    "Notes": "2511BR001, 58/199, Hòa Long, 134 m2, 7x19, 80TC,CLN->ONT, 2150, 16.04 Tr/m2, Duong rong 10m, 0909063509, Khu Gia Phát, t? Huong L? 2 r? vào, cách huong l? 2 40 M, sau lung có du?ng dâm vào dáy??",
+    "lat": 10.50991,
+    "lng": 107.21016,
+    "Flag": "New"
+  },
+  {
+    "id": "2511BR002",
+    "Notes": "2511BR002, 27/177, Long Phu?c, 1012 m2, 14x72, 300TC,CLN->ONT, 5600, 5.53 Tr/m2, Duong rong 6m, 0901333899, Huong l? 3 n?i dài - do?n chua m? r?ng, ra DT52 1,5km",
+    "lat": 10.51669,
+    "lng": 107.23584,
+    "Flag": "New"
+  },
+  {
+    "id": "2511BR003",
+    "Notes": "2511BR003, 28/13, Tân Hung, 1602 m2, 27x58 hoi méo, 300TC,CLN->ONT, 12800, 7.99 Tr/m2, Duong rong 6m, UNK, UNK, MT Nguy?n H?u C?nh, ra Hoàng Di?u 250m",
+    "lat": 10.51576,
+    "lng": 107.16779,
+    "Flag": "New"
+  },
+  {
+    "id": "2511XM001",
+    "Notes": "2511XM001, 67/217, Xuyên M?c, 264 m2, 10x24 hoi méo, thòi duôi, 80TC,CHN->ONT, 1450, 5.49 Tr/m2, Duong rong 6m, Ngh?-Xuyên M?c, 0869 700 449, Ra du?ng 329 700m",
+    "lat": 10.55309,
+    "lng": 107.42554,
+    "Flag": "New"
+  },
+  {
+    "id": "2511XM002",
+    "Notes": "2511XM002, 42/211, Bông Trang, 222 m2, 9x25, 80TC,CLN->ONT, 1500, 6.76 Tr/m2, Duong rong 6m, Ngh?-Xuyên M?c, 0869 700 449, Ra QL55 280m",
+    "lat": 10.55474,
+    "lng": 107.4505,
+    "Flag": "New"
+  },
+  {
+    "id": "2511XM003",
+    "Notes": "2511XM003, 65/636, Bình Châu, 144 m2, 7.6x19, 50TC,CLN->ONT, 2200, 15.28 Tr/m2, Duong rong 6m, Ngh?-Xuyên M?c, 0869 700 449, Khu bàn c?, g?n c?ng cá Bình Châu, ra c?ng cá 500m",
+    "lat": 10.54954,
+    "lng": 107.54566,
+    "Flag": "New"
+  },
+  {
+    "id": "2511XM004",
+    "Notes": "2511XM004, 7/29, Phu?c Tân, 592 m2, 13.5x41, 150TC,CLN->ONT, 2400, 4.05 Tr/m2, Duong rong 6m, Ngh?-Xuyên M?c, 0869 700 449, Ra 328 450m",
+    "lat": 10.56119,
+    "lng": 107.38583,
+    "Flag": "New"
+  },
+  {
+    "id": "2511XM005",
+    "Notes": "2511XM005, 7/241, Bung Ri?ng, 635 m2, 10.5x60, 100TC,CLN->ONT, 3600, 5.67 Tr/m2, Ngh?-Xuyên M?c, 0869 700 449, MT QL55, cu?i Bung Ri?ng, cách trung tâm xã 2km, g?n d? án phân lô",
+    "lat": 10.54885,
+    "lng": 107.5037,
+    "Flag": "New"
+  },
+  {
+    "id": "2511XM006",
+    "Notes": "2511XM006, 25/75, Xuyên M?c, 629 m2, 9.5x70, TC,CLN->ONT, 2500, 3.97 Tr/m2, Duong rong 10m, Ngh?-Xuyên M?c, 0869 700 449, MT329 du?ng xém dâm, v? ch? Xuyên M?c 2,2km
+Giá khá r? (50%) cho M?t ti?n du?ng 329",
+    "lat": 10.58265,
+    "lng": 107.43003,
+    "Flag": "Flag"
+  },
+  {
+    "id": "2511XM007",
+    "Notes": "2511XM007, 122/107, Hòa H?i, 205 m2, 7.9x27 tóp h?u 7.4, 80TC,CLN->ONT, 770, 3.76 Tr/m2, Duong rong 3m, Ngh?-Xuyên M?c, 0869 700 449, H?m nh? 3m, ra du?ng nhua 80m, 200m ra vòng xoay 991-329",
+    "lat": 10.63967,
+    "lng": 107.45431,
+    "Flag": "New"
+  },
+  {
+    "id": "2511XM008",
+    "Notes": "2511XM008, 92/684, Bình Châu, 9722 m2, 57x180, 300TC,CLN->ONT, 22000, 2.26 Tr/m2, Duong rong 4m, 0909703867, Ðu?ng d?t r?ng 4m, ra QL55 1,2km. 8/12/2025 rao 20.000",
+    "lat": 10.56667,
+    "lng": 107.53396,
+    "Flag": "New"
+  },
+  {
+    "id": "2511XM009",
+    "Notes": "2511XM009, 117/197, Bình Châu, 710 m2, 10x70, nh?n dáy, 82TC,CLN->ONT, 3000, 4.23 Tr/m2, Duong rong 6m, 0982290234, Song song QL55 ra QL55 600m. Tách ra t? th?a 117/62. Cu?i 2024 rao 4tr/m2",
+    "lat": 10.57657,
+    "lng": 107.5538,
+    "Flag": "New"
+  },
+  {
+    "id": "2511DD006",
+    "Notes": "2511DD006, 34/487, Láng Dài, 283 m2, 11x(24-28), 50TC,CLN->ONT, 1550, 5.48 Tr/m2, Duong rong 6m, Ðoàn-BRVT, 0941 910 636, Ra QL55 500m",
+    "lat": 10.50641,
+    "lng": 107.34615,
+    "Flag": "New"
+  },
+  {
+    "id": "2511DD007",
+    "Notes": "2511DD007, 5/1514, Ð?t Ð?, 345 m2, 8x43, 60TC,Lua->ONT, 2850, 8.26 Tr/m2, Duong rong 34m, Ðoàn-BRVT, 0941 910 636, M?t ti?n DT52 khúc v?ng, ra du?ng tránh QL55 600m, ra QL55 2km",
+    "lat": 10.50823,
+    "lng": 107.2687,
+    "Flag": "New"
+  },
+  {
+    "id": "2511NT001",
+    "Notes": "2511NT001, 40/107, Phu?c Khánh, 1426 m2, 20x70, xéo d?u, ?TC,CLN->ONT, 18540, 13 Tr/m2, Duong rong 7m, Thu?n-Nhon Tr?ch, 0907 353 383, 2 M?t ti?n du?ng chính ngang Phu?c Khánh, cách Ph?m Thái Bu?ng 2km.",
+    "lat": 10.67526,
+    "lng": 106.79657,
+    "Flag": "New"
+  },
+  {
+    "id": "2511NT002",
+    "Notes": "2511NT002, 31/257, Phú Th?nh, 1231 m2, 17x72, 200TC,CLN->ONT, 10463.5, 8.5 Tr/m2, Duong rong 4m, Ð?t-Nhon Tr?ch, 0966 728 382, H?m ra Quách Th? Trang 100m, lên nút giao 25C, VÐ3 1,1km
+V? trí này lên Vành Ð?i 3 r?t g?n, tuy nhiên ch? d?nh gía cao quá",
+    "lat": 10.71278,
+    "lng": 106.84855,
+    "Flag": "Flag"
+  },
+  {
+    "id": "2511PM006",
+    "Notes": "2511PM006, 40/972, H?c D?ch, 131 m2, 5x27, TC,CLN->ONT, 1550, 11.83 Tr/m2, Duong rong 7m, Nhâm-Phú M?, 0903 149 027, ?p Tr?ng Cát, ra M? Xuân Ngãi Giao 1km, lên nút gaio cao t?c 1,7km",
+    "lat": 10.64614,
+    "lng": 107.09492,
+    "Flag": "New"
+  },
+  {
+    "id": "2511PM007",
+    "Notes": "2511PM007, 39/1491, H?c D?ch, 125 m2, 5x25, 60TC,CLN->ONT, 1450, 11.6 Tr/m2, Duong rong 5m, Nhâm-Phú M?, 0903 149 027, ?p Tr?ng Cát, ra M? Xuân Ngãi Giao 900m, lên nút gaio cao t?c 1,7km",
+    "lat": 10.64738,
+    "lng": 107.09218,
+    "Flag": "New"
+  },
+  {
+    "id": "2511XM010",
+    "Notes": "2511XM010, 123/182+181, Hòa H?i, 846 m2, 10x86, 40TC,CLN->ONT, 2700, 3.19 Tr/m2, Duong rong 9m, Ngh?-Xuyên M?c, 0869 700 449, MT t?nh l? 329, cách vòng xoay 329-991 250m
+Giá khá m?m cho m?t ti?n du?ng 329",
+    "lat": 10.64252,
+    "lng": 107.45598,
+    "Flag": "Flag"
+  },
+  {
+    "id": "2511XM011",
+    "Notes": "2511XM011, 123/283, Hòa H?i, 691 m2, 12x57, 100TC,CLN->ONT, 1550, 2.24 Tr/m2, Duong rong 4m, Ngh?-Xuyên M?c, 0869 700 449, MT h?m nhánh nh?, ra vòng xoay 329-991 220m",
+    "lat": 10.64193,
+    "lng": 107.45507,
+    "Flag": "New"
+  },
+  {
+    "id": "2511XM012",
+    "Notes": "2511XM012, 52/114, Bung Ri?ng, 850 m2, 22x39, 140TC,CLN->ONT, 5200, 6.12 Tr/m2, Duong rong 6m, Ngh?-Xuyên M?c, 0869 700 449, Khu bàn c? Bung Ri?ng, Phía Nam QL55, ra QL 55 100m. Khu v?c nhi?u home stay",
+    "lat": 10.55142,
+    "lng": 107.49018,
+    "Flag": "New"
+  },
+  {
+    "id": "2511DD008",
+    "Notes": "2511DD008, 6/312, Láng Dài, 1000 m2, 19x(60-56), 100TC,CLN->ONT, 1450, 1.45 Tr/m2, Duong rong 4m, Ngh?-Xuyên M?c, 0869 700 449, Khu v?ng dân, cu?i Láng Dài, ra l? chính 700m",
+    "lat": 10.55118,
+    "lng": 107.33895,
+    "Flag": "New"
+  },
+  {
+    "id": "2511XM013",
+    "Notes": "2511XM013, 121/100, Bình Châu, 607 m2, 13x(45-49), 40TC,CLN->ONT, 2500, 4.12 Tr/m2, Duong rong 4m, Ngh?-Xuyên M?c, 0869 700 449, Ðu?ng nhánh n?i t? du?ng song song QL55 xu?ng QL55, cách QL55 100m",
+    "lat": 10.57142,
+    "lng": 107.54851,
+    "Flag": "New"
+  },
+  {
+    "id": "2511CM001",
+    "Notes": "2511CM001, 88/127, Xuân Qu?, 586 m2, 12x50, 557C,CLN->ONT, 4000, 6.83 Tr/m2, Duong rong 4m, 0868392030, Ð?t có th? cu between nowhere, cách c?ng sau sân bay LT kho?ng 5km. Dân d?u tu phân lô ra",
+    "lat": 10.83172,
+    "lng": 107.10285,
+    "Flag": "New"
+  },
+  {
+    "id": "2511DD009",
+    "Notes": "2511DD009, 106/414, Ð?t Ð?, 160 m2, 5x32, 60TC,CLN->ONT, 1150, 7.19 Tr/m2, Duong rong 6m, Tuy?t-Phu?c H?i, 0329 970 171, Khà trung tâm th? tr?n DD ra du?ng Võ Th? Sau 700m",
+    "lat": 10.47793,
+    "lng": 107.26548,
+    "Flag": "New"
+  },
+  {
+    "id": "2511DD010",
+    "Notes": "2511DD010, 3/118, Phu?c H?i, 1000 m2, 20x50, 160TC,CLN->ONT, 4990, 4.99 Tr/m2, Duong rong 5m, M?nh-Long Ð?t, 0969 577 667, Khá g?n núi K? Vân và H? s? Bông",
+    "lat": 10.43616,
+    "lng": 107.2617,
+    "Flag": "New"
+  },
+  {
+    "id": "2511DD011",
+    "Notes": "2511DD011, 6/275, Phu?c H?i, 233 m2, 10x23, 100TC,CLN->ONT, 2200, 9.44 Tr/m2, Duong rong 6m, M?nh-Long Ð?t, 0969 577 667, View núi Minh Ð?m, Ra du?ng Phu?c Hung - Phu?c H?i 500m. Giá cao mà sao cò nói gía t?t?",
+    "lat": 10.42986,
+    "lng": 107.26107,
+    "Flag": "New"
+  },
+  {
+    "id": "2511LD001",
+    "Notes": "2511LD001, 4/78, Long H?i, 107 m2, 6x18, TC->ONT, 2300, 21.5 Tr/m2, Duong rong 16m, 0903066813, Trong khu tái d?nh cu Long H?i, dân r?t dông",
+    "lat": 10.41585,
+    "lng": 107.23121,
+    "Flag": "New"
+  },
+  {
+    "id": "2511LD002",
+    "Notes": "2511LD002, 154/59, Long H?i, 255 m2, 7.5x33, TC->ONT, 10200, 40 Tr/m2, Duong rong 36m, 0903066813, Ngay Ngã tu Nguy?n T?t Thành - Nguy?n Chí Thanh",
+    "lat": 10.38837,
+    "lng": 107.23984,
+    "Flag": "New"
+  },
+  {
+    "id": "2511LD003",
+    "Notes": "2511LD003, 4/57, Tam An, 601 m2, (?11-16)x45, 90TC,CLN->ONT, 2550, 4.24 Tr/m2, Duong rong 6m, M?nh-Long Ð?t, 0969 577 667, Rìa khu bàn c? Tam An, Ra huong l? 14 800m",
+    "lat": 10.46472,
+    "lng": 107.22702,
+    "Flag": "New"
+  },
+  {
+    "id": "2511DD013",
+    "Notes": "2511DD013, 42/104, Phu?c H?i, 1106 m2, 17x62 n? h?u 19, 160TC,CLN->ONT, 4700, 4.25 Tr/m2, Duong rong 7m, M?nh-Long Ð?t, 0969 577 667, Ra du?ng 996C 1,7km. 12/2025 Hi?n rao 6000, 5,4tr/m2",
+    "lat": 10.4373,
+    "lng": 107.26409,
+    "Flag": "New"
+  },
+  {
+    "id": "2511LD004",
+    "Notes": "2511LD004, 114/27, Long H?i, 930 m2, 21x(41-50), Full TC->ONT, 13000, 13.98 Tr/m2, Duong rong 4m, 0902777139, H?m 4m ra du?ng Ph?m Van Ð?ng 300m, Khu dân cu dông kín",
+    "lat": 10.39906,
+    "lng": 107.23029,
+    "Flag": "New"
+  },
+  {
+    "id": "2511LD005",
+    "Notes": "2511LD005, 8/700, Long H?i, 148 m2, 5x30, Full TC->ONT, 4500, 30.41 Tr/m2, Duong rong 20m, Hi?n-Phu?c H?i, 0985 738 070, MT 3/2, 300m ra Nguy?n T?t Thành",
+    "lat": 10.4103,
+    "lng": 107.23068,
+    "Flag": "New"
+  },
+  {
+    "id": "2511LD006",
+    "Notes": "2511LD006, 160/228, Long H?i, 280 m2, 13x21, 120TC,CLN->ONT, 7800, 27.86 Tr/m2, Duong rong 7m, Hi?n-Phu?c H?i, 0985 738 070, Góc 2MT Khu phân lô g?n bi?n, cách 1 lô ra nguy?n T?t Thành dang m? r?ng thành du?ng ven bi?n",
+    "lat": 10.38534,
+    "lng": 107.2422,
+    "Flag": "New"
+  },
+  {
+    "id": "2511LD007",
+    "Notes": "2511LD007, 4/639, Long H?i, 108 m2, 6x18, Tull TC,CLN->ONT, 2550, 23.61 Tr/m2, Duong rong 16m, Duong-BRVT, 0966 388 679, Trong khu tái d?nh cu Long H?i, dân dông",
+    "lat": 10.41311,
+    "lng": 107.23147,
+    "Flag": "New"
+  },
+  {
+    "id": "2511LD008",
+    "Notes": "2511LD008, 8/344, Long H?i, 500 m2, 20x(18,22) Xéo, 117TC,CLN->ONT, 9500, 19 Tr/m2, Duong rong 20m, Duong-BRVT, 0966 388 679, MT hoi th?t du?ng 3/2 dã xây thành quán cà phê, home stay khá d?p, Ra Nguy?n T?t Thành 600m",
+    "lat": 10.41157,
+    "lng": 107.23329,
+    "Flag": "New"
+  },
+  {
+    "id": "2511LT006",
+    "Notes": "2511LT006, 9/104, An Phu?c, 368 m2, 11.5x32, 100TC,CLN->ONT, 5900, 16.03 Tr/m2, Duong rong 20m, Khang-Long Thành, 0908 862 148, Ðu?ng l?n khu t?p th? BCA ra Phùng Hung 300m, ra QL51 800m",
+    "lat": 10.85248,
+    "lng": 106.93503,
+    "Flag": "New"
+  },
+  {
+    "id": "2511LT007",
+    "Notes": "2511LT007, 67/639, An Phu?c, 323 m2, 11x29, fullTC->ONT, 6500, 20.12 Tr/m2, Duong rong 7m, Khang-Long Thành, 0908 862 148, Ðu?ng dâm, ra Lê Du?n 500m",
+    "lat": 10.7938,
+    "lng": 106.94133,
+    "Flag": "New"
+  },
+  {
+    "id": "2511LT008",
+    "Notes": "2511LT008, 56/189, An Phu?c, 586 m2, 9x69, 300TC,CLN->ONT, 24000, 40.96 Tr/m2, Duong rong 20m, Khang-Long Thành, 0908 862 148, MT du?ng Lê Du?n, d?i di?n khu 77ha s?p d?u giá",
+    "lat": 10.80493,
+    "lng": 106.94384,
+    "Flag": "New"
+  },
+  {
+    "id": "2511NT004",
+    "Notes": "2511NT004, 1/677, Vinh Thanh, 140 m2, 5x28, TC->ONT, 2016, 14.4 Tr/m2, Duong rong 4m, Ð?t-Nhon Tr?ch, 0966 728 382, Phân t? th?a l?n 2000m2, ra du?ng con gà vàng 200m",
+    "lat": 10.70099,
+    "lng": 106.82368,
+    "Flag": "New"
+  },
+  {
+    "id": "2511DD014",
+    "Notes": "2511DD014, 105/204, Ð?t Ð?, 550 m2, 10x55, 50TC,CLN->ONT, 2200, 4 Tr/m2, Duong rong 6m, M?nh-Long Ð?t, 0969 577 667, Khu hi?n h?u tt Ð?t Ð?",
+    "lat": 10.47928,
+    "lng": 107.26264,
+    "Flag": "New"
+  },
+  {
+    "id": "2511DD015",
+    "Notes": "2511DD015, 26/286, Phu?c H?i, 577 m2, 10x57, 100TC,CLN->ONT, 2790, 4.84 Tr/m2, Duong rong 7m, M?nh-Long Ð?t, 0969 577 667, Khu tách th?a, ra 996C 600m ra 44A 3km",
+    "lat": 10.44818,
+    "lng": 107.26417,
+    "Flag": "New"
+  },
+  {
+    "id": "2511DD016",
+    "Notes": "2511DD016, 135/86, Phu?c H?i, 194 m2, 10x19.5, FullTC,CLN->ONT, 2600, 13.4 Tr/m2, Duong rong 6m, M?nh-Long Ð?t, 0969 577 667, Khu bàn c? L?c An, ra bãi t?m 1,8km",
+    "lat": 10.45837,
+    "lng": 107.33311,
+    "Flag": "New"
+  },
+  {
+    "id": "2511BR005",
+    "Notes": "2511BR005, 29/1079, Long Phu?c, 1012 m2, 14x72, CLN->ONT, 4200, 4.15 Tr/m2, Duong rong 6m, M?nh-Long Ð?t, 0969 577 667, Huong l? 3 n?i dài - do?n chua m? r?ng, ra DT52 1,5km. Lên tc du?c",
+    "lat": 10.51644,
+    "lng": 107.23587,
+    "Flag": "New"
+  },
+  {
+    "id": "2511DD018",
+    "Notes": "2511DD018, 102/329, Ð?t Ð?, 150 m2, 6x26, 40TC,CLN->ONT, 1500, 10 Tr/m2, Duong rong 8m, M?nh-Long Ð?t, 0969 577 667, Khu Trung Tâm TT Ð?t Ð?",
+    "lat": 10.48115,
+    "lng": 107.27279,
+    "Flag": "New"
+  },
+  {
+    "id": "2511DD019",
+    "Notes": "2511DD019, 112/52, Phu?c H?i, 83 m2, 5.9x14, FullTC,->ONT,GT(25%), 3300, 39.76 Tr/m2, Duong rong 6m, M?nh-Long Ð?t, 0969 577 667, Khu bàn c? Phu?c H?i, ra bi?n 500m, m?t d?t giao thông 25%",
+    "lat": 10.42116,
+    "lng": 107.28672,
+    "Flag": "New"
+  },
+  {
+    "id": "2511DD020",
+    "Notes": "2511DD020, 69/11, Phu?c H?i, 614 m2, 11x54, 80TC,CLN->ONT, 6500, 10.59 Tr/m2, Ðoàn-BRVT, 0941 910 636, MT du?ng ven bi?n Tr?n Vinh L?c (Chua m? r?ng). Ðo?n s?p vào L?c An",
+    "lat": 10.45281,
+    "lng": 107.31133,
+    "Flag": "New"
+  },
+  {
+    "id": "2511DD021",
+    "Notes": "2511DD021, 42/772, Long Tân, 107 m2, 6x18, 100TC,CLN->ONT, 910, 8.5 Tr/m2, Duong rong 10m, Ðoàn-BRVT, 0941 910 636, Khu Bòn Bon, ra DT52 170m",
+    "lat": 10.51996,
+    "lng": 107.26811,
+    "Flag": "New"
+  },
+  {
+    "id": "2512DD001",
+    "Notes": "2512DD001, 47/371, Phu?c H?i, 141 m2, 9x15, hoi méo, 80TC,CLN->ONT, 5600, 39.72 Tr/m2, Duong rong 40m, Hi?n-Phu?c H?i, 0985 738 070, Mt du?ng ven bi?n, do?n dã làm r?ng 40, cách ngã tu v?i 44A 100m",
+    "lat": 10.43618,
+    "lng": 107.28995,
+    "Flag": "New"
+  },
+  {
+    "id": "2512DD002",
+    "Notes": "2512DD002, 2/1513, Ð?t Ð?, 503 m2, 9x55, hoi méo, 100TC,CLN->ONT, 2350, 4.67 Tr/m2, Duong rong 6m, Hi?n-Phu?c H?i, 0985 738 070, Khu rìa dang phát tri?n c?a TT Ð?t Ð?, Phù H?p v?i gi?i d?u co. K?t n?i KCN Ð?t Ð?. Ð?t này du?c phân lô t? th?a l?n",
+    "lat": 10.51304,
+    "lng": 107.27671,
+    "Flag": "New"
+  },
+  {
+    "id": "2512DD005",
+    "Notes": "2512DD005, 12/785, Phu?c Long Th?, 1999 m2, 33x50, 920TC,CLN->ONT,GT(12%), 8600, 4.3 Tr/m2, Duong rong 12m, Hi?n-Phu?c H?i, 0985 738 070, MT TL997, khu v?ng dân, cách khu CN Ð?t Ð? 2,5km v? hu?ng B?c",
+    "lat": 10.54063,
+    "lng": 107.31307,
+    "Flag": "New"
+  },
+  {
+    "id": "2512DD006",
+    "Notes": "2512DD006, 17/65, Long Tân, 2091 m2, 35x70, tóp h?u 24, 612TC,CLN->ONT(58%),CHN,GT, 15000, 7.17 Tr/m2, Duong rong 7m, Hi?n-Phu?c H?i, 0985 738 070, M?t sau giáp h? su?i Môn",
+    "lat": 10.55524,
+    "lng": 107.31907,
+    "Flag": "New"
+  },
+  {
+    "id": "2512LT001",
+    "Notes": "2512LT001, 8/64, TT Long Thành, 335 m2, 8x40, 250TC,CLN->ONT, 7200, 21.49 Tr/m2, Duong rong 8m, Thu?n-Nhon Tr?ch, 0907 353 383, 2 m?t ti?n QL51 và du?ng phía sau 8m",
+    "lat": 10.78933,
+    "lng": 106.95463,
+    "Flag": "New"
+  },
+  {
+    "id": "2512CD001",
+    "Notes": "2512CD001, 98/145, Ðá B?c, 1945 m2, 34x50, n? h?u 37, 300TC,CLN->ONT, 15200, 7.81 Tr/m2, Duong rong 8m, 0903852384, Ðu?ng nh?a ra DT52 150m. Góc cu?i c?a Ðá B?c, giáp Long Phu?c BR.
+Dù là Ðá b?c - Châu d?c nhung giáp v?i Bà R?a. Ðu?ng khá d?p vàv lô d?t r?t d?p. Phía sau có gi?ng nhà y?n ()9/04/2026)",
+    "lat": 10.53898,
+    "lng": 107.24238,
+    "Flag": "Flag"
+  },
+  {
+    "id": "2512NT001",
+    "Notes": "2512NT001, 27/142, Phu?c Thi?n, 1070 m2, 24x41, n? h?u 27, 250TC,CLN->ONT, 15000, 14.02 Tr/m2, Duong rong 5m, Thu?n-Nhon Tr?ch, 0907 353 383, Ra Lý Thái T? 50m",
+    "lat": 10.75777,
+    "lng": 106.93517,
+    "Flag": "New"
+  },
+  {
+    "id": "2512NT002",
+    "Notes": "2512NT002, 34/692, Phú Ðông, 505 m2, 10x49, 150TC,CLN->ONT,GT (25%), 11000, 21.78 Tr/m2, Duong rong 10m, Thu?n-Nhon Tr?ch, 0907 353 383, MT Hùng Vuong, g?n quán cây Ðào Tiên",
+    "lat": 10.71227,
+    "lng": 106.82167,
+    "Flag": "New"
+  },
+  {
+    "id": "2512DD008",
+    "Notes": "2512DD008, 141/154, Phu?c H?i, 200 m2, 10x20, FullTC,CLN->ONT, 4000, 20 Tr/m2, Duong rong 18m, M?nh-Long Ð?t, 0969 577 667, Khu bàn co L?c An",
+    "lat": 10.45614,
+    "lng": 107.32964,
+    "Flag": "New"
+  },
+  {
+    "id": "2512XM002",
+    "Notes": "2512XM002, 146/79, Hòa H?i, 1266 m2, 20x62, 80TC,CLN->ONT, 1800, 1.42 Tr/m2, Duong rong 4m, Ngh?-Xuyên M?c, 0869 700 449, G?n nghia trang, du?ng vào nghia trang. Ra TL329 1km",
+    "lat": 10.60537,
+    "lng": 107.43144,
+    "Flag": "New"
+  },
+  {
+    "id": "2512XM003",
+    "Notes": "2512XM003, 129/293, Hòa H?i, 590 m2, 15x40, 100TC,CLN->ONT, 1600, 2.71 Tr/m2, Duong rong 4m, Ngh?-Xuyên M?c, 0869 700 449, 500m ra TL329",
+    "lat": 10.63199,
+    "lng": 107.44616,
+    "Flag": "New"
+  },
+  {
+    "id": "2512XM004",
+    "Notes": "2512XM004, 124/12, Bình Châu, 1054 m2, 11x90, 300TC,CLN->ONT,GT(20%), 5600, 5.31 Tr/m2, Duong rong 10m, Ngh?-Xuyên M?c, 0869 700 449, MTQL55, xung quanh khá nhi?u nhà dân",
+    "lat": 10.56692,
+    "lng": 107.54537,
+    "Flag": "New"
+  },
+  {
+    "id": "2512XM005",
+    "Notes": "2512XM005, 15/518, Phu?c Tân, 7107 m2, 88x90, méo dáy, 100TC,CLN->ONT, 35400, 4.98 Tr/m2, Duong rong 40m, Ngh?-Xuyên M?c, 0869 700 449, MT du?ng tránh Bà Tô l? gi?i kho?ng 40m, dang m?",
+    "lat": 10.54397,
+    "lng": 107.38822,
+    "Flag": "New"
+  },
+  {
+    "id": "2512PM001",
+    "Notes": "2512PM001, 60/757, Tóc Tiên, 1137 m2, 20x60, 60TC,CLN->ONT, 6500, 5.72 Tr/m2, Duong rong 7m, 0394918688, N?m gi?a 2 nút giao cao t?c 5-6km",
+    "lat": 10.61949,
+    "lng": 107.11555,
+    "Flag": "New"
+  },
+  {
+    "id": "2512DD009",
+    "Notes": "2512DD009, 55/126, L?c An, 202 m2, 6x24, 100TC,CLN->ONT, 2400, 11.88 Tr/m2, Duong rong 7m, M?nh-Long Ð?t, 0969 577 667, Ðu?ng chính L?c An, ra bi?n kho?ng 1km",
+    "lat": 10.45663,
+    "lng": 107.32294,
+    "Flag": "New"
+  },
+  {
+    "id": "2512DD010",
+    "Notes": "2512DD010, 53/157, Phu?c H?i, 140 m2, 5.5x25, 100TC,CLN->ONT, 1600, 11.43 Tr/m2, Duong rong 6m, M?nh-Long Ð?t, 0969 577 667, 2 MT, g?n tái d?nh cu kim Liên",
+    "lat": 10.45368,
+    "lng": 107.29456,
+    "Flag": "New"
+  },
+  {
+    "id": "2512NT004",
+    "Notes": "2512NT004, 1/547, Vinh Thanh, 160 m2, 6x27, 80TC,CLN->ONT, 3100, 19.38 Tr/m2, Duong rong 4m, Thu?n-Nhon Tr?ch, 0907 353 383, MT h?m, ra du?ng Hùng Vuong 500m",
+    "lat": 10.70083,
+    "lng": 106.82545,
+    "Flag": "New"
+  },
+  {
+    "id": "2512DD012",
+    "Notes": "2512DD012, 37/39, Phu?c H?i, 850 m2, 20x(38,47) hình thang, 300TC,CLN->ONT, 5900, 6.94 Tr/m2, Duong rong 8m, Hi?n-Phu?c H?i, 0985 738 070, Ra 996C 600m",
+    "lat": 10.44149,
+    "lng": 107.27349,
+    "Flag": "New"
+  },
+  {
+    "id": "2512DD013",
+    "Notes": "2512DD013, 79/126, Phu?c H?i, 795 m2, 14x47, 200TC,CLN->ONT, 5600, 7.04 Tr/m2, Duong rong 7m, Hi?n-Phu?c H?i, 0985 738 070, Ra 44A 500m",
+    "lat": 10.44279,
+    "lng": 107.29182,
+    "Flag": "New"
+  },
+  {
+    "id": "2601DD001",
+    "Notes": "2601DD001, 69/105, Phu?c H?i, 360 m2, 9x40, 100TC,CLN->ONT, 4200, 11.67 Tr/m2, Duong rong 14m, Hi?n-Phu?c H?i, 0985 738 070, Mt du?ng ven bi?n, cách L?c An 1km, cách 44A 3km",
+    "lat": 10.45238,
+    "lng": 107.31262,
+    "Flag": "New"
+  },
+  {
+    "id": "2601LD001",
+    "Notes": "2601LD001, 161/59, Long H?i, 101 m2, 5x20, 70TC,CLN->ONT, 2700, 26.73 Tr/m2, Duong rong 8m, Hi?n-Phu?c H?i, 0985 738 070, Ðu?ng n?i B? trong khu Seaway Long H?i",
+    "lat": 10.38607,
+    "lng": 107.24288,
+    "Flag": "New"
+  },
+  {
+    "id": "2601BR001",
+    "Notes": "2601BR001, 35/13, Phu?c Nguyên, 291 m2, 8x36 Tóp h?u, 100TC,CLN->ONT, 10700, 36.77 Tr/m2, Duong rong 20m, Hi?n-Phu?c H?i, 0985 738 070, MT Tôn Ð?c Th?ng, g?n ngã tu Nguy?n Van Tr?i",
+    "lat": 10.50244,
+    "lng": 107.17752,
+    "Flag": "New"
+  },
+  {
+    "id": "2601DD002",
+    "Notes": "2601DD002, 53/273, Phu?c H?i, 122 m2, 5x24, 80TC,LUC->ONT, 1750, 14.34 Tr/m2, Duong rong 5m, Hi?n-Phu?c H?i, 0985 738 070, Ðu?ng Phu?c H?i - L?c An. Ðã xây hàng rào r?t d?p",
+    "lat": 10.45544,
+    "lng": 107.29439,
+    "Flag": "New"
+  },
+  {
+    "id": "2601LD002",
+    "Notes": "2601LD002, 62/408, Tam An, 413.7 m2, 10x42, 80TC,CLN->ONT, 5700, 13.78 Tr/m2, Duong rong 20m, Hi?n-Phu?c H?i, 0985 738 070, MT du?ng TL44B, cách ngã tu QL55 120m
+Giá khá m?m (50%) cho MT TL44B r?t dông dân",
+    "lat": 10.48216,
+    "lng": 107.22416,
+    "Flag": "Flag"
+  },
+  {
+    "id": "2601LD003",
+    "Notes": "2601LD003, 61/35, Tam An, 451 m2, 12.2x35, n? h?u 13,6, 200TC,CLN->ONT, 6400, 14.19 Tr/m2, Duong rong 20m, Hi?n-Phu?c H?i, 0985 738 070, MT du?ng TL44B, cách ngã tu QL55 350m
+Giá khá m?m (37%) cho MT TL44B r?t dông dân",
+    "lat": 10.482889,
+    "lng": 107.221861,
+    "Flag": "Flag"
+  },
+  {
+    "id": "2601DD003",
+    "Notes": "2601DD003, 27/916, Long Tân, 1261 m2, 18x70, 100TC,CLN->ONT, 8500, 6.74 Tr/m2, Duong rong 18m, Hi?n-Phu?c H?i, 0985 738 070, MT tình l? 52 khu v?ng dân, cách ch? Long Tân 1,5km",
+    "lat": 10.54137,
+    "lng": 107.2565,
+    "Flag": "New"
+  },
+  {
+    "id": "2601LD004",
+    "Notes": "2601LD004, 102/172, Long Ði?n, 106 m2, 5x21, 100TC,CLN->ONT, 2350, 22.17 Tr/m2, Duong rong 10m, UNK, UNK, MT H? Tri Tân, G?n Nút giao Vung V?n",
+    "lat": 10.48356,
+    "lng": 107.19975,
+    "Flag": "New"
+  },
+  {
+    "id": "2601LD005",
+    "Notes": "2601LD005, 7/1143, An Ngãi, 100 m2, 5x20, 100TC,CLN->ONT, 1190, 11.9 Tr/m2, Duong rong 8m, Luân -LÐ, Phu?c H?i, 0962 844 886, Khu D? án phân lô trên ru?ng mu?i cu, Cách du?ng 44B 500m",
+    "lat": 10.45823,
+    "lng": 107.21111,
+    "Flag": "New"
+  },
+  {
+    "id": "2601LD006",
+    "Notes": "2601LD006, 15/651, An Ngãi, 177 m2, 5x35, 100TC,CLN->ONT, 1900, 10.73 Tr/m2, Duong rong 8m, UNK, UNK, Khu Phân lô trên ru?ng mu?i c?nh du?ng 44B, ra 44B 400m",
+    "lat": 10.43369,
+    "lng": 107.21645,
+    "Flag": "New"
+  },
+  {
+    "id": "2601DD005",
+    "Notes": "2601DD005, 13/105, Phu?c H?i, 615 m2, 10x60, 60TC,CLN->ONT, 2580, 4.2 Tr/m2, Duong rong 5m, M?nh-Long Ð?t, 0969 577 667, Ra 996C 150m",
+    "lat": 10.45889,
+    "lng": 107.2592,
+    "Flag": "New"
+  },
+  {
+    "id": "2601BR002",
+    "Notes": "2601BR002, 33/68, Long Toàn, 627 m2, T? giác 2MT23x37, 90TC,CLN->ONT, 12000, 19.14 Tr/m2, Duong rong 16m, Hi?n-Phu?c H?i, 0985 738 070, 2MT CMT8, H? Tri Tân
+Giá hi?n t5ai ch? hoi r? chút nhung ti?m nang tang gái t?t: khudang phát tri?n, g?n nút giao cao t?c, hai m?t ti?n",
+    "lat": 10.48438,
+    "lng": 107.20018,
+    "Flag": "Flag"
+  },
+  {
+    "id": "2601PM001",
+    "Notes": "2601PM001, 60/178, Tân Phu?c, 100 m2, 5x20, 100TC->ONT, 2750, 27.5 Tr/m2, Duong rong 20m, UNK, UNK, Khu tái d?nh cu Tân Phu?c",
+    "lat": 10.57026,
+    "lng": 107.07195,
+    "Flag": "New"
+  },
+  {
+    "id": "2601PM002",
+    "Notes": "2601PM002, 68/373, Phú M?, 125 m2, 5x25, 100TC->ONT, 4800, 38.4 Tr/m2, Duong rong 20m, UNK, UNK, Khu tái d?nh cu 44ha Phú M?",
+    "lat": 10.60235,
+    "lng": 107.07331,
+    "Flag": "New"
+  },
+  {
+    "id": "2601PM003",
+    "Notes": "2601PM003, 48/440, H?c D?ch, 168 m2, 5x35, 100TC,CLN->ONT, 1450, 8.63 Tr/m2, Duong rong 6m, UNK, UNK, Khu phân lô, MT Ð?ng Xuân b?ng Su?i Nhum, ít dân",
+    "lat": 10.63523,
+    "lng": 107.10844,
+    "Flag": "New"
+  },
+  {
+    "id": "2601LD007",
+    "Notes": "2601LD007, 26/502, Long Ði?n, 90 m2, 5x18, TC->ONT, 1890, 21 Tr/m2, Duong rong 16m, Ðoàn-BRVT, 0941 910 636, Ð?i di?n công viên, tái d?nh cu Long Ði?n, 100m ra QL55
+",
+    "lat": 10.47746,
+    "lng": 107.20861,
+    "Flag": "New"
+  },
+  {
+    "id": "2601BR003",
+    "Notes": "2601BR003, 11/46, Hòa Long, 1051 m2, 22x45, n? h?u 25, 500TC,CLN->ONT,GT (21%), 18500, 17.6 Tr/m2, Duong rong 22m, Hoàng - Hòa Long BR, 0941 077 279, MT TL52, lên nút cao t?c Hòa Long 2,2km
+V? Trí r?t d?p và lô r?t d?p, Flag (09/04/2026)",
+    "lat": 10.52218,
+    "lng": 107.20996,
+    "Flag": "Flag"
+  },
+  {
+    "id": "2601DD007",
+    "Notes": "2601DD007, 127/67, Ð?t Ð?, 763 m2, 20x38, 60TC,CLN->ONT,GT(12%), 3800, 4.98 Tr/m2, Duong rong 5m, M?nh-Long Ð?t, 0969 577 667, Ra du?ng 52 100m",
+    "lat": 10.50023,
+    "lng": 107.26727,
+    "Flag": "New"
+  },
+  {
+    "id": "2601DD008",
+    "Notes": "2601DD008, 22/204, Long Tân, 288 m2, 9x32, 100TC,CLN->ONT, 1790, 6.22 Tr/m2, Duong rong 20m, M?nh-Long Ð?t, 0969 577 667, v? trung tâm Long Tân 700m
+Giá r?t m?n (37%) cho m? t?n du?ng l?n",
+    "lat": 10.54491,
+    "lng": 107.27221,
+    "Flag": "Flag"
+  },
+  {
+    "id": "2601DD009",
+    "Notes": "2601DD009, 18/56, Phu?c H?i, 1310 m2, 25x51, 100TC,CLN->ONT,GT (7%), 7500, 5.73 Tr/m2, Duong rong 6m, Hùng-Bà R?a, 0917 250 439, G?n khu nhà vu?n Phan Gia
+Ra 996C 700m",
+    "lat": 10.44933,
+    "lng": 107.26091,
+    "Flag": "New"
+  },
+  {
+    "id": "2601LD008",
+    "Notes": "2601LD008, 82/200, Long Ði?n, 75 m2, 5.2x15, TC->ONT, 1850, 24.67 Tr/m2, Duong rong 16m, Hi?n-Phu?c H?i, 0985 738 070, Khu Trung Tâm Long Ði?n, ra ch? Long Ði?n 600m",
+    "lat": 10.48852,
+    "lng": 107.21486,
+    "Flag": "New"
+  },
+  {
+    "id": "2601DD010",
+    "Notes": "2601DD010, 65/270, Phu?c H?i, 179 m2, 8x22, 100TC,CLN->ONT, 2200, 12.29 Tr/m2, Duong rong 16m, Hi?n-Phu?c H?i, 0985 738 070, Tái d?nh cu Kim Liên",
+    "lat": 10.45013,
+    "lng": 107.29252,
+    "Flag": "New"
+  },
+  {
+    "id": "2601LD009",
+    "Notes": "2601LD009, 116/80, Long H?i, 364 m2, 15x22, n? h?u 17, 300TC,CLN->TMDV, 15900, 43.68 Tr/m2, Duong rong 15m, M?nh-Long Ð?t, 0969 577 667, Ðu?ng chính Vung Tàu - Bình Câu qua Long H?i. Ngay nhà th? giáo x? Long H?i. Quy ho?ch TMDV nhung dã có 300m2 d?t ? t? 2015",
+    "lat": 10.39873,
+    "lng": 107.22754,
+    "Flag": "New"
+  },
+  {
+    "id": "2601DD011",
+    "Notes": "2601DD011, 2/1609, Ð?t Ð?, 658 m2, 12.5x53, 60TC,CHN->ONT, 3200, 4.86 Tr/m2, Duong rong 5m, M?nh-Long Ð?t, 0969 577 667, Ra TL52 90m, du?ng vào HCN d?t d?",
+    "lat": 10.51068,
+    "lng": 107.26999,
+    "Flag": "New"
+  },
+  {
+    "id": "2601LD010",
+    "Notes": "2601LD010, 103/211, Long Ði?n, 252 m2, 6x40, 100TC,CLN->ONT, 4700, 18.65 Tr/m2, Duong rong 16m, M?nh-Long Ð?t, 0969 577 667, Lên nút giao Vung V?n 600m",
+    "lat": 10.48406,
+    "lng": 107.20162,
+    "Flag": "New"
+  },
+  {
+    "id": "2601LD011",
+    "Notes": "2601LD011, 107/8, Long H?i, 1035 m2, 29x32, n? h?u 31, 181TC,LUA->ONT, 25000, 24.15 Tr/m2, Duong rong 20m, Hi?n-Phu?c H?i, 0985 738 070, MT Lê Du?n, còn 1 lô nh? 6m là ra Nguy?n T?t Thành",
+    "lat": 10.40487,
+    "lng": 107.22977,
+    "Flag": "New"
+  },
+  {
+    "id": "2603LD001",
+    "Notes": "2603LD001, 11/494, Tam An, 1152 m2, 14x80, 160TC,CLN->ONT, POI: 4, 4500, 3.91 Tr/m2, Duong rong 4m, Hi?n-Phu?c H?i, 0985 738 070, Ðu?ng d?t t? Phu?c Trinh - Phu?c Nghia vào 200m, AVM: 2.21 Tr/m2",
+    "lat": 10.46081,
+    "lng": 107.2403,
+    "Flag": "New"
+  },
+  {
+    "id": "2603LD002",
+    "Notes": "2603LD002, 5/363, Tam An, 254 m2, 11,5x20, 140TC,CLN->ONT, POI: 16, 2350, 9.25 Tr/m2, Duong rong 8m, Hi?n-Phu?c H?i, 0985 738 070, 2MT 8m và 6m, AVM: 9.2 Tr/m2",
+    "lat": 10.46212,
+    "lng": 107.23575,
+    "Flag": "New"
+  },
+  {
+    "id": "2603DD001",
+    "Notes": "2603DD001, 26/372, Láng Dài, 1000 m2, 14x70, 100TC,CLN->ONT, POI: 3, 2200, 2.2 Tr/m2, Duong rong 5m, Hi?n-Phu?c H?i, 0985 738 070, Láng dài khu v?ng dân, AVM: 3.36 Tr/m2",
+    "lat": 10.51057,
+    "lng": 107.33092,
+    "Flag": "New"
+  },
+  {
+    "id": "2603DD002",
+    "Notes": "2603DD002, 56/115, L?c An, 125 m2, 5,5x27, 100TC,CLN->ONT, POI: 24, 1800, 14.4 Tr/m2, Duong rong 5m, Hi?n-Phu?c H?i, 0985 738 070, Rìa khu bàn c? L?c An, AVM: 11.13 Tr/m2",
+    "lat": 10.45668,
+    "lng": 107.32551,
+    "Flag": "New"
+  },
+  {
+    "id": "2603DD003",
+    "Notes": "2603DD003, 72/220, Phu?c H?i, 198 m2, 5,5x36, 100TC,CLN->ONT, POI: 16, 3200, 16.16 Tr/m2, Duong rong 8m, Hi?n-Phu?c H?i, 0985 738 070, Cò nói dang m? r?ng du?ng, AVM: 8.91 Tr/m2",
+    "lat": 10.44827,
+    "lng": 107.28856,
+    "Flag": "New"
+  },
+  {
+    "id": "2603DD004",
+    "Notes": "2603DD004, 164/71, Ð?t Ð?, 560 m2, 12x46, 120TC,CLN->ONT, POI: 29, 3700, 6.61 Tr/m2, Duong rong 7m, Hi?n-Phu?c H?i, 0985 738 070, AVM: 8.53 Tr/m2",
+    "lat": 10.4837,
+    "lng": 107.26063,
+    "Flag": "New"
+  },
+  {
+    "id": "2603DD005",
+    "Notes": "2603DD005, 68/28, Phu?c H?i, 1200 m2, 15x80, 150TC,CLN->ONT, POI: 6, 10500, 8.75 Tr/m2, Duong rong 9m, Hi?n-Phu?c H?i, 0985 738 070, AVM: 4.81 Tr/m2",
+    "lat": 10.45272,
+    "lng": 107.30426,
+    "Flag": "New"
+  },
+  {
+    "id": "2603DD006",
+    "Notes": "2603DD006, 164/60, Ð?t Ð?, 344 m2, 13x26, 50TC,CLN->ONT, POI: 27, 2600, 7.56 Tr/m2, Duong rong 5m, Hi?n-Phu?c H?i, 0985 738 070, AVM: 10.57 Tr/m2",
+    "lat": 10.48388,
+    "lng": 107.26019,
+    "Flag": "New"
+  },
+  {
+    "id": "2603DD007",
+    "Notes": "2603DD007, 31/427, Phu?c H?i, 247 m2, 5 n? h?u 14, dài 28. Hình t? giác méo, 80TC,CLN->ONT, POI: 8, 1100, 4.45 Tr/m2, Duong rong 4m, Thu?n-Nhon Tr?ch, 0907 353 383, Cu?i du?ng nhà nu?c, t? m? d? bêtông thêm, AVM: 3.19 Tr/m2",
+    "lat": 10.44433,
+    "lng": 107.2722,
+    "Flag": "New"
+  },
+  {
+    "id": "2603NT001",
+    "Notes": "2603NT001, 173/262, Phu?c An, 124 m2, 525, 90TC,CLN->ONT, POI: 12, 1760, 14.19 Tr/m2, Duong rong 3.5m, Thu?n-Nhon Tr?ch, 0907 353 383, AVM: 4.1 Tr/m2",
+    "lat": 10.67967,
+    "lng": 106.86446,
+    "Flag": "New"
+  },
+  {
+    "id": "2603NT002",
+    "Notes": "2603NT002, 78/411, Phu?c An, 306 m2, 6.3x48, 100TC,CLN->ONT, POI: 19, 8000, 26.14 Tr/m2, Duong rong 14m, Thu?n-Nhon Tr?ch, 0907 353 383, MT Hùng Vuong, AVM: 12.26 Tr/m2",
+    "lat": 10.66941,
+    "lng": 106.90372,
+    "Flag": "New"
+  },
+  {
+    "id": "2603XM001",
+    "Notes": "2603XM001, 44/83, Xuyên M?c, 539 m2, 10x55, 100TC,CLN->ONT, POI: 9, 1780, 3.3 Tr/m2, Duong rong 5m, L?c-Xuyên M?c, 0786 790 868, Ra 329 400m, AVM: 4.78 Tr/m2",
+    "lat": 10.58263,
+    "lng": 107.42696,
+    "Flag": "New"
+  },
+  {
+    "id": "2603XM002",
+    "Notes": "2603XM002, 29/33, Phu?c B?u, 323 m2, 9x40, 100TC,CLN->ONT, POI: 22, 5850, 18.11 Tr/m2, Duong rong 22m, L?c-Xuyên M?c, 0786 790 868, MT Xuyen Phu?c Com g?n ngã ba Hu?nh Minh Th?nh, AVM: 26.93 Tr/m2",
+    "lat": 10.51514,
+    "lng": 107.40359,
+    "Flag": "New"
+  },
+  {
+    "id": "2603XM003",
+    "Notes": "2603XM003, 52/36&52/359, Bông Trang, 266 m2, 8x33, 100TC,CLN->ONT, POI: 17, 2900, 10.9 Tr/m2, Duong rong 12m, L?c-Xuyên M?c, 0786 790 868, MT QL55, d?i di?n giao x? Bông Trang, AVM: 12.26 Tr/m2",
+    "lat": 10.5519,
+    "lng": 107.46056,
+    "Flag": "New"
+  },
+  {
+    "id": "2603DD008",
+    "Notes": "2603DD008, 6/164, Phu?c H?i, 565 m2, 18x30 xéo d?u, 200TC,CLN->ONT, POI: 2, 4000, 7.08 Tr/m2, Duong rong 6m, UNK, UNK, G?n h? s? Bông, AVM: 5.19 Tr/m2",
+    "lat": 10.4262,
+    "lng": 107.26095,
+    "Flag": "New"
+  },
+  {
+    "id": "2603DD009",
+    "Notes": "2603DD009, 52/86, L?c An, 194 m2, 10x20, 100TC,CLN->ONT, POI: 26, 2750, 14.18 Tr/m2, Duong rong 7m, Hi?n-Phu?c H?i, 0985 738 070, AVM: 11.13 Tr/m2",
+    "lat": 10.45837,
+    "lng": 107.33311,
+    "Flag": "New"
+  },
+  {
+    "id": "2603XM004",
+    "Notes": "2603XM004, 149/68, Hòa H?i, 2697 m2, 45x60, g?p khúc duôi, 0TC,CLN->ONT, POI: 8, 2700, 1 Tr/m2, Duong rong 6m, Ngh?-Xuyên M?c, 0869 700 449, AVM: 3.79 Tr/m2
+Hình th? d?p, phân lô t?t, khu sang c?a Hòa H?i, giá m?m",
+    "lat": 10.60116,
+    "lng": 107.43083,
+    "Flag": "Flag"
+  },
+  {
+    "id": "2603XM005",
+    "Notes": "2603XM005, 150/150, Hòa H?i, 917 m2, 25x(31,44), nh?n duôi, 100TC,CLN->ONT, POI: 15, 2200, 2.4 Tr/m2, Duong rong 5m, 0937680380, AVM: 5.19 Tr/m2",
+    "lat": 10.59861,
+    "lng": 107.43514,
+    "Flag": "New"
+  },
+  {
+    "id": "2603DD010",
+    "Notes": "2603DD010, 34/46, Phu?c H?i, 1034 m2, 12x(46,52), 100TC,CLN->ONT, POI: 6, 4500, 4.35 Tr/m2, Duong rong 7m, Hi?n-Phu?c H?i, 0985 738 070, Khu d?u co Phu?c H?i, AVM: 3.65 Tr/m2",
+    "lat": 10.43995,
+    "lng": 107.263,
+    "Flag": "New"
+  },
+  {
+    "id": "2603BR001",
+    "Notes": "2603BR001, 32/1062, Long Phu?c, 1393 m2, 19,8x65, n? h?u 23,1, 120TC,CLN->ONT, POI: 12, 5800, 4.16 Tr/m2, Duong rong 6m, 0373105303, AVM: 3.65 Tr/m2",
+    "lat": 10.51449,
+    "lng": 107.2178,
+    "Flag": "New"
+  },
+  {
+    "id": "2603XM006",
+    "Notes": "2603XM006, 7/142, Bung Ri?ng, 520 m2, 10x52, 80TC,CLN->ONT, POI: 5, 1100, 2.12 Tr/m2, Duong rong 3m, Ngh?-Xuyên M?c, 0869 700 449, Khu v?ng dân, du?ng d?t, g?n tái d?nh cu Bung ri?ng. Ðã tách 2 th?a, AVM: 3.14 Tr/m2",
+    "lat": 10.54991,
+    "lng": 107.50394,
+    "Flag": "New"
+  },
+  {
+    "id": "2603PM001",
+    "Notes": "2603PM001, 25/603, Sông Xoài, 199 m2, 5x40, 100TC,CLN->ONT, POI: 12, 2000, 10.05 Tr/m2, Duong rong 10m, Thành - Resco, MT Võ Van ki?t, Cách nút giao BH-VT 8km, AVM: 8.91 Tr/m2",
+    "lat": 10.65461,
+    "lng": 107.15706,
+    "Flag": "New"
+  },
+  {
+    "id": "2603XM007",
+    "Notes": "2603XM007, 46/57 (App,chua tách)
+46/131 (S?, dã tách), Bông Trang, 287 m2, 7,5x37 n? h?u 7,9, 100TC,CLN->ONT, POI: 4, 950, 3.31 Tr/m2, Duong rong 4m, Ngh?-Xuyên M?c, 0869 700 449, Ðu?ng d?t nh?, khu v?ng dân, m?i tách th?a, ngay rìa khu có dân, AVM: 4.23 Tr/m2",
+    "lat": 10.553667,
+    "lng": 107.472528,
+    "Flag": "New"
+  },
+  {
+    "id": "2603XM008",
+    "Notes": "2603XM008, 51/351, Bông Trang, 506 m2, 15x33, 100TC,CLN->ONT, POI: 17, 1800, 3.56 Tr/m2, Duong rong 5m, Ngh?-Xuyên M?c, 0869 700 449, Khu Bàn c? Bông Trang, g?n UBND Xã, AVM: 5.19 Tr/m2",
+    "lat": 10.55096,
+    "lng": 107.45469,
+    "Flag": "New"
+  },
+  {
+    "id": "2603XM009",
+    "Notes": "2603XM009, 91/42, Tân Lâm, 11221 m2, (26-41)x(222-308) n? h?u, CLN->ONT, POI: 4, 12000, 1.07 Tr/m2, Duong rong 15m, Cu?ng - Xuyên M?c, 0332 225 336, V?ng dân, cách tr?i giam Xuyên m?c, nghia trang tr?i giam 500m, có thêm du?ng d?t nh? phía sau, di v? h? Bà tô 20km, AVM: 6.96 Tr/m2",
+    "lat": 10.73698,
+    "lng": 107.40775,
+    "Flag": "New"
+  },
+  {
+    "id": "2603XM010",
+    "Notes": "2603XM010, 146/37, Hòa H?i, 5604 m2, 88-89x34-86, BHK->ONT, POI: 7, 3800, 0.68 Tr/m2, Duong rong 5m, Minh tru?ng, g?n khu dân cu bàn c?, cách nghia trang 200m, AVM: 2.75 Tr/m2",
+    "lat": 10.60251,
+    "lng": 107.42979,
+    "Flag": "Flag"
+  },
+  {
+    "id": "2603XM011",
+    "Notes": "2603XM011, 158/38, Hòa H?i, 650 m2, 10x65, ONT,CLN->ONT, POI: 4, 1200, 1.85 Tr/m2, Duong rong 6m, M? Linh, Khu Phân lô khá di?n hình ? Hòa H?i, AVM: 5.19 Tr/m2",
+    "lat": 10.58759,
+    "lng": 107.43101,
+    "Flag": "New"
+  },
+  {
+    "id": "2603XM012",
+    "Notes": "2603XM012, 69/363, Phu?c Tân, 924 m2, 18-15x56-62. ngang 18, tóp h?u 15, CLN->ONT, POI: 13, 2550, 2.76 Tr/m2, Duong rong 5m, M? Linh, Cách h? Bà Tô 900m, AVM: 3.91 Tr/m2",
+    "lat": 10.55216,
+    "lng": 107.39856,
+    "Flag": "New"
+  },
+  {
+    "id": "2603XM013",
+    "Notes": "2603XM013, 35/76, Phu?c Tân, 1176 m2, 27-29x42, BHK->ONT, POI: 24, 4900, 4.17 Tr/m2, Duong rong 6m, M? Linh, Khu khá dông dân c?a Phu?c Tân, AVM: 6 Tr/m2",
+    "lat": 10.53341,
+    "lng": 107.38416,
+    "Flag": "New"
+  },
+  {
+    "id": "2603XM014",
+    "Notes": "2603XM014, 31/149, Xuyên M?c, 465 m2, 20x26-18, ONT,CLN->ONT, POI: 11, 1600, 3.44 Tr/m2, Duong rong 6m, Ph?m Ngh? B?t Ð?ng S?n, Hai m?t ti?n có nhà, AVM: 6.43 Tr/m2",
+    "lat": 10.57309,
+    "lng": 107.43762,
+    "Flag": "New"
+  },
+  {
+    "id": "2603XM015",
+    "Notes": "2603XM015, 110/88, Phu?c Thu?n, 916 m2, 23-21x44-41, CLN->ODT, POI: 7, 3300, 3.6 Tr/m2, Duong rong 3m, Ph?m Ngh? B?t Ð?ng S?n, Khu dân cu dông, AVM: 3.41 Tr/m2",
+    "lat": 10.49508,
+    "lng": 107.40893,
+    "Flag": "New"
+  },
+  {
+    "id": "2603XM016",
+    "Notes": "2603XM016, 37/746, Hòa Bình, 1136 m2, 30x38, ONT,CLN->ONT, POI: 11, 3300, 2.9 Tr/m2, Duong rong 5m, Ph?m Ngh? B?t Ð?ng S?n, Khu dân cu dông, AVM: 3.65 Tr/m2",
+    "lat": 10.61062,
+    "lng": 107.38023,
+    "Flag": "New"
+  },
+  {
+    "id": "2603XM017",
+    "Notes": "2603XM017, 52/247, 52/298, 52/266, 52/278, Bông Trang, 1987 m2, 33x70, ONT,CLN->ONT, POI: 12, 5400, 2.72 Tr/m2, Duong rong 6m, B?o Ði?n BÐS, 4 th?a tru?c và sau ghép l?i, AVM: 3.65 Tr/m2",
+    "lat": 10.54991,
+    "lng": 107.46067,
+    "Flag": "New"
+  },
+  {
+    "id": "2603XM018",
+    "Notes": "2603XM018, 98/221, Bàu Lâm, 2859 m2, 21x129, CLN->ONT, POI: 6, 1800, 0.63 Tr/m2, Duong rong 3m, Lê minh cu?ng, Tr?ng tiêu, g?n h? Sông ray
+T?m g?i là ti?m nang làm nông nghi?p. Ðu?ng d?t khá bé, AVM: 2.21 Tr/m2",
+    "lat": 10.68015,
+    "lng": 107.37939,
+    "Flag": "New"
+  },
+  {
+    "id": "2603PM002",
+    "Notes": "2603PM002, 25/427, H?c D?ch, 212 m2, 5X42, 60 TC,CLN->ONT,CLN, POI: 1, 1050, 4.95 Tr/m2, Duong rong 13m, Nhâm-Phú M?, 0903 149 027, Khu v?ng dân, CDT dã phân lô r?t nhi?u xung quanh, AVM: 12.26 Tr/m2",
+    "lat": 10.67028,
+    "lng": 107.13565,
+    "Flag": "New"
+  },
+  {
+    "id": "2603DD011",
+    "Notes": "2603DD011, 22/981, Láng Dài, 1001 m2, 18.2 X(53.9- 63), TC,CLN->ONT,CLN, POI: 3, 3300, 3.3 Tr/m2, Duong rong 6m, Huy - Long  d?t, Khu v?ng dân, 1 bên là b? kênh, AVM: 3.65 Tr/m2",
+    "lat": 10.5189,
+    "lng": 107.34457,
+    "Flag": "New"
+  },
+  {
+    "id": "2603PM003",
+    "Notes": "2603PM003, 36/125, H?c D?ch, 930 m2, 10x (93-94,8), 100TC,CLN->ONT, POI: 14, 6200, 6.67 Tr/m2, Duong rong 12m, Quý - Phú M?, Khu có dân cu, chua dông, Lô quá dài. MT MX - Ngãi Giao cu, AVM: 9.9 Tr/m2",
+    "lat": 10.65657,
+    "lng": 107.1367,
+    "Flag": "New"
+  },
+  {
+    "id": "2603BR002",
+    "Notes": "2603BR002, 45/1888, Hòa Long, 503 m2, 10x (51,5-51,4), 100TC,CLN->ONT,CLN, POI: 42, 5550, 11.03 Tr/m2, Duong rong 6m, Nguy?n Kính - Hòa Long BR, Khu dân cu dông dúc. Lên nút giao cao t?c Hòa Long 2km, AVM: 9.42 Tr/m2",
+    "lat": 10.51629,
+    "lng": 107.20516,
+    "Flag": "New"
+  },
+  {
+    "id": "2603BR003",
+    "Notes": "2603BR003, 8/987, Hòa Long, 595 m2, 10 X 59.5, 100TC,CLN->ONT,CLN, POI: 15, 2550, 4.29 Tr/m2, Duong rong 3m, Nguy?n Kính - Hòa Long BR, Khu dân cu dông dúc, nhung d?t phân lô chua có nhà. H?m quá bé, kh? nang Oto không v?a, AVM: 3.14 Tr/m2",
+    "lat": 10.52822,
+    "lng": 107.21481,
+    "Flag": "New"
+  },
+  {
+    "id": "2603BR004",
+    "Notes": "2603BR004, 5/1173, Hòa Long, 203 m2, 9X(22.24-23.03), 80TC,CLN->ONT,CLN, POI: 43, 3300, 16.26 Tr/m2, Duong rong 14m, Nguy?n Kính - Hòa Long BR, Khu dân cu dông dúc. Lên nút giao cao t?c 1km
+V? trí và xung quanh r?t d?p, AVM: 26.27 Tr/m2",
+    "lat": 10.52526,
+    "lng": 107.20214,
+    "Flag": "Flag"
+  },
+  {
+    "id": "2603BR005",
+    "Notes": "2603BR005, 78/177, Hòa Long, 275 m2, 7 x 40, 100TC,CLN->ONT,CLN, POI: 35, 2800, 10.18 Tr/m2, Duong rong 6m, Nguy?n Kính - Hòa Long BR, Ðông dân cu, Lên nút giao cao t?c Hòa Long 2,8km, AVM: 10.57 Tr/m2",
+    "lat": 10.52397,
+    "lng": 107.21463,
+    "Flag": "New"
+  },
+  {
+    "id": "2603BR006",
+    "Notes": "2603BR006, 65/46, Hòa Long, 2200 m2, 20.1x(111-112), 375TC,CLN->ONT,GT (24%), POI: 17, 18900, 8.59 Tr/m2, Duong rong 10m, Nguy?n Kính - Hòa Long BR, Qu?c l? 56, top h?u 20cm, dông dân cu, AVM: 4.81 Tr/m2",
+    "lat": 10.53586,
+    "lng": 107.20278,
+    "Flag": "New"
+  },
+  {
+    "id": "2603BR007",
+    "Notes": "2603BR007, 15/791, Hòa Long, 213 m2, (10.1-11,8)x(18.2-24.4), 80TC,CLN->ONT, POI: 24, 3450, 16.2 Tr/m2, Duong rong 10m, Nguy?n Kính - Hòa Long BR, S? 45/1794, nhung QH 15/791, lô góc theo QH2030, du?ng hi?n t?i 10 m tru?c, sau bên hông theo TL kho?ng 3m, AVM: 15.12 Tr/m2",
+    "lat": 10.51335,
+    "lng": 107.21117,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM001",
+    "Notes": "2604XM001, 158/52, Hòa H?i, 691 m2, 20x35, 100TC,CLN->ONT, POI: 4, 2050, 2.97 Tr/m2, Duong rong 5m, 0937680380, Ra 329 350m, AVM: 5.19 Tr/m2",
+    "lat": 10.5876,
+    "lng": 107.4316,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM002",
+    "Notes": "2604XM002, 147/139 (Ðã tách làm 2), Hòa H?i, 450 m2, 10x45, 100TC,CLN->ONT, POI: 7, 1350, 3 Tr/m2, Duong rong 5m, Giáp-0937680380, AVM: 6.43 Tr/m2",
+    "lat": 10.60672,
+    "lng": 107.43381,
+    "Flag": "New"
+  },
+  {
+    "id": "2603XM019",
+    "Notes": "2603XM019, 51/32, Hòa Hung, 2067 m2, 42x44, CLN->ONT, POI: 8, 3800, 1.84 Tr/m2, Duong rong 6m, Qu?c, Xuyên m?c, AVM: 3.65 Tr/m2",
+    "lat": 10.65568,
+    "lng": 107.38535,
+    "Flag": "New"
+  },
+  {
+    "id": "2603XM020",
+    "Notes": "2603XM020, 31/278, Bung Ri?ng, 1500 m2, 21x70, CLN->ONT,CLN, POI: 3, 3000, 2 Tr/m2, Duong rong 6m, Thu, Xuyên M?c, AVM: 3.65 Tr/m2",
+    "lat": 10.56312,
+    "lng": 107.48002,
+    "Flag": "New"
+  },
+  {
+    "id": "2603XM021",
+    "Notes": "2603XM021, 41/120, Bông Trang, 630 m2, 15x42, ONT,CLN->ONT, POI: 23, 2200, 3.49 Tr/m2, Duong rong 4m, SINH, Xuyên M?c, AVM: 5.61 Tr/m2",
+    "lat": 10.55288,
+    "lng": 107.45001,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM003",
+    "Notes": "2604XM003, 43/226, Bông Trang, 300 m2, 7x42, ONT,CLN->ONT, POI: 16, 1800, 6 Tr/m2, Duong rong 6m, Qu?c, Xuyên M?c, mi?ng 972 m2, tách ra 3 mi?ng nh?, có thêm du?ng phía sau, AVM: 6.43 Tr/m2",
+    "lat": 10.55381,
+    "lng": 107.45635,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM004",
+    "Notes": "2604XM004, 68/167, Hòa H?i, 1231 m2, 41x28, BHK->ONT, POI: 6, 2200, 1.79 Tr/m2, Duong rong 6m, Truong, Xuyên M?c, 2 m?t ti?n, AVM: 3.36 Tr/m2",
+    "lat": 10.63755,
+    "lng": 107.44729,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM005",
+    "Notes": "2604XM005, 159/79, Hòa H?i, 594.2 m2, 20X28, CLN->ONT, POI: 5, 3000, 5.05 Tr/m2, Duong rong 6m, Phát, Xuyên M?c, AVM: 4.78 Tr/m2",
+    "lat": 10.58693,
+    "lng": 107.432,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM006",
+    "Notes": "2604XM006, 73/116, Hòa H?i, 2003 m2, 22x97, CLN->ONT, POI: 7, 1900, 0.95 Tr/m2, Duong rong 4m, Tiên, Xuyên M?c, AVM: 2.4 Tr/m2",
+    "lat": 10.62566,
+    "lng": 107.4539,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM007",
+    "Notes": "2604XM007, 65/427, Hòa H?i, 1066 m2, 20x51, CLN->ONT, POI: 1, 1900, 1.78 Tr/m2, Duong rong 6m, Du?ng, Xuyên M?c, AVM: 3.65 Tr/m2",
+    "lat": 10.6506,
+    "lng": 107.44673,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM008",
+    "Notes": "2604XM008, 158/50, Hòa H?i, 1011 m2, 20x50, CLN->ONT, POI: 4, 1700, 1.68 Tr/m2, Duong rong 4m, Phuong, Xuyên M?c, AVM: 2.4 Tr/m2",
+    "lat": 10.5868,
+    "lng": 107.43085,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM009",
+    "Notes": "2604XM009, 159/406, Hòa H?i, 311 m2, 10x30, ONT,CLN->ONT, POI: 4, 1150, 3.7 Tr/m2, Duong rong 6m, Phuong, Xuyên M?c, AVM: 6.43 Tr/m2",
+    "lat": 10.58705,
+    "lng": 107.43193,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM010",
+    "Notes": "2604XM010, 150/190, Hòa H?i, 562 m2, 11x51, ONT,CLN->ONT, POI: 8, 1250, 2.22 Tr/m2, Duong rong 3m, Phuong, Xuyên M?c, AVM: 3.41 Tr/m2",
+    "lat": 10.60186,
+    "lng": 107.43365,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM011",
+    "Notes": "2604XM011, 73/101, Hòa H?i, 1214 m2, 18x66, HNK->ONT, POI: 9, 1555, 1.28 Tr/m2, Duong rong 5m, Phuong, Xuyên M?c, AVM: 3.65 Tr/m2",
+    "lat": 10.62653,
+    "lng": 107.45178,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM012",
+    "Notes": "2604XM012, 38/4, Hòa Hung, 434 m2, 10X42, CLN->ONT, POI: 9, 1900, 4.38 Tr/m2, Duong rong 6m, Du?ng, Xuyên M?c, AVM: 6.43 Tr/m2",
+    "lat": 10.66506,
+    "lng": 107.38135,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM013",
+    "Notes": "2604XM013, 36/36, Hòa Hung, 1160 m2, 29x38, CLN->ONT, POI: 10, 3750, 3.23 Tr/m2, Duong rong 6m, Th?ng, Xuyên M?c, AVM: 3.65 Tr/m2",
+    "lat": 10.66702,
+    "lng": 107.38581,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM014",
+    "Notes": "2604XM014, 45/271,272,273, Hòa Hung, 1533.4 m2, 37x40, ONT,CLN->ONT, POI: 26, 2700, 1.76 Tr/m2, Duong rong 3m, Th?ng, Xuyên M?c, AVM: 3.95 Tr/m2",
+    "lat": 10.65867,
+    "lng": 107.38393,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM015",
+    "Notes": "2604XM015, 56/83, Hòa Hung, 895 m2, 25x36, ONT,CLN->ONT, POI: 12, 4200, 4.69 Tr/m2, Duong rong 7m, M?nh, Xuyên M?c, AVM: 5.19 Tr/m2",
+    "lat": 10.64328,
+    "lng": 107.37806,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM016",
+    "Notes": "2604XM016, 51/225, Hòa Hung, 366 m2, 11x33, ONT,CLN->ONT, POI: 9, 1100, 3.01 Tr/m2, Duong rong 6m, Phuong, Xuyên M?c, AVM: 6.43 Tr/m2",
+    "lat": 10.65617,
+    "lng": 107.38495,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM017",
+    "Notes": "2604XM017, 36/166, Hòa Hung, 380 m2, 10x38, ONT,CLN->ONT, POI: 13, 1400, 3.68 Tr/m2, Duong rong 5m, Phuong, Xuyên M?c, AVM: 6.43 Tr/m2",
+    "lat": 10.66664,
+    "lng": 107.3828,
+    "Flag": "New"
+  },
+  {
+    "id": "2603BR011",
+    "Notes": "2603BR011, 24/220, Long Phu?c, 500 m2, 12.3X(42.8-42.6), TC,CLN->ONT,GT (8%), POI: 8, 2850, 5.7 Tr/m2, Duong rong 6m, Tr?n Xuân Th?- Long Phu?c, Khu ít dân cu, AVM: 5.19 Tr/m2",
+    "lat": 10.5333,
+    "lng": 107.22417,
+    "Flag": "New"
+  },
+  {
+    "id": "2603DD012",
+    "Notes": "2603DD012, 50/1067, Ð?t Ð?, 373 m2, 9x(39.7-39.3), 60TC,CLN->ONT, POI: 13, 2500, 6.7 Tr/m2, Duong rong 5m, Tr?n Xuân Th?- Long Phu?c, Khu dông dân cu, n? h?u 10, du?ng Tôn Ð?c Th?ng, v? phía du?ng Lê Du?n 300 dông dân cu, di ngu?c l?i và phía sau v?ng, cách bãi t?m An L?c 6 km, AVM: 5.92 Tr/m2",
+    "lat": 10.48478,
+    "lng": 107.2816,
+    "Flag": "New"
+  },
+  {
+    "id": "2603DD013",
+    "Notes": "2603DD013, 174/26, Ð?t Ð?, 129 m2, 5X26.2, 60TC,CLN->ONT, POI: 14, 1350, 10.47 Tr/m2, Duong rong 7m, Tr?n Xuân Th?- Long Phu?c, Khu có dân cu chua dông, du?ng Lê Thánh Tôn, bán chung 174/26, AVM: 6.23 Tr/m2",
+    "lat": 10.47766,
+    "lng": 107.25732,
+    "Flag": "New"
+  },
+  {
+    "id": "2603DD014",
+    "Notes": "2603DD014, 44/2, Phu?c H?i, 648 m2, 10 X (66-68), 100TC,CLN->ONT,GT (14%), POI: 10, 3800, 5.86 Tr/m2, Duong rong 4m, Tr?n Xuân Th?- Long Phu?c, Khu dông dân, cách b? bi?n 3km, AVM: 3.14 Tr/m2",
+    "lat": 10.43943,
+    "lng": 107.27324,
+    "Flag": "New"
+  },
+  {
+    "id": "2603DD015",
+    "Notes": "2603DD015, 205/94, Phu?c H?i, 1474 m2, (16-21.4)x(82.9-79), 160TC,CLN->ONT, POI: 5, 5800, 3.93 Tr/m2, Duong rong 8m, Tr?n Xuân Th?- Long Phu?c, S? khác,  tra c?u QH 41/94, tra c?u trên QH Phu?c H?i Long Ð?t. Khu ít dân cu, bi?n 4km, AVM: 5.22 Tr/m2",
+    "lat": 10.43748,
+    "lng": 107.26209,
+    "Flag": "New"
+  },
+  {
+    "id": "2603DD016",
+    "Notes": "2603DD016, 109/279, Ð?t Ð?, 103 m2, 5 x 21, 60TC,CLN->ONT,GT (13.3%), POI: 30, 1600, 15.53 Tr/m2, Duong rong 15m, Tr?n Xuân Th?- Long Phu?c, Ðu?ng Lê Du?n , dông dân cu, AVM: 20.5 Tr/m2",
+    "lat": 10.47661,
+    "lng": 107.27722,
+    "Flag": "New"
+  },
+  {
+    "id": "2604DD001",
+    "Notes": "2604DD001, 112/334, Ð?t Ð?, 200 m2, 10X20, 110TC,CLN->ONT, POI: 41, 2050, 10.25 Tr/m2, Duong rong 5m, Tr?n Xuân Th?- Long Phu?c, S? này tách ra t? 112/8 650 m2, khu dân cu dông dúc lô góc, 1/3 g?c ko b? du?ng dâm th?ng d?t, Tr?nh hoài Ð?c 5 và Châu Van Ti?p 3m, t? Châu Van ti?p ra VTS ch? 300m, AVM: 12.68 Tr/m2",
+    "lat": 10.47529,
+    "lng": 107.26952,
+    "Flag": "New"
+  },
+  {
+    "id": "2604DD002",
+    "Notes": "2604DD002, 50/1067, Ð?t Ð?, 373 m2, 9X39.3, 60TC,CLN->ONT, POI: 13, 2100, 5.63 Tr/m2, Duong rong 4m, Tr?n Xuân Th?- Long Phu?c, Khu có dân cu m?t ti?n Tôn Ð?c Th?ng, n? h?u 10m, AVM: 3.89 Tr/m2",
+    "lat": 10.48478,
+    "lng": 107.2816,
+    "Flag": "New"
+  },
+  {
+    "id": "2604BR001",
+    "Notes": "2604BR001, 6/587, Hòa Long, 257 m2, 10x26, 60TC,CLN->ONT, POI: 34, 2250, 8.75 Tr/m2, Duong rong 3m, Nguy?n Kính - Hòa Long BR, Ðu?ng 79 dông dân cu, AVM: 6.95 Tr/m2",
+    "lat": 10.52745,
+    "lng": 107.20508,
+    "Flag": "New"
+  },
+  {
+    "id": "2604BR002",
+    "Notes": "2604BR002, 28/721, Hòa Long, 259 m2, 7x37, 70TC,CLN->ONT,GT (41%), POI: 5, 1520, 5.87 Tr/m2, Duong rong 6m, Cao Danh- Hòa Long, Quá v?ng dân cu, AVM: 5.92 Tr/m2",
+    "lat": 10.54032,
+    "lng": 107.19247,
+    "Flag": "New"
+  },
+  {
+    "id": "2604BR003",
+    "Notes": "2604BR003, 43/650, Hòa Long, 100 m2, 5x20, 80TC,CLN->ONT, POI: 44, 1550, 15.5 Tr/m2, Duong rong 5m, Cao Danh- Hòa Long, Cách du?ng phan Dình Phùng 50 m ,  cách BV Bà R?a 1 KM, AVM: 11.88 Tr/m2",
+    "lat": 10.51536,
+    "lng": 107.19421,
+    "Flag": "New"
+  },
+  {
+    "id": "2604CD001",
+    "Notes": "2604CD001, 36/1578, Nghia Thành, 188 m2, 8x23, 80TC,CLN->ONT, POI: 9, 1350, 7.18 Tr/m2, Duong rong 7m, Cao Danh- Hòa Long, Khu ít dân cu, AVM: 6.77 Tr/m2",
+    "lat": 10.5621,
+    "lng": 107.21206,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM018",
+    "Notes": "2604XM018, 7/383, Phu?c Tân, 187 m2, 8x23, 100TC,CLN->ONT, POI: 18, 1200, 6.42 Tr/m2, Duong rong 2m, Giáp, Ðu?ng Xi mang bé quá, AVM: 4.45 Tr/m2",
+    "lat": 10.55844,
+    "lng": 107.38583,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM019",
+    "Notes": "2604XM019, 45/735, Phu?c Tân, 407 m2, 10x40, 80TC,CLN->ONT, POI: 1, 999, 2.45 Tr/m2, Duong rong 5m, Giáp, V?ng, AVM: 6.43 Tr/m2",
+    "lat": 10.57516,
+    "lng": 107.36355,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM020",
+    "Notes": "2604XM020, 36/403, Hòa Bình, 1002 m2, 13.5x75, CLN->ONT, POI: 2, 1590, 1.59 Tr/m2, Duong rong 5m, Giáp, V?ng, AVM: 3.36 Tr/m2",
+    "lat": 10.60752,
+    "lng": 107.37,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM021",
+    "Notes": "2604XM021, 100/99, Hòa H?i, 1340 m2, 25x47 n? h?u 30, 50TC,CLN->ONT, POI: 10, 2100, 1.57 Tr/m2, Duong rong 4m, L?c-Xuyên M?c, 0786 790 868, Ra 329 300m, AVM: 2.4 Tr/m2",
+    "lat": 10.59611,
+    "lng": 107.43968,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM022",
+    "Notes": "2604XM022, 143/45, Hòa H?i, 696 m2, 20x35, 100TC,CLN->ONT, POI: 2, 2900, 4.17 Tr/m2, Duong rong 5m, L?c-Xuyên M?c, 0786 790 868, AVM: 5.19 Tr/m2",
+    "lat": 10.6091,
+    "lng": 107.4309,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM023",
+    "Notes": "2604XM023, 147/234, Hòa H?i, 463 m2, 12x36, 100TC,CLN->ONT, POI: 10, 1440, 3.11 Tr/m2, Duong rong 6m, L?c-Xuyên M?c, 0786 790 868, Khu bàn c? Hòa H?i, AVM: 6.43 Tr/m2",
+    "lat": 10.60691,
+    "lng": 107.43488,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM024",
+    "Notes": "2604XM024, 51/349, Bông Trang, 589 m2, 19x32, hoi méo lu?n, 100TC,CLN->ONT, POI: 16, 2185, 3.71 Tr/m2, Duong rong 5m, Ngh?-Xuyên M?c, 0869 700 449, Khu bàn c? Bông Trang. Khá trung tâm, AVM: 5.19 Tr/m2",
+    "lat": 10.551,
+    "lng": 107.45498,
+    "Flag": "New"
+  },
+  {
+    "id": "2604BR004",
+    "Notes": "2604BR004, 62/67, Hòa Long, 2178 m2, 33x70, tóp h?u 29, 100TC,CLN->ONT, POI: 11, 12500, 5.74 Tr/m2, Duong rong 5m, Hùng-Bà R?a, 0917 250 439, K? bên GreenFiled, Lên nút giao cao t?c 2km, AVM: 2.75 Tr/m2",
+    "lat": 10.53966,
+    "lng": 107.20982,
+    "Flag": "New"
+  },
+  {
+    "id": "2604BR005",
+    "Notes": "2604BR005, 63/122, Hòa Long, 528 m2, 14x38, 100TC,CLN->ONT, POI: 18, 3700, 7.01 Tr/m2, Duong rong 4m, Sinh - Hòa Long, 0973 043 059, Lô k?t bên có nhà 4300
+Nhà ngh? k? bên bán 9m, 3200, 9,3tr/m2, AVM: 3.41 Tr/m2",
+    "lat": 10.54021,
+    "lng": 107.21375,
+    "Flag": "New"
+  },
+  {
+    "id": "2604BR006",
+    "Notes": "2604BR006, 24/545, Hòa Long, 3315 m2, 29x100, n? h?u 37, 200TC,CLN->ONT, POI: 10, 12000, 3.62 Tr/m2, Duong rong 7m, Sinh - Hòa Long, 0973 043 059, Có m?t du?ng nh? dâm nh?, g?n du?ng vào KCN, AVM: 3.65 Tr/m2",
+    "lat": 10.54675,
+    "lng": 107.20712,
+    "Flag": "New"
+  },
+  {
+    "id": "2604BR007",
+    "Notes": "2604BR007, 24/3569, Hòa Long, 308 m2, 14x22, 100TC,CLN->ONT, POI: 8, 2000, 6.49 Tr/m2, Duong rong 5m, Sinh - Hòa Long, 0973 043 059, AVM: 6.43 Tr/m2",
+    "lat": 10.54643,
+    "lng": 107.20645,
+    "Flag": "New"
+  },
+  {
+    "id": "2604BR008",
+    "Notes": "2604BR008, 1/809, Hòa Long, 793 m2, 19x40, 100TC,CLN->ONT, POI: 21, 5500, 6.94 Tr/m2, Duong rong 5m, Sinh - Hòa Long, 0973 043 059, Có 1 nhà c?p 4, AVM: 8.53 Tr/m2",
+    "lat": 10.53632,
+    "lng": 107.21195,
+    "Flag": "New"
+  },
+  {
+    "id": "2604BR009",
+    "Notes": "2604BR009, 3/498, 3/499, Hòa Long, 1402 m2, 9,3x70 móp d?u, 10x70, 100TC,CLN->ONT, POI: 34, 8000, 5.71 Tr/m2, Duong rong 6m, Sinh - Hòa Long, 0973 043 059, Ðu?ng tru?c 6m, du?ng sau 3m, du?ng tru?c hoi cong dâm vào lô d?t, AVM: 4.52 Tr/m2",
+    "lat": 10.53003,
+    "lng": 107.20819,
+    "Flag": "New"
+  },
+  {
+    "id": "2604DD003",
+    "Notes": "2604DD003, 23/580, Long Tân, 709 m2, (30-46)x18, nh?n d?u, 100TC,CLN->ONT, POI: 5, 2000, 2.82 Tr/m2, Duong rong 3m, Sinh - Hòa Long, 0973 043 059, G?n h? su?i môn, du?ng vào Bê tông bé quá, AVM: 2.57 Tr/m2",
+    "lat": 10.54801,
+    "lng": 107.27929,
+    "Flag": "New"
+  },
+  {
+    "id": "2604BR010",
+    "Notes": "2604BR010, 17/170, Long Toàn, 788 m2, 14x56, 100TC,CLN->ONT, POI: 80, 20800, 26.4 Tr/m2, Duong rong 5m, Phuong Garden, Trung Tâm, g?n công viên Bà R?a, nhà d?p, có h? boi, AVM: 11.94 Tr/m2",
+    "lat": 10.49965,
+    "lng": 107.19424,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM025",
+    "Notes": "2604XM025, 48/179, Phu?c Tân, 11612 m2, 84, n? h?u 95, sâu 140, 300TC,CLN->ONT, POI: 4, 11000, 0.95 Tr/m2, Duong rong 6m, Th?a - Bà R?a, 0912 868 339, N?m gi?a Phu?c Tân và Xuyên M?c. 60m ra du?ng dá B?c. 2km lên nút gaio caot?c LT-HT. Phù h?p mua ?, d?u tu dài h?n, AVM: 3.79 Tr/m2",
+    "lat": 10.57161,
+    "lng": 107.39765,
+    "Flag": "Flag"
+  },
+  {
+    "id": "2604BR011",
+    "Notes": "2604BR011, 8/515, Tân Hung, 995 m2, 12,3x72, n? h?u 15,3, 200TC,CLN->ONT, POI: 32, 5500, 5.53 Tr/m2, Duong rong 4m, Th?a - Bà R?a, 0912 868 339, AVM: 4.23 Tr/m2",
+    "lat": 10.53351,
+    "lng": 107.16909,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM027",
+    "Notes": "2604XM027, 23/231&23/384, Phu?c Tân, 535 m2, 19x25, 40TC,CLN->ONT, POI: 64, 4000, 7.48 Tr/m2, Duong rong 6m, Th?a - Bà R?a, 0912 868 339, 2 th?a 2MT, 900 ra trung tâm Bà Tô, AVM: 11.94 Tr/m2",
+    "lat": 10.54076,
+    "lng": 107.3936,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM028",
+    "Notes": "2604XM028, 6/6, Phu?c Tân, 1028 m2, 25x38, 300TC,CLN->ONT, POI: 11, 4500, 4.38 Tr/m2, Duong rong 6m, Th?a - Bà R?a, 0912 868 339, Ðu?ng d?p, khu d?p, AVM: 3.79 Tr/m2",
+    "lat": 10.56547,
+    "lng": 107.3867,
+    "Flag": "Flag"
+  },
+  {
+    "id": "2604XM029",
+    "Notes": "2604XM029, 54/113, Phu?c Tân, 5139 m2, 118m m? ti?n, hình L, 100TC,CLN->ONT, POI: 8, 8000, 1.56 Tr/m2, Duong rong 4m, Th?a - Bà R?a, 0912 868 339, V?ng dân, AVM: 1.81 Tr/m2",
+    "lat": 10.56826,
+    "lng": 107.39566,
+    "Flag": "New"
+  },
+  {
+    "id": "2604PM001",
+    "Notes": "2604PM001, 56/641, H?c D?ch, 1867 m2, 22x70, n? h?u 41, 100TC,CLN->ONT, POI: 17, 11500, 6.16 Tr/m2, Duong rong 9m, UNK, UNK, Mt du?ng d? phóng l?n, du?ng hi?n h?u 9m, Cao t?c BHVT 4km, AVM: 3.93 Tr/m2",
+    "lat": 10.63139,
+    "lng": 107.11337,
+    "Flag": "New"
+  },
+  {
+    "id": "2604DD004",
+    "Notes": "2604DD004, 38/1426, Phu?c Long Th?, 322 m2, 10x (33,2-39.0), 100TC,CLN->ONT, POI: 3, 3100, 9.63 Tr/m2, Duong rong 16m, Cao Danh- Hòa Long, Ðu?ng tránh QL55, ít dân cu, cách giao QL55 500m, cách khu CN d?t d? 3 km, ra nhà luu ni?m Võ Th? Sáu 3,6 km, AVM: 13.32 Tr/m2",
+    "lat": 10.50293,
+    "lng": 107.28809,
+    "Flag": "New"
+  },
+  {
+    "id": "2604LD001",
+    "Notes": "2604LD001, 117/205, Long Ði?n, 80 m2, 5x (15.7-17.7), 60TC,CLN->ONT,GT(12.4%), POI: 81, 1900, 23.75 Tr/m2, Duong rong 15m, Tr?n Xuân Th?- Long Phu?c, QH 2 m?t ti?n, m?t ti?n còn l?i 3m , 350 m ra du?ng Võ th? Sáu , ra Ph?m H?u Chí-->VTS, khu dân cu dông dúc, AVM: 33.14 Tr/m2",
+    "lat": 10.48111,
+    "lng": 107.20918,
+    "Flag": "New"
+  },
+  {
+    "id": "2412BR001",
+    "Notes": "2412BR001, 25/167, Long Tâm, 996 m2, 20x50, 100TC,CLN->ONT, POI: 37, 17000, 17.07 Tr/m2, Duong rong 30m, UNK, UNK, MT Võ Th? sáu, AVM: 22.57 Tr/m2",
+    "lat": 10.49648,
+    "lng": 107.20876,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM030",
+    "Notes": "2604XM030, 129/328, Hòa H?i, 625 m2, 15x41, 80TC,CLN->ONT, POI: 16, 1400, 2.24 Tr/m2, Duong rong 4m, Ngh?-Xuyên M?c, 0869 700 449, AVM: 3.41 Tr/m2",
+    "lat": 10.63325,
+    "lng": 107.45004,
+    "Flag": "New"
+  },
+  {
+    "id": "2604NT001",
+    "Notes": "2604NT001, 27/384, Vinh Thanh, 970 m2, 20x44, n? h?u 24, 90TC,CLN->ONT, POI: 46, 9000, 9.28 Tr/m2, Duong rong 2m, Thu?n-Nhon Tr?ch, 0907 353 383, Ðu?ng r?t bé, ch? kh?ong 2m, AVM: NA Tr/m2",
+    "lat": 10.68593,
+    "lng": 106.8431,
+    "Flag": "New"
+  },
+  {
+    "id": "2604DD005",
+    "Notes": "2604DD005, 62/573, Ð?t Ð?, 467 m2, 10x50, 100TC,CLN->ONT, POI: 21, 4800, 10.28 Tr/m2, Duong rong 35m, Hi?n-Phu?c H?i, 0985 738 070, Mt 44A, AVM: 24.79 Tr/m2",
+    "lat": 10.4673,
+    "lng": 107.27567,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM031",
+    "Notes": "2604XM031, 22/295, Xuyên M?c, 1027 m2, 14x60, 100TC,CLN->ONT, POI: 28, 3600, 3.51 Tr/m2, Duong rong 4m, Ngh?-Xuyên M?c, 0869 700 449, 2MT h?m khá bé, ra 329 150m, có nhà, AVM: 3.95 Tr/m2",
+    "lat": 10.55286,
+    "lng": 107.42082,
+    "Flag": "New"
+  },
+  {
+    "id": "2604DD008",
+    "Notes": "2604DD008, 5/729, Long Tân, 1609 m2, 35x (41-53), 100TC,CLN->ONT,GT (15%), POI: 1, 2500, 1.55 Tr/m2, Duong rong 5m, Hùng- Ð?t Ð?, Khu không có dân  cu, g?n h?,  xung  quanh  dã phân  th?a nh?, môi  gi?i g?i  CV  b?n  du  thuy?n 3000  t?  cách 200m, ch?  dag  vu?ng h?  so  n? NH  còn thuong  lu?ng, AVM: 2.75 Tr/m2",
+    "lat": 10.56537,
+    "lng": 107.2656,
+    "Flag": "New"
+  },
+  {
+    "id": "2604NT002",
+    "Notes": "2604NT002, 53/451, Vinh Thanh, 607 m2, 16x37, 100TC,CLN->ONT, POI: 34, 5463, 9 Tr/m2, Duong rong 4m, Thành-Vinh Thanh, 0937 097 571, H?m hi?n h?u Vinh Thanh, ra nút giao cao t?c 400m, AVM: 5.82 Tr/m2",
+    "lat": 10.67816,
+    "lng": 106.86393,
+    "Flag": "New"
+  },
+  {
+    "id": "2604NT003",
+    "Notes": "2604NT003, 54/134, Vinh Thanh, 967 m2, 22x42, n? h?u 24, 100TC,CLN->ONT, POI: 46, 12000, 12.41 Tr/m2, Duong rong 4m, Thành-Vinh Thanh, 0937 097 571, H?m hi?n h?u Vinh Thanh, ra nút giao cao t?c 400m, AVM: 6.99 Tr/m2",
+    "lat": 10.67705,
+    "lng": 106.86582,
+    "Flag": "New"
+  },
+  {
+    "id": "2604BR012",
+    "Notes": "2604BR012, 29/117, Long Phu?c, 2384 m2, 50x45, LN->ONT, POI: 9, 12500, 5.24 Tr/m2, Duong rong 20m, Hùng-Bà R?a, 0917 250 439, MT HL3, cách ngã tu DT52 800m, nút giao Hòa Long 5km, AVM: 9.66 Tr/m2",
+    "lat": 10.52248,
+    "lng": 107.23443,
+    "Flag": "Flag"
+  },
+  {
+    "id": "2604NT004",
+    "Notes": "2604NT004, 11/71, Vinh Thanh, 2953 m2, 39x60,108, nh?n d?u, 100TC,CLN->ONT, POI: 39, 88590, 30 Tr/m2, Duong rong 100m, Thu?n-Nhon Tr?ch, 0907 353 383, Mt25C, cách Hùng Vuong 150m, AVM: 15.29 Tr/m2",
+    "lat": 10.69317,
+    "lng": 106.83352,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM033",
+    "Notes": "2604XM033, 112/6,112/12, Tân Lâm, 9276 m2, Ch? T, CLN->CLN, POI: 0, 5900, 0.64 Tr/m2, Duong rong 6m, Hùng-Bà R?a, 0917 250 439, Không có du?ng vào, mua du?ng vào, quy ho?ch d?t nông nghi?p. Có farm stay - d?ng t?m b? trên d?t, AVM: 2.75 Tr/m2",
+    "lat": 10.69628,
+    "lng": 107.43369,
+    "Flag": "New"
+  },
+  {
+    "id": "2604NT006",
+    "Notes": "2604NT006, 12/27, Vinh Thanh, 407 m2, 12x35, nh?n d?u, 100TC,CLN->ONT, POI: 30, 14245, 35 Tr/m2, Duong rong 100m, Thu?n-Nhon Tr?ch, 0907 353 383, AVM: 26.93 Tr/m2",
+    "lat": 10.69349,
+    "lng": 106.84069,
+    "Flag": "New"
+  },
+  {
+    "id": "2604XM034",
+    "Notes": "2604XM034, 36/218, Hòa Bình, 3424 m2, 53x84, khuy?t h?u, ,CLN->ONT, POI: 5, 6500, 1.9 Tr/m2, Duong rong 5m, UNK, UNK, Khu khá v?ng dân, AVM: 3.79 Tr/m2",
+    "lat": 10.60908,
+    "lng": 107.37203,
+    "Flag": "New"
   }
 ]

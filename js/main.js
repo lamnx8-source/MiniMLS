@@ -10,7 +10,6 @@ import {
   resetFilters
 } from "./state.js";
 import { locateUser } from "./locate.js";
-import { applyListingFilters } from "./filters.js";
 
 // DOM refs
 const baseLayerSelect = document.getElementById("baseLayerSelect");
@@ -28,15 +27,100 @@ const filterRoadWidthMin = document.getElementById("filterRoadWidthMin");
 const filterPoiMin = document.getElementById("filterPoiMin");
 const filterAreaMin = document.getElementById("filterAreaMin");
 
+/**
+ * Chuẩn hóa 1 record listing theo format JSON mới:
+ * {
+ *   id: "...",
+ *   Notes: "...",
+ *   lat: 10.44,
+ *   lng: 107.27,
+ *   Flag: "New"
+ * }
+ *
+ * Hàm này giúp:
+ * - ép lat/lng thành number
+ * - giữ an toàn nếu thiếu field
+ * - tạo object sạch trước khi render
+ */
+function normalizeListing(item) {
+  const lat = Number(item?.lat);
+  const lng = Number(item?.lng);
+
+  return {
+    id: item?.id ?? "",
+    Notes: item?.Notes ?? "",
+    Flag: item?.Flag ?? "",
+    lat,
+    lng
+  };
+}
+
+/**
+ * Kiểm tra listing có hợp lệ để vẽ marker không
+ */
+function isValidListing(item) {
+  return Number.isFinite(item.lat) && Number.isFinite(item.lng);
+}
+
+/**
+ * Filter logic tạm thời để map vẫn chạy với JSON mới.
+ *
+ * Lưu ý:
+ * - JSON hiện tại chưa có Time / UnitPrice / RoadWidth / POI / Area
+ * - nên các filter box hiện có sẽ chỉ hoạt động theo kiểu:
+ *   + nếu để trống => bỏ qua
+ *   + nếu nhập gì đó => tìm keyword trong id / Notes / Flag
+ *
+ * Nghĩa là:
+ * - chưa phải filter số chuẩn
+ * - nhưng không làm map lỗi
+ * - vẫn tận dụng được các ô filter hiện tại
+ */
+function applySimpleFilters(listings, filters) {
+  return listings.filter((item) => {
+    // chỉ lấy record có tọa độ hợp lệ
+    if (!isValidListing(item)) return false;
+
+    const idText = String(item.id || "").toLowerCase();
+    const notesText = String(item.Notes || "").toLowerCase();
+    const flagText = String(item.Flag || "").toLowerCase();
+
+    const searchTexts = [
+      String(filters.timeMax || "").trim().toLowerCase(),
+      String(filters.unitPriceMax || "").trim().toLowerCase(),
+      String(filters.roadWidthMin || "").trim().toLowerCase(),
+      String(filters.poiMin || "").trim().toLowerCase(),
+      String(filters.areaMin || "").trim().toLowerCase()
+    ].filter(Boolean);
+
+    // Nếu tất cả ô filter đều rỗng => cho qua
+    if (searchTexts.length === 0) return true;
+
+    // Mỗi ô filter hiện coi như 1 keyword cần match
+    // keyword được phép xuất hiện trong id / Notes / Flag
+    return searchTexts.every((keyword) => {
+      return (
+        idText.includes(keyword) ||
+        notesText.includes(keyword) ||
+        flagText.includes(keyword)
+      );
+    });
+  });
+}
+
 async function init() {
   try {
     createMap("map");
 
-    const listings = await loadListings("../data/listings.json");
+    const listingsRaw = await loadListings("../data/listings.json");
+    const listings = Array.isArray(listingsRaw)
+      ? listingsRaw.map(normalizeListing)
+      : [];
+
     setListings(listings);
+    setFilteredListings(listings);
 
     render();
-
     bindEvents();
 
     console.log("MiniMLS V1 initialized successfully.");
@@ -47,12 +131,29 @@ async function init() {
 }
 
 function bindEvents() {
-  baseLayerSelect.addEventListener("change", onBaseLayerChange);
-  reloadBtn.addEventListener("click", onReloadClick);
-  locateBtn.addEventListener("click", onLocateClick);
-  toggleFiltersBtn.addEventListener("click", onToggleFiltersClick);
-  applyFiltersBtn.addEventListener("click", onApplyFiltersClick);
-  clearFiltersBtn.addEventListener("click", onClearFiltersClick);
+  if (baseLayerSelect) {
+    baseLayerSelect.addEventListener("change", onBaseLayerChange);
+  }
+
+  if (reloadBtn) {
+    reloadBtn.addEventListener("click", onReloadClick);
+  }
+
+  if (locateBtn) {
+    locateBtn.addEventListener("click", onLocateClick);
+  }
+
+  if (toggleFiltersBtn) {
+    toggleFiltersBtn.addEventListener("click", onToggleFiltersClick);
+  }
+
+  if (applyFiltersBtn) {
+    applyFiltersBtn.addEventListener("click", onApplyFiltersClick);
+  }
+
+  if (clearFiltersBtn) {
+    clearFiltersBtn.addEventListener("click", onClearFiltersClick);
+  }
 }
 
 function render() {
@@ -68,8 +169,14 @@ function onBaseLayerChange(event) {
 
 async function onReloadClick() {
   try {
-    const listings = await loadListings("../data/listings.json");
+    const listingsRaw = await loadListings("../data/listings.json");
+    const listings = Array.isArray(listingsRaw)
+      ? listingsRaw.map(normalizeListing)
+      : [];
+
     setListings(listings);
+    setFilteredListings(listings);
+
     render();
   } catch (error) {
     console.error("Reload error:", error);
@@ -82,19 +189,23 @@ function onLocateClick() {
 }
 
 function onToggleFiltersClick() {
-  filterPanel.classList.toggle("hidden");
+  if (filterPanel) {
+    filterPanel.classList.toggle("hidden");
+  }
 }
 
 function onApplyFiltersClick() {
-  setFilters({
-    timeMax: filterTimeMax.value,
-    unitPriceMax: filterUnitPriceMax.value,
-    roadWidthMin: filterRoadWidthMin.value,
-    poiMin: filterPoiMin.value,
-    areaMin: filterAreaMin.value
-  });
+  const nextFilters = {
+    timeMax: filterTimeMax ? filterTimeMax.value : "",
+    unitPriceMax: filterUnitPriceMax ? filterUnitPriceMax.value : "",
+    roadWidthMin: filterRoadWidthMin ? filterRoadWidthMin.value : "",
+    poiMin: filterPoiMin ? filterPoiMin.value : "",
+    areaMin: filterAreaMin ? filterAreaMin.value : ""
+  };
 
-  const filtered = applyListingFilters(state.listings, state.filters);
+  setFilters(nextFilters);
+
+  const filtered = applySimpleFilters(state.listings, state.filters);
   setFilteredListings(filtered);
 
   render();
@@ -103,11 +214,11 @@ function onApplyFiltersClick() {
 function onClearFiltersClick() {
   resetFilters();
 
-  filterTimeMax.value = "";
-  filterUnitPriceMax.value = "";
-  filterRoadWidthMin.value = "";
-  filterPoiMin.value = "";
-  filterAreaMin.value = "";
+  if (filterTimeMax) filterTimeMax.value = "";
+  if (filterUnitPriceMax) filterUnitPriceMax.value = "";
+  if (filterRoadWidthMin) filterRoadWidthMin.value = "";
+  if (filterPoiMin) filterPoiMin.value = "";
+  if (filterAreaMin) filterAreaMin.value = "";
 
   setFilteredListings(state.listings);
   render();

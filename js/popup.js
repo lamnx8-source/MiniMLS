@@ -1,70 +1,37 @@
-export function createListingPopupHtml(item) {
-  const id = safe(item.id);
-  const name = safe(item.name || item.id || "No name");
-  const unitPrice = safeValue(item.unitPrice);
-  const roadWidth = safeValue(item.roadWidth);
-  const poi = safeValue(item.poi);
-  const area = safeValue(item.area);
+export function createListingPopupHtml(listing) {
+  console.log("POPUP listing =", listing);
+  console.log("POPUP status =", listing?.Status);
 
-  const mapsUrl =
-    item.mapsUrl ||
-    `https://www.google.com/maps?q=${encodeURIComponent(item.lat)},${encodeURIComponent(item.lng)}`;
+  const id = listing?.id || "";
+  const notes = listing?.Notes || "";
+  const status = listing?.Status || "";
+  const folderUrl = listing?.FolderURL || "";
+  const lat = Number(listing?.lat);
+  const lng = Number(listing?.lng);
 
-  const folderUrl = item.folderUrl || "#";
+  const googleMapsUrl =
+    Number.isFinite(lat) && Number.isFinite(lng)
+      ? `https://www.google.com/maps?q=${lat},${lng}`
+      : "";
 
   return `
-    <div class="popup-content">
-      <div class="popup-title">${name}</div>
+    <div class="popup-card">
+      <div><strong>${id}</strong></div>
+      <div>Status: ${status}</div>
+      <hr>
+      <div>${String(notes).replace(/\n/g, "<br>")}</div>
 
-      <div class="popup-grid">
-        <div class="popup-label">ID</div>
-        <div>${id}</div>
+      ${
+        googleMapsUrl
+          ? `<br><a class="popup-btn" href="${googleMapsUrl}" target="_blank">📍 Open Google Maps</a>`
+          : ""
+      }
 
-        <div class="popup-label">UnitPrice</div>
-        <div>${unitPrice}</div>
-
-        <div class="popup-label">RoadWidth</div>
-        <div>${roadWidth}</div>
-
-        <div class="popup-label">POI</div>
-        <div>${poi}</div>
-
-        <div class="popup-label">Area</div>
-        <div>${area}</div>
-      </div>
-
-      <div class="popup-actions">
-        <a class="popup-btn" href="${mapsUrl}" target="_blank" rel="noopener noreferrer">
-          Google Maps
-        </a>
-
-        <a class="popup-btn" href="${folderUrl}" target="_blank" rel="noopener noreferrer">
-          Open Folder
-        </a>
-      </div>
+      ${
+        folderUrl
+          ? `<a class="popup-btn" href="${folderUrl}" target="_blank">📁 Open Folder</a>`
+          : ""
+      }
     </div>
   `;
-}
-
-function safe(value) {
-  if (value === null || value === undefined || value === "") {
-    return "-";
-  }
-  return escapeHtml(String(value));
-}
-
-function safeValue(value) {
-  if (value === null || value === undefined || value === "") {
-    return "-";
-  }
-  return escapeHtml(String(value));
-}
-
-function escapeHtml(str) {
-  return str
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;")
-    .replaceAll("'", "&#39;");
 }

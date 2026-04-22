@@ -28,19 +28,14 @@ const filterPoiMin = document.getElementById("filterPoiMin");
 const filterAreaMin = document.getElementById("filterAreaMin");
 
 /**
- * Chuẩn hóa 1 record listing theo format JSON mới:
+ * Chuẩn hóa 1 record listing theo format JSON:
  * {
  *   id: "...",
  *   Notes: "...",
  *   lat: 10.44,
  *   lng: 107.27,
- *   Flag: "New"
+ *   Status: "New"
  * }
- *
- * Hàm này giúp:
- * - ép lat/lng thành number
- * - giữ an toàn nếu thiếu field
- * - tạo object sạch trước khi render
  */
 function normalizeListing(item) {
   const lat = Number(item?.lat);
@@ -49,7 +44,8 @@ function normalizeListing(item) {
   return {
     id: item?.id ?? "",
     Notes: item?.Notes ?? "",
-    Flag: item?.Flag ?? "",
+    Status: item?.Status ?? "",     // ✅ chuẩn hóa đúng field
+    FolderURL: item?.FolderURL ?? "",
     lat,
     lng
   };
@@ -63,27 +59,15 @@ function isValidListing(item) {
 }
 
 /**
- * Filter logic tạm thời để map vẫn chạy với JSON mới.
- *
- * Lưu ý:
- * - JSON hiện tại chưa có Time / UnitPrice / RoadWidth / POI / Area
- * - nên các filter box hiện có sẽ chỉ hoạt động theo kiểu:
- *   + nếu để trống => bỏ qua
- *   + nếu nhập gì đó => tìm keyword trong id / Notes / Flag
- *
- * Nghĩa là:
- * - chưa phải filter số chuẩn
- * - nhưng không làm map lỗi
- * - vẫn tận dụng được các ô filter hiện tại
+ * Filter tạm (keyword-based)
  */
 function applySimpleFilters(listings, filters) {
   return listings.filter((item) => {
-    // chỉ lấy record có tọa độ hợp lệ
     if (!isValidListing(item)) return false;
 
     const idText = String(item.id || "").toLowerCase();
     const notesText = String(item.Notes || "").toLowerCase();
-    const flagText = String(item.Flag || "").toLowerCase();
+    const statusText = String(item.Status || "").toLowerCase(); // ✅ sửa
 
     const searchTexts = [
       String(filters.timeMax || "").trim().toLowerCase(),
@@ -93,16 +77,13 @@ function applySimpleFilters(listings, filters) {
       String(filters.areaMin || "").trim().toLowerCase()
     ].filter(Boolean);
 
-    // Nếu tất cả ô filter đều rỗng => cho qua
     if (searchTexts.length === 0) return true;
 
-    // Mỗi ô filter hiện coi như 1 keyword cần match
-    // keyword được phép xuất hiện trong id / Notes / Flag
     return searchTexts.every((keyword) => {
       return (
         idText.includes(keyword) ||
         notesText.includes(keyword) ||
-        flagText.includes(keyword)
+        statusText.includes(keyword) // ✅ sửa
       );
     });
   });

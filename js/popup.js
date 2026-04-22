@@ -2,6 +2,7 @@ export function createListingPopupHtml(listing) {
   console.log("POPUP listing =", listing);
   console.log("POPUP status =", listing?.Status);
 
+  
   const id = listing?.id || "";
   const notes = listing?.Notes || "";
   const status = listing?.Status || "";

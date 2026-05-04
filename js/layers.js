@@ -124,4 +124,5 @@ function isValidListing(item) {
     !Number.isNaN(Number(item.lat)) &&
     !Number.isNaN(Number(item.lng))
   );
+  
 }

@@ -2357,7 +2357,7 @@
     "lat": 10.59611,
     "lng": 107.43968,
     "FolderURL": "1WMpWNm9jDoyZmE1mXIB3afUtBmKpBNL8",
-    "Status": "New"
+    "Status": "Flag"
   },
   {
     "id": "2604XM022",
@@ -3100,6 +3100,62 @@
     "Notes": "2604DD021, 69/98, Phước Hội, 2009 m2, 34x45, 200TC,CLN->ONT,CLN, POI: 7, 8500, 4.23 Tr/m2, Road width 4m, Trần Xuân Thụ- Long Phước, 200  m  ra  đường  VT-C, 1  K m  chim  bay  ra  biển  Lộc  Ann,  đườnng  đi  vo2nng vèo  2  km,  2  mặt  tiền hẻm,  bán  chunng  với  các  thửa  69/95,  69/96  (69/97;  69//99) tổng  DT  3  sổ  mới 2009  m2. Hìng dáng kỳ dị, sâu bên trong, AVM: 0 Tr/m2",
     "lat": 10.45139,
     "lng": 107.31252,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605XM001",
+    "Notes": "2605XM001, 94/25, Hòa Hội, 1943 m2, 57x33, 100TC,CLN->ONT, POI: 9, 3500, 1.8 Tr/m2, Road width 4m, Cúc - Phước Tân, 0366 696 539, AVM: 0 Tr/m2",
+    "lat": 10.60229,
+    "lng": 107.44171,
+    "FolderURL": "",
+    "Status": "Flag"
+  },
+  {
+    "id": "2605XM002",
+    "Notes": "2605XM002, 144/3, Hòa Hội, 3000 m2, 54x55, 100TC,CLN->ONT, POI: 2, 5940, 1.98 Tr/m2, Road width 6m, Cúc - Phước Tân, 0366 696 539, Cắt 3 sào từ thữa lơn 4,7 sào, 11otr/m ngang, AVM: 0 Tr/m2",
+    "lat": 10.61195,
+    "lng": 107.4334,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605XM003",
+    "Notes": "2605XM003, 53/281, Bông Trang, 555 m2, 28x(16,22), 50TC,CLN->ONT, POI: 20, 1450, 2.61 Tr/m2, Road width 3.5m, Nghị-Xuyên Mộc, 0869 700 449, Hẻm bé, cách Ql55 50m, AVM: 0 Tr/m2",
+    "lat": 10.55231,
+    "lng": 107.46473,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2505XM002",
+    "Notes": "2505XM002, 31/211, Bưng Riềng, 373 m2, (25+6)x10, 100TC,CLN->ONT, POI: 9, 800, 2.14 Tr/m2, Road width 3m, Nghị-Xuyên Mộc, 0869 700 449, Hẻm BT bé, ngoài khu bàn cờ Bưng Riềng, AVM: 0 Tr/m2",
+    "lat": 10.56218,
+    "lng": 107.48662,
+    "FolderURL": "",
+    "Status": "Sold"
+  },
+  {
+    "id": "2605XM005",
+    "Notes": "2605XM005, 34/43, Hòa Hưng, 2582 m2, 90x(25,32), 100TC,CLN->ONT, POI: 13, 5500, 2.13 Tr/m2, Road width 3m, Nghị-Xuyên Mộc, 0869 700 449, Hẻm BT nhỏ, 300m ra 328, AVM: 0 Tr/m2",
+    "lat": 10.67298,
+    "lng": 107.38412,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605XM006",
+    "Notes": "2605XM006, 163/35, Hòa Hội, 1074 m2, 18x60, CLN->ONT, POI: 4, 1550, 1.44 Tr/m2, Road width 5m, Nghị-Xuyên Mộc, 0869 700 449, Tách ra từ thửa 105/9, Phía sau có suối, AVM: 0 Tr/m2",
+    "lat": 10.58613,
+    "lng": 107.42975,
+    "FolderURL": "",
+    "Status": "Drop"
+  },
+  {
+    "id": "2605XM007",
+    "Notes": "2605XM007, 153/132, Hòa Hội, 2486 m2, 22x100, 100TC,CLN->ONT, POI: 12, 3800, 1.53 Tr/m2, Road width 4m, Nghị-Xuyên Mộc, 0869 700 449, 250m ra 329, AVM: 0 Tr/m2",
+    "lat": 10.59768,
+    "lng": 107.43442,
     "FolderURL": "",
     "Status": "New"
   }

@@ -92,9 +92,26 @@ export function renderListingsLayer(listings) {
       icon: getMarkerIcon(item.status || item.Status),
     });
 
-    marker.bindPopup(createListingPopupHtml(item), {
-      maxWidth: 280,
+  marker.bindPopup(createListingPopupHtml(item), {
+  maxWidth: 280,
+});
+
+marker.on("popupopen", function (e) {
+  const popupEl = e.popup.getElement();
+
+  if (popupEl) {
+    L.DomEvent.disableClickPropagation(popupEl);
+    L.DomEvent.disableScrollPropagation(popupEl);
+
+    const links = popupEl.querySelectorAll("a.popup-btn");
+
+    links.forEach((link) => {
+      L.DomEvent.on(link, "click", function (ev) {
+        L.DomEvent.stopPropagation(ev);
+      });
     });
+  }
+});
 
     marker.addTo(listingsLayerGroup);
     bounds.extend([lat, lng]);

@@ -176,3 +176,28 @@ body {
     width: 320px;
   }
 }
+
+.topbar {
+  position: relative;
+  z-index: 500;
+}
+
+#map {
+  position: relative;
+  z-index: 1;
+}
+
+.leaflet-popup-pane {
+  z-index: 2000 !important;
+}
+
+.leaflet-popup {
+  z-index: 2001 !important;
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-content,
+.popup-card,
+.popup-btn {
+  pointer-events: auto !important;
+}

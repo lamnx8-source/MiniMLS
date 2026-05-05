@@ -11,7 +11,8 @@ import {
 } from "./state.js";
 import { locateUser } from "./locate.js";
 
-// DOM refs
+const LISTINGS_URL = "./data/listings.json";
+
 const baseLayerSelect = document.getElementById("baseLayerSelect");
 const reloadBtn = document.getElementById("reloadBtn");
 const locateBtn = document.getElementById("locateBtn");
@@ -27,47 +28,39 @@ const filterRoadWidthMin = document.getElementById("filterRoadWidthMin");
 const filterPoiMin = document.getElementById("filterPoiMin");
 const filterAreaMin = document.getElementById("filterAreaMin");
 
-/**
- * Chuẩn hóa 1 record listing theo format JSON:
- * {
- *   id: "...",
- *   Notes: "...",
- *   lat: 10.44,
- *   lng: 107.27,
- *   Status: "New"
- * }
- */
 function normalizeListing(item) {
-  const lat = Number(item?.lat);
-  const lng = Number(item?.lng);
+  const lat = Number(item?.lat ?? item?.Lat);
+  const lng = Number(item?.lng ?? item?.Lng);
+
+  const folderUrl =
+    item?.FolderURL ??
+    item?.FolderUrl ??
+    item?.folderURL ??
+    item?.folderUrl ??
+    item?.folder_url ??
+    "";
 
   return {
-    id: item?.id ?? "",
-    Notes: item?.Notes ?? "",
-    Status: item?.Status ?? "",     // ✅ chuẩn hóa đúng field
-    FolderURL: item?.FolderURL ?? "",
+    id: item?.id ?? item?.ID ?? "",
+    Notes: item?.Notes ?? item?.notes ?? "",
+    Status: item?.Status ?? item?.status ?? "",
+    FolderURL: String(folderUrl).trim(),
     lat,
     lng
   };
 }
 
-/**
- * Kiểm tra listing có hợp lệ để vẽ marker không
- */
 function isValidListing(item) {
   return Number.isFinite(item.lat) && Number.isFinite(item.lng);
 }
 
-/**
- * Filter tạm (keyword-based)
- */
 function applySimpleFilters(listings, filters) {
   return listings.filter((item) => {
     if (!isValidListing(item)) return false;
 
     const idText = String(item.id || "").toLowerCase();
     const notesText = String(item.Notes || "").toLowerCase();
-    const statusText = String(item.Status || "").toLowerCase(); // ✅ sửa
+    const statusText = String(item.Status || "").toLowerCase();
 
     const searchTexts = [
       String(filters.timeMax || "").trim().toLowerCase(),
@@ -83,25 +76,33 @@ function applySimpleFilters(listings, filters) {
       return (
         idText.includes(keyword) ||
         notesText.includes(keyword) ||
-        statusText.includes(keyword) // ✅ sửa
+        statusText.includes(keyword)
       );
     });
   });
 }
 
+async function loadAndRenderListings() {
+  const listingsRaw = await loadListings(LISTINGS_URL);
+  const listings = Array.isArray(listingsRaw)
+    ? listingsRaw.map(normalizeListing)
+    : [];
+
+  console.log("Loaded listings:", listings);
+  console.log("Sample FolderURL:", listings.slice(0, 5).map(x => ({
+    id: x.id,
+    FolderURL: x.FolderURL
+  })));
+
+  setListings(listings);
+  setFilteredListings(listings);
+  render();
+}
+
 async function init() {
   try {
     createMap("map");
-
-    const listingsRaw = await loadListings("../data/listings.json");
-    const listings = Array.isArray(listingsRaw)
-      ? listingsRaw.map(normalizeListing)
-      : [];
-
-    setListings(listings);
-    setFilteredListings(listings);
-
-    render();
+    await loadAndRenderListings();
     bindEvents();
 
     console.log("MiniMLS V1 initialized successfully.");
@@ -150,15 +151,7 @@ function onBaseLayerChange(event) {
 
 async function onReloadClick() {
   try {
-    const listingsRaw = await loadListings("../data/listings.json");
-    const listings = Array.isArray(listingsRaw)
-      ? listingsRaw.map(normalizeListing)
-      : [];
-
-    setListings(listings);
-    setFilteredListings(listings);
-
-    render();
+    await loadAndRenderListings();
   } catch (error) {
     console.error("Reload error:", error);
     alert("Không thể reload dữ liệu listings.");

@@ -27,11 +27,11 @@ export function createListingPopupHtml(listing) {
           : ""
       }
 
-      ${
-        folderUrl
-          ? `<a class="popup-btn" href="${folderUrl}" target="_blank" onclick="event.stopPropagation();">📁 Open Folder</a>`
-          : ""
-      }
+  ${
+  folderUrl
+    ? `<a class="popup-btn popup-folder-btn" href="#" data-folder-url="${folderUrl}">📁 Open Folder</a>`
+    : ""
+  }
     </div>
   `;
 }

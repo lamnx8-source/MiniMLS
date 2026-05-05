@@ -92,8 +92,30 @@ export function renderListingsLayer(listings) {
       icon: getMarkerIcon(item.status || item.Status),
     });
 
-  marker.bindPopup(createListingPopupHtml(item), {
-  maxWidth: 280,
+marker.on("popupopen", function (e) {
+  const popupEl = e.popup.getElement();
+  if (!popupEl) return;
+
+  // chặn map ăn click
+  L.DomEvent.disableClickPropagation(popupEl);
+  L.DomEvent.disableScrollPropagation(popupEl);
+
+  const folderBtn = popupEl.querySelector(".popup-folder-btn");
+
+  if (folderBtn) {
+    folderBtn.addEventListener("click", function (ev) {
+      ev.preventDefault();
+      ev.stopPropagation();
+
+      const url = folderBtn.dataset.folderUrl;
+
+      console.log("CLICK OPEN FOLDER:", url);
+
+      if (url) {
+        window.open(url, "_blank", "noopener,noreferrer");
+      }
+    });
+  }
 });
 
 marker.on("popupopen", function (e) {

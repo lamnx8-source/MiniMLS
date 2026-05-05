@@ -46,34 +46,48 @@ export function renderListingsLayer(listings) {
       icon: getMarkerIcon(item.Status),
     });
 
-    // 👉 bind popup
     marker.bindPopup(createListingPopupHtml(item), {
       maxWidth: 280,
     });
 
-    // 👉 xử lý click Open Folder đúng cách
     marker.on("popupopen", function (e) {
       const popupEl = e.popup.getElement();
       if (!popupEl) return;
 
-      // chặn click lan xuống map
       L.DomEvent.disableClickPropagation(popupEl);
+      L.DomEvent.disableScrollPropagation(popupEl);
 
       const folderBtn = popupEl.querySelector(".popup-folder-btn");
 
       if (folderBtn) {
-        folderBtn.addEventListener("click", function (ev) {
+        folderBtn.onclick = function (ev) {
           ev.preventDefault();
           ev.stopPropagation();
 
-          const url = folderBtn.getAttribute("data-url");
+          let url = folderBtn.dataset.url || "";
 
-          console.log("OPEN FOLDER:", url);
+          console.log("OPEN FOLDER CLICKED");
+          console.log("RAW URL =", url);
 
-          if (url) {
-            window.open(url, "_blank", "noopener,noreferrer");
+          url = url.trim();
+
+          if (!url) {
+            alert("FolderURL is empty.");
+            return;
           }
-        });
+
+          if (!url.startsWith("http://") && !url.startsWith("https://")) {
+            url = "https://" + url;
+          }
+
+          console.log("FINAL URL =", url);
+
+          const newTab = window.open(url, "_blank");
+
+          if (!newTab) {
+            window.location.href = url;
+          }
+        };
       }
     });
 

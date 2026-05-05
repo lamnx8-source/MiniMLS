@@ -6,80 +6,34 @@ let listingsLayerGroup = null;
 const shadowUrl =
   "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png";
 
-const iconBlue = L.icon({
-  iconUrl:
-    "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png",
-  shadowUrl: shadowUrl,
-  iconSize: [25, 41],
-  iconAnchor: [12, 41],
-  popupAnchor: [1, -34],
-  shadowSize: [41, 41],
-});
+function createIcon(color) {
+  return L.icon({
+    iconUrl: `https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-${color}.png`,
+    shadowUrl: shadowUrl,
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41],
+  });
+}
 
-const iconRed = L.icon({
-  iconUrl:
-    "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png",
-  shadowUrl: shadowUrl,
-  iconSize: [25, 41],
-  iconAnchor: [12, 41],
-  popupAnchor: [1, -34],
-  shadowSize: [41, 41],
-});
-
-const iconOrange = L.icon({
-  iconUrl:
-    "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-orange.png",
-  shadowUrl: shadowUrl,
-  iconSize: [25, 41],
-  iconAnchor: [12, 41],
-  popupAnchor: [1, -34],
-  shadowSize: [41, 41],
-});
-
-const iconGreen = L.icon({
-  iconUrl:
-    "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png",
-  shadowUrl: shadowUrl,
-  iconSize: [25, 41],
-  iconAnchor: [12, 41],
-  popupAnchor: [1, -34],
-  shadowSize: [41, 41],
-});
-
-const iconGrey = L.icon({
-  iconUrl:
-    "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-grey.png",
-  shadowUrl: shadowUrl,
-  iconSize: [25, 41],
-  iconAnchor: [12, 41],
-  popupAnchor: [1, -34],
-  shadowSize: [41, 41],
-});
+const iconMap = {
+  new: createIcon("blue"),
+  flag: createIcon("red"),
+  nego: createIcon("orange"),
+  bought: createIcon("green"),
+  drop: createIcon("grey"),
+};
 
 function getMarkerIcon(status) {
   const s = (status || "").toString().trim().toLowerCase();
-
-  switch (s) {
-    case "new":
-      return iconBlue;
-    case "flag":
-      return iconRed;
-    case "nego":
-      return iconOrange;
-    case "bought":
-      return iconGreen;
-    case "drop":
-      return iconGrey;
-    default:
-      return iconBlue;
-  }
+  return iconMap[s] || iconMap["new"];
 }
 
 export function renderListingsLayer(listings) {
   const map = getMap();
 
   listingsLayerGroup = L.layerGroup();
-
   const bounds = L.latLngBounds([]);
 
   listings.forEach((item) => {
@@ -89,51 +43,39 @@ export function renderListingsLayer(listings) {
     const lng = Number(item.lng);
 
     const marker = L.marker([lat, lng], {
-      icon: getMarkerIcon(item.status || item.Status),
+      icon: getMarkerIcon(item.Status),
     });
 
-marker.on("popupopen", function (e) {
-  const popupEl = e.popup.getElement();
-  if (!popupEl) return;
+    // 👉 bind popup
+    marker.bindPopup(createListingPopupHtml(item), {
+      maxWidth: 280,
+    });
 
-  // chặn map ăn click
-  L.DomEvent.disableClickPropagation(popupEl);
-  L.DomEvent.disableScrollPropagation(popupEl);
+    // 👉 xử lý click Open Folder đúng cách
+    marker.on("popupopen", function (e) {
+      const popupEl = e.popup.getElement();
+      if (!popupEl) return;
 
-  const folderBtn = popupEl.querySelector(".popup-folder-btn");
+      // chặn click lan xuống map
+      L.DomEvent.disableClickPropagation(popupEl);
 
-  if (folderBtn) {
-    folderBtn.addEventListener("click", function (ev) {
-      ev.preventDefault();
-      ev.stopPropagation();
+      const folderBtn = popupEl.querySelector(".popup-folder-btn");
 
-      const url = folderBtn.dataset.folderUrl;
+      if (folderBtn) {
+        folderBtn.addEventListener("click", function (ev) {
+          ev.preventDefault();
+          ev.stopPropagation();
 
-      console.log("CLICK OPEN FOLDER:", url);
+          const url = folderBtn.getAttribute("data-url");
 
-      if (url) {
-        window.open(url, "_blank", "noopener,noreferrer");
+          console.log("OPEN FOLDER:", url);
+
+          if (url) {
+            window.open(url, "_blank", "noopener,noreferrer");
+          }
+        });
       }
     });
-  }
-});
-
-marker.on("popupopen", function (e) {
-  const popupEl = e.popup.getElement();
-
-  if (popupEl) {
-    L.DomEvent.disableClickPropagation(popupEl);
-    L.DomEvent.disableScrollPropagation(popupEl);
-
-    const links = popupEl.querySelectorAll("a.popup-btn");
-
-    links.forEach((link) => {
-      L.DomEvent.on(link, "click", function (ev) {
-        L.DomEvent.stopPropagation(ev);
-      });
-    });
-  }
-});
 
     marker.addTo(listingsLayerGroup);
     bounds.extend([lat, lng]);
@@ -163,5 +105,4 @@ function isValidListing(item) {
     !Number.isNaN(Number(item.lat)) &&
     !Number.isNaN(Number(item.lng))
   );
-  
 }

@@ -27,7 +27,7 @@ const iconMap = {
 
 function getMarkerIcon(status) {
   const s = (status || "").toString().trim().toLowerCase();
-  return iconMap[s] || iconMap["new"];
+  return iconMap[s] || iconMap.new;
 }
 
 export function renderListingsLayer(listings) {
@@ -43,7 +43,7 @@ export function renderListingsLayer(listings) {
     const lng = Number(item.lng);
 
     const marker = L.marker([lat, lng], {
-      icon: getMarkerIcon(item.Status),
+      icon: getMarkerIcon(item.Status || item.status),
     });
 
     marker.bindPopup(createListingPopupHtml(item), {
@@ -56,39 +56,6 @@ export function renderListingsLayer(listings) {
 
       L.DomEvent.disableClickPropagation(popupEl);
       L.DomEvent.disableScrollPropagation(popupEl);
-
-      const folderBtn = popupEl.querySelector(".popup-folder-btn");
-
-      if (folderBtn) {
-        folderBtn.onclick = function (ev) {
-          ev.preventDefault();
-          ev.stopPropagation();
-
-          let url = folderBtn.dataset.url || "";
-
-          console.log("OPEN FOLDER CLICKED");
-          console.log("RAW URL =", url);
-
-          url = url.trim();
-
-          if (!url) {
-            alert("FolderURL is empty.");
-            return;
-          }
-
-          if (!url.startsWith("http://") && !url.startsWith("https://")) {
-            url = "https://" + url;
-          }
-
-          console.log("FINAL URL =", url);
-
-          const newTab = window.open(url, "_blank");
-
-          if (!newTab) {
-            window.location.href = url;
-          }
-        };
-      }
     });
 
     marker.addTo(listingsLayerGroup);
@@ -116,7 +83,7 @@ function isValidListing(item) {
     item &&
     item.lat !== undefined &&
     item.lng !== undefined &&
-    !Number.isNaN(Number(item.lat)) &&
-    !Number.isNaN(Number(item.lng))
+    Number.isFinite(Number(item.lat)) &&
+    Number.isFinite(Number(item.lng))
   );
 }

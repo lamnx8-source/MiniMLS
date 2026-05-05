@@ -1,37 +1,34 @@
 export function createListingPopupHtml(listing) {
-  console.log("POPUP listing =", listing);
-  console.log("POPUP status =", listing?.Status);
-
-  const id = listing?.id || "";
-  const notes = listing?.Notes || "";
-  const status = listing?.Status || "";
-  const folderUrl = listing?.FolderURL || "";
-  const lat = Number(listing?.lat);
-  const lng = Number(listing?.lng);
-
-  const googleMapsUrl =
-    Number.isFinite(lat) && Number.isFinite(lng)
-      ? `https://www.google.com/maps?q=${lat},${lng}`
-      : "";
+  const id = escapeHtml(listing.id);
+  const status = escapeHtml(listing.status || "New");
+  const notes = escapeHtml(listing.notes).replace(/\n/g, "<br>");
+  const mapsUrl = `https://www.google.com/maps?q=${listing.lat},${listing.lng}`;
+  const folderButton = listing.folderUrl
+    ? `<a class="popup-btn" href="${escapeAttribute(listing.folderUrl)}" target="_blank" rel="noopener noreferrer">📁 Open Folder</a>`
+    : `<span class="popup-muted">No FolderURL</span>`;
 
   return `
-    <div class="popup-card" onclick="event.stopPropagation();">
-      <div><strong>${id}</strong></div>
-      <div>Status: ${status}</div>
-      <hr>
-      <div>${String(notes).replace(/\n/g, "<br>")}</div>
-
-      ${
-        googleMapsUrl
-          ? `<br><a class="popup-btn" href="${googleMapsUrl}" target="_blank" onclick="event.stopPropagation();">📍 Open Google Maps</a>`
-          : ""
-      }
-
-  ${
-  folderUrl
-    ? `<a class="popup-btn popup-folder-btn" href="#" data-folder-url="${folderUrl}">📁 Open Folder</a>`
-    : ""
-  }
+    <div class="popup-card">
+      <div class="popup-title">${id}</div>
+      <div class="popup-status">Status: ${status}</div>
+      <div class="popup-notes">${notes}</div>
+      <div class="popup-actions">
+        <a class="popup-btn" href="${mapsUrl}" target="_blank" rel="noopener noreferrer">📍 Google Maps</a>
+        ${folderButton}
+      </div>
     </div>
   `;
+}
+
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+function escapeAttribute(value) {
+  return escapeHtml(value).replaceAll("`", "&#096;");
 }

@@ -1,89 +1,59 @@
-import { getMap, fitMapToBounds } from "./map.js";
+import { getMap, fitToBounds } from "./map.js";
 import { createListingPopupHtml } from "./popup.js";
 
-let listingsLayerGroup = null;
+let listingsLayer = null;
 
-const shadowUrl =
-  "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png";
+const iconColors = {
+  new: "blue",
+  flag: "red",
+  nego: "orange",
+  bought: "green",
+  drop: "grey",
+};
 
-function createIcon(color) {
+export function renderListings(listings) {
+  clearListings();
+
+  const map = getMap();
+  const bounds = L.latLngBounds([]);
+  listingsLayer = L.layerGroup().addTo(map);
+
+  for (const listing of listings) {
+    const marker = L.marker([listing.lat, listing.lng], {
+      icon: makeIcon(getIconColor(listing.status)),
+    });
+
+    marker.bindPopup(createListingPopupHtml(listing), {
+      maxWidth: 320,
+      closeButton: true,
+    });
+
+    marker.addTo(listingsLayer);
+    bounds.extend([listing.lat, listing.lng]);
+  }
+
+  fitToBounds(bounds);
+}
+
+export function clearListings() {
+  if (listingsLayer) {
+    getMap().removeLayer(listingsLayer);
+    listingsLayer = null;
+  }
+}
+
+function getIconColor(status) {
+  const key = String(status || "new").trim().toLowerCase();
+  return iconColors[key] || "blue";
+}
+
+function makeIcon(color) {
   return L.icon({
     iconUrl: `https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-${color}.png`,
-    shadowUrl: shadowUrl,
+    shadowUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png",
     iconSize: [25, 41],
     iconAnchor: [12, 41],
     popupAnchor: [1, -34],
     shadowSize: [41, 41],
   });
-}
-
-const iconMap = {
-  new: createIcon("blue"),
-  flag: createIcon("red"),
-  nego: createIcon("orange"),
-  bought: createIcon("green"),
-  drop: createIcon("grey"),
-};
-
-function getMarkerIcon(status) {
-  const s = (status || "").toString().trim().toLowerCase();
-  return iconMap[s] || iconMap.new;
-}
-
-export function renderListingsLayer(listings) {
-  const map = getMap();
-
-  listingsLayerGroup = L.layerGroup();
-  const bounds = L.latLngBounds([]);
-
-  listings.forEach((item) => {
-    if (!isValidListing(item)) return;
-
-    const lat = Number(item.lat);
-    const lng = Number(item.lng);
-
-    const marker = L.marker([lat, lng], {
-      icon: getMarkerIcon(item.Status || item.status),
-    });
-
-    marker.bindPopup(createListingPopupHtml(item), {
-      maxWidth: 280,
-    });
-
-    marker.on("popupopen", function (e) {
-      const popupEl = e.popup.getElement();
-      if (!popupEl) return;
-
-      L.DomEvent.disableClickPropagation(popupEl);
-      L.DomEvent.disableScrollPropagation(popupEl);
-    });
-
-    marker.addTo(listingsLayerGroup);
-    bounds.extend([lat, lng]);
-  });
-
-  listingsLayerGroup.addTo(map);
-
-  if (bounds.isValid()) {
-    fitMapToBounds(bounds);
-  }
-}
-
-export function clearListingsLayer() {
-  const map = getMap();
-
-  if (listingsLayerGroup) {
-    map.removeLayer(listingsLayerGroup);
-    listingsLayerGroup = null;
-  }
-}
-
-function isValidListing(item) {
-  return (
-    item &&
-    item.lat !== undefined &&
-    item.lng !== undefined &&
-    Number.isFinite(Number(item.lat)) &&
-    Number.isFinite(Number(item.lng))
-  );
 }

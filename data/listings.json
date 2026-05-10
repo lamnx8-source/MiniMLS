@@ -3158,5 +3158,69 @@
     "lng": 107.43442,
     "FolderURL": "",
     "Status": "New"
+  },
+  {
+    "id": "2605BR001",
+    "Notes": "2605BR001, 20/108, Long Phước, 1375 m2, 42x34, 100TC,CLN->ONT, POI: 5, 4200, 3.05 Tr/m2, Road width 8m, Hùng-Bà Rịa, 0917 250 439, AVM: 0 Tr/m2",
+    "lat": 10.53799,
+    "lng": 107.22384,
+    "FolderURL": "",
+    "Status": "Flag"
+  },
+  {
+    "id": "2605CD001",
+    "Notes": "2605CD001, 83/122, Suối Rao, 8677 m2, 68x150, TC,CLN->ONT, POI: 2, 10500, 1.21 Tr/m2, Road width 8m, Hùng-Bà Rịa, 0917 250 439, AVM: 0 Tr/m2",
+    "lat": 10.57616,
+    "lng": 107.30865,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605XM008",
+    "Notes": "2605XM008, 69/76, Xuyên Mộc, 3404 m2, 48x(66-70), nở hậu 50, CLN->ONT, POI: 22, 5125, 1.51 Tr/m2, Road width 4m, Thừa - Bà Rịa, 0912 868 339, 400m ra đường 329, AVM: 0 Tr/m2",
+    "lat": 10.55066,
+    "lng": 107.42177,
+    "FolderURL": "",
+    "Status": "Flag"
+  },
+  {
+    "id": "2605XM009",
+    "Notes": "2605XM009, 49/20, Xuyên Mộc, 3074 m2, 45x67, CLN->ONT, POI: 14, 3700, 1.2 Tr/m2, Road width 2m, UNK, UNK, Đường vào bé quá, 250m từ 329, AVM: 0 Tr/m2",
+    "lat": 10.57807,
+    "lng": 107.42605,
+    "FolderURL": "",
+    "Status": "Drop"
+  },
+  {
+    "id": "2605XM010",
+    "Notes": "2605XM010, 48/87, Xuyên Mộc, 356 m2, 10x36, 100TC,CLN->ONT, POI: 12, 0 Tr/m2, Road width 5m, UNK, UNK, AVM: 0 Tr/m2",
+    "lat": 10.57552,
+    "lng": 107.42173,
+    "FolderURL": "",
+    "Status": "Drop"
+  },
+  {
+    "id": "2605XM011",
+    "Notes": "2605XM011, 44/35, Hòa Bình, 4444 m2, 68m MT, 300TC,CLN->ONT, POI: 4, 3000, 0.68 Tr/m2, Road width 2m, Long-Xuyên Mộc, 0974 764576, Đường bé quá, AVM: 0 Tr/m2",
+    "lat": 10.60566,
+    "lng": 107.37133,
+    "FolderURL": "",
+    "Status": "Flag"
+  },
+  {
+    "id": "2605XM012",
+    "Notes": "2605XM012, 33/203, Xuyên Mộc, 1059 m2, 13x80, 100TC,CLN->ONT, POI: 13, 1850, 1.75 Tr/m2, Road width 7m, Trường - Xuyên Mộc, 0786 066 934, AVM: 0 Tr/m2",
+    "lat": 10.56385,
+    "lng": 107.43554,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605XM013",
+    "Notes": "2605XM013, 31/144, Xuyên Mộc, 978 m2, 22x44, 100TC,CLN->ONT, POI: 11, 1850, 1.89 Tr/m2, Road width 6m, Trường - Xuyên Mộc, 0786 066 934, Vườn nhãn,Gần khu trại heo, AVM: 0 Tr/m2",
+    "lat": 10.57271,
+    "lng": 107.43745,
+    "FolderURL": "",
+    "Status": "New"
   }
 ]

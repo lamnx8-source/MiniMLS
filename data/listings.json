@@ -3222,5 +3222,85 @@
     "lng": 107.43745,
     "FolderURL": "",
     "Status": "New"
+  },
+  {
+    "id": "2605XM015",
+    "Notes": "2605XM015, 25/67, Xuyên Mộc, 1000 m2, 14x74, 100TC,CLN->ONT, POI: 5, 1700, 1.7 Tr/m2, Road width 6m, Trường - Xuyên Mộc, 0786 066 934, Đã tátch đôi từ thửa 2000m2. Ra 329 750m, AVM: 0 Tr/m2",
+    "lat": 10.58307,
+    "lng": 107.4242,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605PM001",
+    "Notes": "2605PM001, 22/339, Châu Pha, 809 m2, 9x95, 100TC,CLN->ONT, POI: 11, 2600, 3.21 Tr/m2, Road width 6m, Phạm Nghệ, AVM: 0 Tr/m2",
+    "lat": 10.58061,
+    "lng": 107.14022,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605XM017",
+    "Notes": "2605XM017, 22/134, Xuyên Mộc, 700 m2, 14x52, tóp hậu 12,6, 100TC,CLN->ONT, POI: 30, 2800, 4 Tr/m2, Road width 7m, Minh (Trường) - Xuyên Mộc, 0786 066 934, Tóp hậu, 200tr/m ngang. Kế bên khu nhà trọ, AVM: 0 Tr/m2",
+    "lat": 10.55518,
+    "lng": 107.42193,
+    "FolderURL": "",
+    "Status": "Drop"
+  },
+  {
+    "id": "2605XM016",
+    "Notes": "2605XM016, 39/91, Hòa Hưng, 643 m2, 14x42, 100TC,CLN->ONT, POI: 17, 2000, 3.11 Tr/m2, Road width 5m, Phạm Nghệ, AVM: 0 Tr/m2",
+    "lat": 10.66391,
+    "lng": 107.38544,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605XM018",
+    "Notes": "2605XM018, 69/243, Xuyên Mộc, 593 m2, 10x60, 100TC,CLN->ONT, POI: 20, 2500, 4.22 Tr/m2, Road width 6m, Minh (Trường) - Xuyên Mộc, 0786 066 934, Đâu lưng Khu 3404m2, AVM: 0 Tr/m2",
+    "lat": 10.5514,
+    "lng": 107.4225,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605XM019",
+    "Notes": "2605XM019, 73/250, Xuyên Mộc, 836 m2, 13x70, 100TC,CLN->ONT, POI: 15, 3000, 3.59 Tr/m2, Road width 6m, Minh (Trường) - Xuyên Mộc, 0786 066 934, AVM: 0 Tr/m2",
+    "lat": 10.54651,
+    "lng": 107.42192,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605XM020",
+    "Notes": "2605XM020, 146/7, Phước Thuận, 726 m2, 16x46, CLN->ONT, POI: 72, 3600, 4.96 Tr/m2, Road width 5m, Minh (Trường) - Xuyên Mộc, 0786 066 934, AVM: 0 Tr/m2",
+    "lat": 10.52737,
+    "lng": 107.39479,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605XM022",
+    "Notes": "2605XM022, 34/58, Phước Tân, 3680 m2, 70x50, 160TC,CLN->ONT, POI: 22, 6000, 1.63 Tr/m2, Road width 3m, Thắng, AVM: 0 Tr/m2",
+    "lat": 10.53358,
+    "lng": 107.38043,
+    "FolderURL": "",
+    "Status": "Flag"
+  },
+  {
+    "id": "2605XM021",
+    "Notes": "2605XM021, 61/1, Xuyên Mộc, 1681 m2, 30x57, 100TC,CLN->ONT, POI: 22, 7500, 4.46 Tr/m2, Road width 5m, Thắng, AVM: 0 Tr/m2",
+    "lat": 10.56063,
+    "lng": 107.43195,
+    "FolderURL": "",
+    "Status": "Flag"
+  },
+  {
+    "id": "2605XM023",
+    "Notes": "2605XM023, 26/32, Xuyên Mộc, 1002 m2, 22x46, 50TC,CLN->ONT, POI: 4, 1000, 1 Tr/m2, Road width 4m, Thắng, AVM: 0 Tr/m2",
+    "lat": 10.58126,
+    "lng": 107.4347,
+    "FolderURL": "",
+    "Status": "Flag"
   }
 ]

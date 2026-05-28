@@ -5,12 +5,167 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>MiniMLS WebMap</title>
 
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css"
-  />
+  <link id="leafletCss" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
 
-  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      min-height: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #fff;
+    }
+
+    body {
+      overflow: hidden;
+    }
+
+    #app {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      background: #fff;
+    }
+
+    .topbar {
+      flex: 0 0 auto;
+      min-height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding: calc(8px + env(safe-area-inset-top)) 12px 8px 12px;
+      box-sizing: border-box;
+      background: #fff;
+      border-bottom: 1px solid #ddd;
+      z-index: 1000;
+    }
+
+    .brand {
+      font-weight: 700;
+      white-space: nowrap;
+      font-size: 20px;
+    }
+
+    .topbar-controls {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .topbar select,
+    .topbar input,
+    .topbar button {
+      height: 36px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background: #fff;
+      padding: 0 10px;
+      font-size: 14px;
+    }
+
+    #searchInput {
+      width: 180px;
+    }
+
+    #statusPanel {
+      flex: 0 0 auto;
+      padding: 6px 12px;
+      font-size: 12px;
+      line-height: 1.35;
+      background: #fffbe6;
+      color: #333;
+      border-bottom: 1px solid #eadf9b;
+      white-space: pre-wrap;
+      z-index: 1000;
+    }
+
+    #statusPanel.ok {
+      background: #eaf7ea;
+      border-bottom-color: #b8ddb8;
+    }
+
+    #statusPanel.error {
+      background: #fdeaea;
+      border-bottom-color: #e0b3b3;
+      color: #7a0000;
+    }
+
+    #map {
+      flex: 1 1 auto;
+      width: 100%;
+      min-height: 300px;
+      background: #eef2f3;
+    }
+
+    .popup-card {
+      min-width: 220px;
+      max-width: 300px;
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    .popup-title {
+      font-weight: 700;
+      font-size: 15px;
+      margin-bottom: 4px;
+    }
+
+    .popup-status {
+      color: #555;
+      margin-bottom: 8px;
+    }
+
+    .popup-notes {
+      margin: 8px 0 10px;
+      max-height: 150px;
+      overflow-y: auto;
+    }
+
+    .popup-actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .popup-btn {
+      display: inline-block;
+      padding: 7px 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      text-decoration: none;
+      color: #111;
+      background: #f8f8f8;
+    }
+
+    .popup-muted {
+      color: #888;
+      padding: 7px 0;
+    }
+
+    @media (max-width: 768px) {
+      body { overflow: hidden; }
+
+      .topbar {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .topbar-controls {
+        width: 100%;
+      }
+
+      #searchInput {
+        flex: 1;
+        min-width: 150px;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -31,11 +186,406 @@
       </div>
     </header>
 
-    <div id="errorPanel" class="error-panel" hidden></div>
+    <div id="statusPanel">MiniMLS is starting...</div>
     <main id="map"></main>
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="js/main.js"></script>
+  <script>
+    (function () {
+      "use strict";
+
+      var leafletUrls = [
+        "https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js",
+        "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      ];
+
+      var LISTINGS_URL = "data/listings.json";
+      var DEFAULT_CENTER = [10.55, 107.25];
+      var DEFAULT_ZOOM = 10;
+
+      var map = null;
+      var markerLayer = null;
+      var baseLayers = {};
+      var currentBaseLayer = null;
+      var allListings = [];
+
+      function panel() {
+        return document.getElementById("statusPanel");
+      }
+
+      function setStatus(message, kind) {
+        var p = panel();
+        if (!p) return;
+        p.textContent = message;
+        p.className = kind || "";
+      }
+
+      function addStatus(message) {
+        var p = panel();
+        if (!p) return;
+        p.textContent = p.textContent + "\n" + message;
+      }
+
+      window.onerror = function (message, source, lineno, colno) {
+        setStatus("JavaScript error:\n" + message + "\n" + source + ":" + lineno + ":" + colno, "error");
+      };
+
+      window.addEventListener("unhandledrejection", function (event) {
+        var reason = event.reason || {};
+        setStatus("Promise error:\n" + (reason.message || String(reason)), "error");
+      });
+
+      ready(function () {
+        setStatus("Step 1: HTML loaded. Loading Leaflet...");
+        loadLeaflet(0);
+      });
+
+      function ready(fn) {
+        if (document.readyState === "loading") {
+          document.addEventListener("DOMContentLoaded", fn);
+        } else {
+          fn();
+        }
+      }
+
+      function loadLeaflet(index) {
+        if (typeof window.L !== "undefined") {
+          init();
+          return;
+        }
+
+        if (index >= leafletUrls.length) {
+          setStatus("Leaflet cannot load on this iPhone/network. Try another Wi-Fi/4G or check content blocker/VPN.", "error");
+          return;
+        }
+
+        var script = document.createElement("script");
+        script.src = leafletUrls[index];
+        script.async = false;
+
+        script.onload = function () {
+          addStatus("Step 2: Leaflet loaded from " + leafletUrls[index]);
+          init();
+        };
+
+        script.onerror = function () {
+          addStatus("Cannot load Leaflet from " + leafletUrls[index]);
+          loadLeaflet(index + 1);
+        };
+
+        document.head.appendChild(script);
+      }
+
+      function init() {
+        try {
+          if (typeof window.L === "undefined") {
+            setStatus("Leaflet is still undefined after script load.", "error");
+            return;
+          }
+
+          setStatus("Step 3: Leaflet ready. Creating map...");
+
+          createMap();
+          bindEvents();
+
+          setTimeout(function () {
+            if (map) map.invalidateSize();
+          }, 300);
+
+          reloadListings();
+        } catch (error) {
+          setStatus("Cannot initialize map:\n" + getErrorMessage(error), "error");
+        }
+      }
+
+      function createMap() {
+        map = L.map("map", {
+          zoomControl: true,
+          preferCanvas: true
+        }).setView(DEFAULT_CENTER, DEFAULT_ZOOM);
+
+        baseLayers.osm = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+          maxZoom: 19,
+          attribution: "&copy; OpenStreetMap contributors"
+        });
+
+        baseLayers.esri = L.tileLayer(
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+          {
+            maxZoom: 19,
+            attribution: "Tiles &copy; Esri"
+          }
+        );
+
+        currentBaseLayer = baseLayers.osm;
+        currentBaseLayer.addTo(map);
+
+        markerLayer = L.layerGroup().addTo(map);
+        addStatus("Step 4: Map created.");
+      }
+
+      function bindEvents() {
+        var baseLayerSelect = document.getElementById("baseLayerSelect");
+        var searchInput = document.getElementById("searchInput");
+        var locateBtn = document.getElementById("locateBtn");
+        var reloadBtn = document.getElementById("reloadBtn");
+
+        if (baseLayerSelect) {
+          baseLayerSelect.addEventListener("change", function () {
+            switchBaseLayer(baseLayerSelect.value);
+          });
+        }
+
+        if (searchInput) {
+          searchInput.addEventListener("input", applySearch);
+        }
+
+        if (locateBtn) {
+          locateBtn.addEventListener("click", locateUser);
+        }
+
+        if (reloadBtn) {
+          reloadBtn.addEventListener("click", reloadListings);
+        }
+
+        window.addEventListener("resize", invalidateMapSoon);
+        window.addEventListener("orientationchange", invalidateMapSoon);
+      }
+
+      function invalidateMapSoon() {
+        setTimeout(function () {
+          if (map) map.invalidateSize();
+        }, 500);
+      }
+
+      function switchBaseLayer(name) {
+        var nextLayer = baseLayers[name] || baseLayers.osm;
+        if (!map || !nextLayer || currentBaseLayer === nextLayer) return;
+
+        if (currentBaseLayer) {
+          map.removeLayer(currentBaseLayer);
+        }
+
+        currentBaseLayer = nextLayer;
+        currentBaseLayer.addTo(map);
+      }
+
+      function reloadListings() {
+        setStatus("Step 5: Loading listings JSON...");
+
+        fetch(LISTINGS_URL + "?v=" + Date.now(), { cache: "no-store" })
+          .then(function (response) {
+            if (!response.ok) {
+              throw new Error("Cannot load " + LISTINGS_URL + " (HTTP " + response.status + ")");
+            }
+            return response.text();
+          })
+          .then(function (text) {
+            var cleanText = text.replace(/^\uFEFF/, "");
+            var data = JSON.parse(cleanText);
+            allListings = normalizeListings(data);
+            setStatus("OK: loaded " + allListings.length + " listings. Rendering markers...", "ok");
+            applySearch();
+          })
+          .catch(function (error) {
+            setStatus(
+              "Cannot load listings.\nCheck /data/listings.json.\nDetail: " + getErrorMessage(error),
+              "error"
+            );
+          });
+      }
+
+      function normalizeListings(data) {
+        var source = Array.isArray(data) ? data : [];
+        var result = [];
+
+        for (var i = 0; i < source.length; i += 1) {
+          var item = source[i] || {};
+          var lat = toNumber(firstValue(item, ["lat", "Lat", "LAT", "latitude", "Latitude"]));
+          var lng = toNumber(firstValue(item, ["lng", "Lng", "LNG", "long", "Long", "longitude", "Longitude"]));
+
+          if (!isFinite(lat) || !isFinite(lng)) {
+            continue;
+          }
+
+          result.push({
+            id: stringValue(firstValue(item, ["id", "ID", "Id"])),
+            status: stringValue(firstValue(item, ["status", "Status", "STATUS"])) || "New",
+            notes: stringValue(firstValue(item, ["notes", "Notes", "NOTES"])),
+            folderUrl: stringValue(firstValue(item, ["folderUrl", "FolderURL", "FolderUrl", "folderURL", "folder_url"])),
+            lat: lat,
+            lng: lng
+          });
+        }
+
+        return result;
+      }
+
+      function firstValue(item, keys) {
+        for (var i = 0; i < keys.length; i += 1) {
+          if (Object.prototype.hasOwnProperty.call(item, keys[i])) {
+            return item[keys[i]];
+          }
+        }
+        return "";
+      }
+
+      function stringValue(value) {
+        if (value === null || value === undefined) return "";
+        return String(value).trim();
+      }
+
+      function toNumber(value) {
+        if (value === null || value === undefined || value === "") return NaN;
+        return Number(String(value).replace(",", "."));
+      }
+
+      function applySearch() {
+        var searchInput = document.getElementById("searchInput");
+        var keyword = searchInput ? String(searchInput.value || "").trim().toLowerCase() : "";
+        var filtered = [];
+
+        if (keyword) {
+          for (var i = 0; i < allListings.length; i += 1) {
+            var item = allListings[i];
+            var haystack = [item.id, item.status, item.notes, item.folderUrl].join(" ").toLowerCase();
+            if (haystack.indexOf(keyword) !== -1) {
+              filtered.push(item);
+            }
+          }
+        } else {
+          filtered = allListings.slice();
+        }
+
+        renderListings(filtered);
+      }
+
+      function renderListings(listings) {
+        if (!markerLayer || !map) return;
+
+        markerLayer.clearLayers();
+
+        var bounds = [];
+        for (var i = 0; i < listings.length; i += 1) {
+          var listing = listings[i];
+          var color = getStatusColor(listing.status);
+
+          var marker = L.circleMarker([listing.lat, listing.lng], {
+            radius: 7,
+            weight: 2,
+            color: color,
+            fillColor: color,
+            fillOpacity: 0.85
+          });
+
+          marker.bindPopup(createListingPopupHtml(listing), {
+            maxWidth: 320,
+            closeButton: true,
+            autoPan: true
+          });
+
+          marker.addTo(markerLayer);
+          bounds.push([listing.lat, listing.lng]);
+        }
+
+        if (bounds.length > 0) {
+          map.fitBounds(bounds, { padding: [24, 24], maxZoom: 14 });
+        }
+
+        setStatus("OK: map rendered with " + listings.length + " markers.", "ok");
+
+        setTimeout(function () {
+          if (map) map.invalidateSize();
+        }, 100);
+      }
+
+      function getStatusColor(status) {
+        var value = String(status || "").toLowerCase();
+        if (value.indexOf("flag") !== -1) return "#d93025";
+        if (value.indexOf("nego") !== -1) return "#f29900";
+        if (value.indexOf("bought") !== -1) return "#188038";
+        if (value.indexOf("drop") !== -1) return "#777777";
+        return "#1a73e8";
+      }
+
+      function locateUser() {
+        if (!map || !navigator.geolocation) {
+          setStatus("This browser does not support location.", "error");
+          return;
+        }
+
+        navigator.geolocation.getCurrentPosition(
+          function (position) {
+            var lat = position.coords.latitude;
+            var lng = position.coords.longitude;
+
+            L.circleMarker([lat, lng], {
+              radius: 9,
+              weight: 3,
+              color: "#000000",
+              fillColor: "#4285f4",
+              fillOpacity: 0.9
+            })
+              .addTo(map)
+              .bindPopup("You are here")
+              .openPopup();
+
+            map.setView([lat, lng], 16);
+          },
+          function (error) {
+            setStatus("Cannot get your location: " + getErrorMessage(error), "error");
+          },
+          {
+            enableHighAccuracy: true,
+            timeout: 10000,
+            maximumAge: 30000
+          }
+        );
+      }
+
+      function createListingPopupHtml(listing) {
+        var id = escapeHtml(listing.id || "");
+        var status = escapeHtml(listing.status || "New");
+        var notes = escapeHtml(listing.notes || "").replace(/\n/g, "<br>");
+        var mapsUrl = "https://www.google.com/maps?q=" + encodeURIComponent(listing.lat + "," + listing.lng);
+
+        var folderButton = listing.folderUrl
+          ? '<a class="popup-btn" href="' + escapeAttribute(listing.folderUrl) + '" target="_blank" rel="noopener noreferrer">Open Folder</a>'
+          : '<span class="popup-muted">No FolderURL</span>';
+
+        return (
+          '<div class="popup-card">' +
+          '<div class="popup-title">' + id + "</div>" +
+          '<div class="popup-status">Status: ' + status + "</div>" +
+          '<div class="popup-notes">' + notes + "</div>" +
+          '<div class="popup-actions">' +
+          '<a class="popup-btn" href="' + mapsUrl + '" target="_blank" rel="noopener noreferrer">Google Maps</a>' +
+          folderButton +
+          "</div>" +
+          "</div>"
+        );
+      }
+
+      function escapeHtml(value) {
+        return String(value === null || value === undefined ? "" : value)
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;")
+          .replace(/'/g, "&#039;");
+      }
+
+      function escapeAttribute(value) {
+        return escapeHtml(value).replace(/`/g, "&#096;");
+      }
+
+      function getErrorMessage(error) {
+        if (!error) return "Unknown error";
+        if (error.message) return error.message;
+        if (error.code) return "Error code " + error.code;
+        return String(error);
+      }
+    })();
+  </script>
 </body>
 </html>

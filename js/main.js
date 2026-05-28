@@ -17,7 +17,11 @@
   var reloadBtn = document.getElementById("reloadBtn");
   var errorPanel = document.getElementById("errorPanel");
 
-  document.addEventListener("DOMContentLoaded", init);
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
 
   function init() {
     try {

@@ -3302,5 +3302,325 @@
     "lng": 107.4347,
     "FolderURL": "",
     "Status": "Flag"
+  },
+  {
+    "id": "2605XM024",
+    "Notes": "2605XM024, 127/64, Xuyên Mộc, 543 m2, 12x44, 100TC,CLN->ONT, POI: 24, 1650, 3.04 Tr/m2, Road width 4m, Lộc-Xuyên Mộc, 0786 790 868, Đường BT khá bé, AVM: 0 Tr/m2",
+    "lat": 10.57119,
+    "lng": 107.42043,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605XM025",
+    "Notes": "2605XM025, 21/78, Xuyên Mộc, 212 m2, 6x36, 100TC,CLN->ONT, POI: 20, 1700, 8.02 Tr/m2, Road width 6m, Hoàng café cổng xanh, AVM: 0 Tr/m2",
+    "lat": 10.55549,
+    "lng": 107.41422,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605XM026",
+    "Notes": "2605XM026, 34/105 (Tách từ thửa cũ 34/72), Phước Tân, 1940 m2, 28x75, tóp hậu 22, 100TC,CLN->ONT, POI: 21, 6500, 3.35 Tr/m2, Road width 6m, UNK, UNK, AVM: 0 Tr/m2",
+    "lat": 10.53316,
+    "lng": 107.37982,
+    "FolderURL": "",
+    "Status": "Drop"
+  },
+  {
+    "id": "2605XM028",
+    "Notes": "2605XM028, 55/47, Bông Trang, 2007 m2, 23x70, nở hậu 28, CLN->ONT, POI: 13, 5000, 2.49 Tr/m2, Road width 3m, An Vien Thong, Đường bé, vắng dân, AVM: 0 Tr/m2",
+    "lat": 10.55331,
+    "lng": 107.47264,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605XM029",
+    "Notes": "2605XM029, 38/84, Bông Trang, 1847 m2, 58x(24,47), 100TC,CLN->ONT, POI: 14, 5200, 2.82 Tr/m2, Road width 6m, An Vien Thong, AVM: 0 Tr/m2",
+    "lat": 10.54778,
+    "lng": 107.4606,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605DD001",
+    "Notes": "2605DD001, 81/41, Đất Đỏ, 404.7 m2, 23x(22-4,6+7.9), 100TC,CLN->ONT,GT, POI: 66, 2500, 6.18 Tr/m2, Road width 7m, Trần Xuân Thụ- Long Phước, 2.5 m dất giao thông, khu đông dân cư, đường Nguyễn Văn Quyết, 2 mặt tiền thêm đường hẻm nhỏ, 100 m ra QL 55, 600 m ra vòng xoay VTS, AVM: 0 Tr/m2",
+    "lat": 10.49033,
+    "lng": 107.27353,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605LD001",
+    "Notes": "2605LD001, 58/28, Long Điền, 472.2 m2, 21x (20-18), 320TC,CLN->ONT, POI: 46, 6000, 12.71 Tr/m2, Road width 4m, Trần Xuân Thụ- Long Phước, Nguyễn  ỉnh Khiêm,đã phân 4lo6,mua sỉ 6ty , lẽ 1,7/lô, khu vực đông dân, theo NBK dến QH số 14--> VTS 650m, AVM: 0 Tr/m2",
+    "lat": 10.49266,
+    "lng": 107.20756,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605DD002",
+    "Notes": "2605DD002, 2/1610, Đất Đỏ, 654.3 m2, 12x52, 100TC,CLN->ONT,CLN, POI: 3, 2900, 4.43 Tr/m2, Road width 9m, Trần Xuân Thụ- Long Phước, Khu vắng dân, đường Đoàn Trung Côn120 m ra đường DT52, 2,5 km đến khu tưởng niệm VTS, AVM: 0 Tr/m2",
+    "lat": 10.51072,
+    "lng": 107.27009,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605DD003",
+    "Notes": "2605DD003, 102/154, Phước Hội, 1537 m2, (20-25)x(61-66), 100TC,CLN->ONT,CLN, POI: 2, 5700, 3.71 Tr/m2, Road width 5m, Trần Xuân Thụ- Long Phước, Có 2 nhà di động tổng 5phòng ngủ, 2 chòi võng cafe, cây cảnh thác nước, bàn trà, khu bbq. \nLàm homestay cho thuê bao đẹp ạ\nĐón trên 10 người khách thoải mái rộng\nCách biển Lộc An  3km, AVM: 0 Tr/m2",
+    "lat": 10.47782,
+    "lng": 107.33204,
+    "FolderURL": "",
+    "Status": "Flag"
+  },
+  {
+    "id": "2605DD004",
+    "Notes": "2605DD004, 4/173, Phước Hải, 580.6 m2, 12x47, 100TC,CLN->ONT,GT, POI: 20, 4350, 7.49 Tr/m2, Road width 4m, Trần Xuân Thụ- Long Phước, 9.3% QH đất giao thông, 800 m ra VT- BC, 700 m ra VTS, đi VTS 3 km ra biển, AVM: 0 Tr/m2",
+    "lat": 10.43769,
+    "lng": 107.28284,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605DD005",
+    "Notes": "2605DD005, 59/33, Phước Long Thọ, 206.8 m2, 5.6x41, 100TC,CLN->ONT,CLN, POI: 0, 700, 3.38 Tr/m2, Road width 4m, Trần Xuân Thụ- Long Phước, khu vắng dân cư, AVM: 0 Tr/m2",
+    "lat": 10.47814,
+    "lng": 107.29536,
+    "FolderURL": "",
+    "Status": "Drop"
+  },
+  {
+    "id": "2605DD006",
+    "Notes": "2605DD006, 27/206, Phước Hải, 2016.4 m2, 19.9x(101-103), 100TC,CLN->ONT, POI: 2, 5500, 2.73 Tr/m2, Road width 4m, Trần Xuân Thụ- Long Phước, 80 mét thổ cư, khu  dân  cư  vắng, AVM: 0 Tr/m2",
+    "lat": 10.44636,
+    "lng": 107.25827,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605DD007",
+    "Notes": "2605DD007, 27/64, Phước Hải, 1175.2 m2, 16.1x73.2, 100TC,CLN->ONT, POI: 2, 5300, 4.51 Tr/m2, Road width 5m, Trần Xuân Thụ- Long Phước, Đã xây cổng rào kiên cố, gần khi dân cư genhome PHƯỚC HẢI, KHU VẮNG dân 7lkn tới biển, AVM: 0 Tr/m2",
+    "lat": 10.44594,
+    "lng": 107.25734,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605DD008",
+    "Notes": "2605DD008, 13/146, Phước Hội, 205.4 m2, (7.5-9)x(25-24), 100TC,CLN->ONT, POI: 9, 2700, 13.15 Tr/m2, Road width 4m, Trần Xuân Thụ- Long Phước, sổ gốc 16/5, chưa có thổ cư, đường 7 m ngang rộng 4m, đường đà 25 m ngang 3 m, 150 m đến đường Phước hội Lộc An, 600 m đến Võ Văn Kiệt, 4 km đến biển, có dần cư gần khu dân cư đông, AVM: 0 Tr/m2",
+    "lat": 10.45647,
+    "lng": 107.29708,
+    "FolderURL": "",
+    "Status": "Drop"
+  },
+  {
+    "id": "2605DD009",
+    "Notes": "2605DD009, 73/9, Phước Hội, 133 m2, 5x26, 100TC,CLN->ONT,CLN, POI: 15, 1250, 9.4 Tr/m2, Road width 7m, Trần Xuân Thụ- Long Phước, 73/9  đã tách nhiều  thửa, thức  nhập diện tích  73/141, 200 m đến VVK, 1km đến DT44A, theo DT44A 4 km đến biển, 80 m TC, còn nhiều lô có giá sỉ  7 lô, AVM: 0 Tr/m2",
+    "lat": 10.44691,
+    "lng": 107.29115,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605DD010",
+    "Notes": "2605DD010, 321/1122, Phước Long Thọ, 1000 m2, (10-11)x(95-93), 100TC,CLN->ONT,CLN, POI: 1, 2250, 2.25 Tr/m2, Road width 6m, Trần Xuân Thụ- Long Phước, 321/1121; 321/1123, chưa Thổ cư, nở hậu, tách từ sổ gốc 58/754, chưa đông dân, 1.8 km đến Lê Duẩn, 2.5 km đến VTS, AVM: 0 Tr/m2",
+    "lat": 10.47918,
+    "lng": 107.29373,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605DD011",
+    "Notes": "2605DD011, 36/52, Phước Hội, 300 m2, 14x20, 100TC,CLN->ONT, POI: 5, 4500, 15 Tr/m2, Road width 16m, Trần Xuân Thụ- Long Phước, Đường Nguyễn Hữu Cảnh, khu có dân cư nhưng chưa đông lắm, 3.5 km đến đường VTS, AVM: 0 Tr/m2",
+    "lat": 10.45994,
+    "lng": 107.26017,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605DD012",
+    "Notes": "2605DD012, 300/1078, Phước Long Thọ, 150 m2, 4.67x30, 100TC,CLN->ONT,CLN, POI: 4, 970, 6.47 Tr/m2, Road width 10m, Trần Xuân Thụ- Long Phước, gốc 47/941+47/940, hiện nay tách 15 lô, 80tc/ lô 150m2, AVM: 0 Tr/m2",
+    "lat": 10.49089,
+    "lng": 107.30749,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605DD013",
+    "Notes": "2605DD013, 49/111, Phước Hội, 678.9 m2, 10x(68-70), 100TC,CLN->ONT,CLN, POI: 34, 4500, 6.63 Tr/m2, Road width 5m, Trần Xuân Thụ- Long Phước, sổ để tra APP 132/111, 100 m ra Lộc An, 700 m ra cảng cá Lộc AN, AVM: 0 Tr/m2",
+    "lat": 10.45828,
+    "lng": 107.32657,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605DD014",
+    "Notes": "2605DD014, 186/311, Phước Hải, 136.5 m2, 5x26.9, 100TC,CLN->ONT,CLN, POI: 3, 1200, 8.79 Tr/m2, Road width 8m, Trần Xuân Thụ- Long Phước, 80 tc, tách thửa từ tờ 27/42, 2 mặt tiền đường 8 và 5 mét, khu có dân cư, AVM: 0 Tr/m2",
+    "lat": 10.44417,
+    "lng": 107.25819,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605DD015",
+    "Notes": "2605DD015, 44/1423, Đất Đỏ, 352.5 m2, (7.73-11)x(32.45-40.52), 100TC,CLN->ONT,CLN, POI: 10, 1850, 5.25 Tr/m2, Road width 8m, Trần Xuân Thụ- Long Phước, Bản đồ gốc 8/1093, bán chung với sổ 44/1422 278,4 m2 80 mtc, đường Lê Thị Hồng Gấm, 500 m đến QL 55, 1,5 km đến bùng binh VTS , khu dân cư đông đúc, AVM: 0 Tr/m2",
+    "lat": 10.49807,
+    "lng": 107.27698,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605DD016",
+    "Notes": "2605DD016, 13/110, Phước Hải, 597.5 m2, 10x60, 100TC,CLN->ONT,CLN, POI: 4, 2580, 4.32 Tr/m2, Road width 4m, Trần Xuân Thụ- Long Phước, 26m2 đất giao thông, 200 m ra DT996C, hay còn gọi Nguyễn Hữu CẢnh, 3,7 km ra đường VTS thêm 3 km ra biển, AVM: 0 Tr/m2",
+    "lat": 10.45852,
+    "lng": 107.25895,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605DD017",
+    "Notes": "2605DD017, 61/1006, Đất Đỏ, 160.9 m2, 5x(32.26-32.5), 100TC,CLN->ONT,CLN, POI: 17, 890, 5.53 Tr/m2, Road width 5m, Trần Xuân Thụ- Long Phước, Bán chung 61/1005, chưa có thổ cư , 2 miếng bán chung 1.79 tỷ, 30 m mới ra Nguyễn Văn Nhất, 2 mặt tiền, MT 2 cũng 5 m, 500 m ra đường Lê Thánh Tông, đông dân theo 1 cụm, mé bên lúa nhiều , ngược lại với bên kia Lê Thánh Tông rất đông dân cư, AVM: 0 Tr/m2",
+    "lat": 10.46704,
+    "lng": 107.26478,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605DD018",
+    "Notes": "2605DD018, 102/305, Đất Đỏ, 175 m2, 7x(23.4-8.9-13.6-5,5), 100TC,CLN->ONT,CLN, POI: 57, 2500, 14.29 Tr/m2, Road width 8m, Trần Xuân Thụ- Long Phước, 3 m giao thông , 70 m TC, nguy6en mặt hông hẻm nhỏ 3 m, nhưng cong vòng, mặt trước 7 m là đường qui hoạch số 2 8m, khu dân cư đông đúc, 300 m ra đường VTS, 900 m ra bùng binh VTS, AVM: 0 Tr/m2",
+    "lat": 10.48381,
+    "lng": 107.2739,
+    "FolderURL": "",
+    "Status": "Drop"
+  },
+  {
+    "id": "2605DD019",
+    "Notes": "2605DD019, 3/3185, Đất Đỏ, 4894 m2, 50x103 nở hậu, 1800TC,CLN->ONT, POI: 1, 30000, 6.13 Tr/m2, Road width 20m, Thừa - Bà Rịa, 0912 868 339, MT TL 52, hẻm hông, AVM: 0 Tr/m2",
+    "lat": 10.51277,
+    "lng": 107.26872,
+    "FolderURL": "",
+    "Status": "Flag"
+  },
+  {
+    "id": "2605DD020",
+    "Notes": "2605DD020, 2/1622, Đất Đỏ, 188 m2, 5x38, 100TC,CLN->ONT, POI: 1, 1260, 6.7 Tr/m2, Road width 7m, Thừa - Bà Rịa, 0912 868 339, MT Đoàn Trung còn. Có 6 lô liên tiếp, giá khảong 250tr/m ngang, AVM: 0 Tr/m2",
+    "lat": 10.51215,
+    "lng": 107.27549,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605XM030",
+    "Notes": "2605XM030, 62/246, Xuyên Mộc, 1610 m2, 17x94, 100TC,CLN->ONT, POI: 2, 3500, 2.17 Tr/m2, Road width 4m, Thừa - Bà Rịa, 0912 868 339, Bao gồm 7 lô, Tổng MT 110m, x 200tr/m = 22000, AVM: 0 Tr/m2",
+    "lat": 10.55952,
+    "lng": 107.40277,
+    "FolderURL": "",
+    "Status": "Flag"
+  },
+  {
+    "id": "2605XM031",
+    "Notes": "2605XM031, 68/328, Xuyên Mộc, 438 m2, 12x40, 100TC,CLN->ONT, POI: 23, 3600, 8.22 Tr/m2, Road width 5m, Hoàng cổng Đỏ, Thừa kế bên: 68/327, 20x45, 850m2. Bán 32m ngang x 300tr/m ngang. Hẻm hông còn 3 thửa nhỏ, AVM: 0 Tr/m2",
+    "lat": 10.55118,
+    "lng": 107.41531,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605DD021",
+    "Notes": "2605DD021, 6/522, Đất Đỏ, 3577 m2, (42-35)x(98-86), 100TC,CLN->ONT,CLN, POI: 15, 4700, 1.31 Tr/m2, Road width 3m, Trần Xuân Thụ- Long Phước, o TC, rìa khu dân cư ít nhà, 100 m ra đường Nam kỳ Khời Nghĩa, 2 km ra vòng xoay VTS. Đường Bt bé quá, AVM: 0 Tr/m2",
+    "lat": 10.49625,
+    "lng": 107.26067,
+    "FolderURL": "",
+    "Status": "Drop"
+  },
+  {
+    "id": "2605DD022",
+    "Notes": "2605DD022, 48/4, Phước Long Thọ, 2423 m2, (60-63)x(36-40), 100TC,CLN->ONT, POI: 7, 10800, 4.46 Tr/m2, Road width 10m, Trần Xuân Thụ- Long Phước, 525/2423 đât khu vui chơi giải trí công cộng, 180 tr mét tới TC, còn lạt đất ở nông thôn, đường Lộc An-Hồ Lồ, các QL 55 350 m, 6km tới biển Lộc An, AVM: 0 Tr/m2",
+    "lat": 10.49823,
+    "lng": 107.31485,
+    "FolderURL": "",
+    "Status": "Drop"
+  },
+  {
+    "id": "2605DD023",
+    "Notes": "2605DD023, 44/111, Phước Hội, 2588 m2, 91x67x53, 100TC,CLN->ONT, POI: 7, 15000, 5.8 Tr/m2, Road width 6m, Trần Xuân Thụ- Long Phước, 0 TC, 303 GT, 2285 ONT, mũi tam giác 2 mặt tiền đường 6 m và 4m, khu dân cư động, 350 m đến đường Phước Hội - Lộc An, AVM: 0 Tr/m2",
+    "lat": 10.45828,
+    "lng": 107.29681,
+    "FolderURL": "",
+    "Status": "Drop"
+  },
+  {
+    "id": "2605DD024",
+    "Notes": "2605DD024, 147/156, Đất Đỏ, 588.9 m2, (12-16)x(45-14,30), 100TC,CLN->ONT, POI: 51, 4000, 6.79 Tr/m2, Road width 6m, Trần Xuân Thụ- Long Phước, 91.8/588.9 GT, 220 m2 TC, 2 mặt tiền đường Phạm Văn Đồng 6m, bên hông 3 m, khu đông dân cư. Hình L, AVM: 0 Tr/m2",
+    "lat": 10.49058,
+    "lng": 107.26441,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605DD025",
+    "Notes": "2605DD025, 1/2045, Đất Đỏ, 2200 m2, 73x33, 100TC,CLN->ONT,CLN, POI: 0, 8000, 3.64 Tr/m2, Road width 6m, Trần Xuân Thụ- Long Phước, 827 TC/2200, bán 3 lô liền kề: 1/2045, 1/2044, 1/2043, Phạm Duy Trinh 6m, đường hông 4m, ít dân cư, AVM: 0 Tr/m2",
+    "lat": 10.52422,
+    "lng": 107.28334,
+    "FolderURL": "",
+    "Status": "Drop"
+  },
+  {
+    "id": "2605DD026",
+    "Notes": "2605DD026, 138/139, Phước Hải, 240.3 m2, 8x22, 100TC,CLN->ONT,CLN, POI: 18, 2500, 10.4 Tr/m2, Road width 6m, Trần Xuân Thụ- Long Phước, 100 TC, khu đông dân cư, 300 m đến đường Lộc An, 500 m đến chơ Lộc An, khu đông dân cư, AVM: 0 Tr/m2",
+    "lat": 10.4579798,
+    "lng": 107.3250354,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605DD027",
+    "Notes": "2605DD027, 33/107, Phước Hải, 803.3 m2, 9.8x(81-82.2), 100TC,CLN->ONT,CLN, POI: 40, 5600, 6.97 Tr/m2, Road width 6m, Trần Xuân Thụ- Long Phước, 200 m thổ cư, 2,5 km ra biển Phước Hải, khu dân cư đông đúc, 200 m ra đường VTS, AVM: 0 Tr/m2",
+    "lat": 10.44412,
+    "lng": 107.28399,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605DD028",
+    "Notes": "2605DD028, 59/19, Phước Hội, 528 m2, 15x32, 100TC,CLN->ONT, POI: 4, 3500, 6.63 Tr/m2, Road width 4m, Trần Xuân Thụ- Long Phước, 160 m  đến  đường  Nguyễn Hữu Cảnh, 5 km đến biển (ra NHC-->VTS), AVM: 0 Tr/m2",
+    "lat": 10.45267,
+    "lng": 107.26734,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605DD029",
+    "Notes": "2605DD029, 72/325, Phước Hội, 130 m2, 5x26, 100TC,CLN->ONT,CLN, POI: 17, 1250, 9.62 Tr/m2, Road width 4m, Trần Xuân Thụ- Long Phước, LÔ gốc chia 3 , 1 miếng bán 1,25 tỷ,300 m ra VVK, 750 m ra lộ VTS, 3 km ra bờ kẻ Phước Hải đường Trần Hưng Đạo, TC 80 m , khu dân cư đông, AVM: 0 Tr/m2",
+    "lat": 10.44595,
+    "lng": 107.28966,
+    "FolderURL": "",
+    "Status": "New"
+  },
+  {
+    "id": "2605DD030",
+    "Notes": "51/226, Phước Hội, 201.7 m2, 6x33, 100TC,CLN->ONT,CLN, POI: 2, 820, 4.07 Tr/m2, Road width 5m, Trần Xuân Thụ- Long Phước, 80 TC,bán chung thừa 51/225, gần ruộng , ráp mí với khu có dân, 550 m ra VTS, 4.5 km ra biển. Trên map và trên app thấy lô này không có đường ??, AVM: 0 Tr/m2",
+    "lat": 10.45557,
+    "lng": 107.28555,
+    "FolderURL": "",
+    "Status": "Drop"
+  },
+  {
+    "id": "2605DD031",
+    "Notes": "2605DD031, 50/624, Đất Đỏ, 381.1 m2, 15.7x37.8x32.8x5, 100TC,CLN->ONT,CLN, POI: 26, 1900, 4.99 Tr/m2, Road width 16m, Trần Xuân Thụ- Long Phước, 80 TC, 83.7/381.1=22% GT. Đường Lê Duẩn 10 m, đường bên hông 3m, AVM: 0 Tr/m2",
+    "lat": 10.48144,
+    "lng": 107.27846,
+    "FolderURL": "",
+    "Status": "Drop"
+  },
+  {
+    "id": "2605XM032",
+    "Notes": "2605XM032, 44/35. Thửa mới 44/140, Bông Trang, 1922 m2, 25x45-71, 100TC,CLN->ONT, POI: 17, 3500, 1.82 Tr/m2, Road width 4m, Nghị-Xuyên Mộc, 0869 700 449, Đường Betong, sau lưung nhà thờ Bông Trang. Khoảng 77tr/m2 ngang, chiều sâu cạn, AVM: 0 Tr/m2",
+    "lat": 10.555403,
+    "lng": 107.460456,
+    "FolderURL": "",
+    "Status": "Flag"
   }
 ]
